@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375236",
+        "type": "module",
+        "id": "28de78e2bf76420b84103d735545f554"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_home",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "light",
+              "entity": "light.kitchen_lights"
+            },
+            {
+              "type": "custom:mushroom-light-card",
+              "entity": "light.wiz_dimmable_white_1e9a19",
+              "use_light_color": true,
+              "show_brightness_control": false,
+              "show_color_temp_control": false,
+              "show_color_control": false,
+              "collapsible_controls": false,
+              "primary_info": "name",
+              "fill_container": false,
+              "name": "Kitchen Light Left"
+            },
+            {
+              "type": "custom:mushroom-light-card",
+              "entity": "light.wiz_dimmable_white_1f9cc2",
+              "use_light_color": true,
+              "show_brightness_control": false,
+              "show_color_temp_control": false,
+              "show_color_control": false,
+              "collapsible_controls": false,
+              "primary_info": "name",
+              "fill_container": false,
+              "name": "Kitchen Light Right"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

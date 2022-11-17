@@ -1,0 +1,796 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.admin",
+        "state": "not_home",
+        "attributes": {
+          "editable": true,
+          "id": "admin",
+          "latitude": 50.98681640625,
+          "longitude": -3.1223170866759324,
+          "gps_accuracy": 35,
+          "source": "device_tracker.unknown",
+          "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+          "friendly_name": "admin"
+        },
+        "last_changed": "2022-11-17T21:32:09.496827+00:00",
+        "last_updated": "2022-11-17T22:12:01.240597+00:00",
+        "context": {
+          "id": "01GJ3TC72RSPTTN7YEC0TZXS54",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2022.11.dev1507",
+          "in_progress": false,
+          "latest_version": "2022.10.2",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.10.2",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor Update",
+          "supported_features": 1
+        },
+        "last_changed": "2022-11-17T21:32:16.259053+00:00",
+        "last_updated": "2022-11-17T21:32:16.259053+00:00",
+        "context": {
+          "id": "01GJ3R3E03PG5JQHTKRQP5CB51",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2022.11.3",
+          "in_progress": false,
+          "latest_version": "2022.11.3",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2022-11-17T21:32:16.259483+00:00",
+        "last_updated": "2022-11-17T21:32:16.259483+00:00",
+        "context": {
+          "id": "01GJ3R3E03Y66WR2W25S8AB6DT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.4.1",
+          "in_progress": false,
+          "latest_version": "5.4.1",
+          "release_summary": "## What’s changed\n\nℹ️  The default configuration changed. If you have custom settings, the new improvement to the configuration won't be applied. You may consider [resetting your VSCode settings to the add-on defaults](https://github.com/hassio-addons/add",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-17T21:32:16.259676+00:00",
+        "last_updated": "2022-11-17T21:32:16.259676+00:00",
+        "context": {
+          "id": "01GJ3R3E038ZB2PBFJN0YSTT4N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.terminal_ssh_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "9.6.1",
+          "in_progress": false,
+          "latest_version": "9.6.1",
+          "release_summary": "# Changelog\n\n## 9.6.1\n\n- Upgrade Home Assistant CLI to 4.21.0\n\n## 9.6.0\n\n**Breaking change**: RSA keys generated using the SHA-1 hash algorithm\nwere disabled by OpenSSH due to a security vulnerability. If you find\nyour RSA key does not work after update y",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Terminal & SSH",
+          "entity_picture": "/api/hassio/addons/core_ssh/icon",
+          "friendly_name": "Terminal & SSH Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-17T21:32:16.259841+00:00",
+        "last_updated": "2022-11-17T21:32:16.259841+00:00",
+        "context": {
+          "id": "01GJ3R3E03NT5F3S158NFZ1SCC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.let_s_encrypt_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.12.7",
+          "in_progress": false,
+          "latest_version": "4.12.7",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Let's Encrypt",
+          "entity_picture": "/api/hassio/addons/core_letsencrypt/icon",
+          "friendly_name": "Let's Encrypt Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-17T21:32:16.260041+00:00",
+        "last_updated": "2022-11-17T21:32:16.260041+00:00",
+        "context": {
+          "id": "01GJ3R3E04504RX63SV607JTGR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.lights_off",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-17T22:00:00.001611+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1668715011099",
+          "friendly_name": "Lights Off"
+        },
+        "last_changed": "2022-11-17T21:32:27.256442+00:00",
+        "last_updated": "2022-11-17T22:00:00.114978+00:00",
+        "context": {
+          "id": "01GJ3SP6R18EZ9SGGKXVYV8BNC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.lights_on_sunset",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2022-11-17T20:17:03.020428+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1668716092750",
+          "friendly_name": "Lights on sunset"
+        },
+        "last_changed": "2022-11-17T21:32:27.256868+00:00",
+        "last_updated": "2022-11-17T21:32:27.256868+00:00",
+        "context": {
+          "id": "01GJ3R3RQREA49H5R6H4C3PEAQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_battery_level",
+        "state": "61",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-60",
+          "friendly_name": "iPad-F35 Battery Level"
+        },
+        "last_changed": "2022-11-17T22:45:00.964470+00:00",
+        "last_updated": "2022-11-17T22:45:00.964470+00:00",
+        "context": {
+          "id": "01GJ3W8MD4D8KZTAGKMAX0F7S9",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 61,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-60",
+          "friendly_name": "iPad-F35 Battery State"
+        },
+        "last_changed": "2022-11-17T21:32:28.186891+00:00",
+        "last_updated": "2022-11-17T21:32:28.186891+00:00",
+        "context": {
+          "id": "01GJ3R3SMTFR9WSM7VS2YX01N7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_storage",
+        "state": "5.08",
+        "attributes": {
+          "Available": "2.90 GB",
+          "Available (Important)": "5.28 GB",
+          "Available (Opportunistic)": "1.63 GB",
+          "Total": "31.99 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPad-F35 Storage"
+        },
+        "last_changed": "2022-11-17T22:45:00.965134+00:00",
+        "last_updated": "2022-11-17T22:45:00.965134+00:00",
+        "context": {
+          "id": "01GJ3W8MD529XDVDX5S911NQAX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "5.08",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_ssid",
+        "state": "Wifi-Home",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPad-F35 SSID"
+        },
+        "last_changed": "2022-11-17T22:45:00.965335+00:00",
+        "last_updated": "2022-11-17T22:45:00.965335+00:00",
+        "context": {
+          "id": "01GJ3W8MD5MD7XGZ31VS8QKCPH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wifi-Home",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_bssid",
+        "state": "b0:98:2b:41:58:11",
+        "attributes": {
+          "icon": "mdi:wifi-star",
+          "friendly_name": "iPad-F35 BSSID"
+        },
+        "last_changed": "2022-11-17T22:45:00.965532+00:00",
+        "last_updated": "2022-11-17T22:45:00.965532+00:00",
+        "context": {
+          "id": "01GJ3W8MD5GM6M8JM5TTHAQKY2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "b0:98:2b:41:58:11",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPad-F35 Connection Type"
+        },
+        "last_changed": "2022-11-17T21:32:28.187586+00:00",
+        "last_updated": "2022-11-17T21:32:28.187586+00:00",
+        "context": {
+          "id": "01GJ3R3SMVVXY6M4QHQJ0B674V",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_geocoded_location",
+        "state": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
+        "attributes": {
+          "Administrative Area": "England",
+          "Areas Of Interest": "N/A",
+          "Country": "United Kingdom",
+          "Inland Water": "N/A",
+          "ISO Country Code": "GB",
+          "Locality": "Taunton",
+          "Location": [
+            50.98681640625,
+            -3.122307855389828
+          ],
+          "Name": "Spearcey House, Spearcey Lane",
+          "Ocean": "N/A",
+          "Postal Code": "TA3 7HW",
+          "Sub Administrative Area": "Somerset",
+          "Sub Locality": "Trull",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Spearcey Lane",
+          "Time Zone": "Europe/London",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "iPad-F35 Geocoded Location"
+        },
+        "last_changed": "2022-11-17T21:32:28.187748+00:00",
+        "last_updated": "2022-11-17T21:33:06.754642+00:00",
+        "context": {
+          "id": "01GJ3R4ZA27N6B5EV2SH7TSZ51",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_f35_last_update_trigger",
+        "state": "Launch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPad-F35 Last Update Trigger"
+        },
+        "last_changed": "2022-11-17T21:54:40.549836+00:00",
+        "last_updated": "2022-11-17T21:54:40.549836+00:00",
+        "context": {
+          "id": "01GJ3SCES5HKTSSGG9J92AXX7B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.battery_level",
+        "state": "95",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-90",
+          "friendly_name": "... Battery Level"
+        },
+        "last_changed": "2022-11-17T22:11:17.871999+00:00",
+        "last_updated": "2022-11-17T22:11:17.871999+00:00",
+        "context": {
+          "id": "01GJ3TAWQF5NR268D0VEA8FR4Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 95,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-90",
+          "friendly_name": "... Battery State"
+        },
+        "last_changed": "2022-11-17T21:32:28.188261+00:00",
+        "last_updated": "2022-11-17T21:32:28.188261+00:00",
+        "context": {
+          "id": "01GJ3R3SMW76XDWTNAFD6XW296",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.storage",
+        "state": "66.72",
+        "attributes": {
+          "Available": "76.41 GB",
+          "Available (Important)": "97.96 GB",
+          "Available (Opportunistic)": "85.37 GB",
+          "Total": "127.94 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "... Storage"
+        },
+        "last_changed": "2022-11-17T22:11:57.667412+00:00",
+        "last_updated": "2022-11-17T22:11:57.667412+00:00",
+        "context": {
+          "id": "01GJ3TC3K3QQY2XS5C6D4FGZVB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "66.72",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ssid",
+        "state": "Wifi-Home",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "... SSID"
+        },
+        "last_changed": "2022-11-17T22:11:57.667810+00:00",
+        "last_updated": "2022-11-17T22:11:57.667810+00:00",
+        "context": {
+          "id": "01GJ3TC3K3AJG3CXMXBMX4W7BB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wifi-Home",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.bssid",
+        "state": "b0:98:2b:41:58:11",
+        "attributes": {
+          "icon": "mdi:wifi-star",
+          "friendly_name": "... BSSID"
+        },
+        "last_changed": "2022-11-17T22:11:57.668056+00:00",
+        "last_updated": "2022-11-17T22:11:57.668056+00:00",
+        "context": {
+          "id": "01GJ3TC3K4KT7YD87R11KKSETV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "b0:98:2b:41:58:11",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "... Connection Type"
+        },
+        "last_changed": "2022-11-17T21:32:28.188986+00:00",
+        "last_updated": "2022-11-17T21:32:28.188986+00:00",
+        "context": {
+          "id": "01GJ3R3SMW3BKZD409M4F2X8EK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sim_1",
+        "state": "Virgin",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "Virgin",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "gb",
+          "Mobile Country Code": "234",
+          "Mobile Network Code": "38",
+          "icon": "mdi:sim",
+          "friendly_name": "... SIM 1"
+        },
+        "last_changed": "2022-11-17T21:32:28.189153+00:00",
+        "last_updated": "2022-11-17T21:32:28.189153+00:00",
+        "context": {
+          "id": "01GJ3R3SMXYH54N87MXRHQ8NBP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Virgin",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "... SIM 2"
+        },
+        "last_changed": "2022-11-17T21:32:28.189310+00:00",
+        "last_updated": "2022-11-17T21:32:28.189310+00:00",
+        "context": {
+          "id": "01GJ3R3SMXYYC2VQBTNPYJPR88",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.geocoded_location",
+        "state": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
+        "attributes": {
+          "Administrative Area": "England",
+          "Areas Of Interest": "N/A",
+          "Country": "United Kingdom",
+          "Inland Water": "N/A",
+          "ISO Country Code": "GB",
+          "Locality": "Taunton",
+          "Location": [
+            50.98681640625,
+            -3.1223170866759324
+          ],
+          "Name": "Spearcey House, Spearcey Lane",
+          "Ocean": "N/A",
+          "Postal Code": "TA3 7HW",
+          "Sub Administrative Area": "Somerset",
+          "Sub Locality": "Trull",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Spearcey Lane",
+          "Time Zone": "Europe/London",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "... Geocoded Location"
+        },
+        "last_changed": "2022-11-17T22:12:01.415283+00:00",
+        "last_updated": "2022-11-17T22:12:01.415283+00:00",
+        "context": {
+          "id": "01GJ3TC787TYZT5DXVED1P68ZC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.last_update_trigger",
+        "state": "Launch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "... Last Update Trigger"
+        },
+        "last_changed": "2022-11-17T22:23:03.730929+00:00",
+        "last_updated": "2022-11-17T22:23:03.730929+00:00",
+        "context": {
+          "id": "01GJ3V0E1JJP9CW0MS15F1317R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Launch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.ipad_f35",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 66,
+          "latitude": 50.98681640625,
+          "longitude": -3.122307855389828,
+          "gps_accuracy": 35,
+          "altitude": 59.955291748046875,
+          "vertical_accuracy": 12.503868103027344,
+          "friendly_name": "iPad-F35"
+        },
+        "last_changed": "2022-11-17T21:33:06.001097+00:00",
+        "last_updated": "2022-11-17T21:33:06.001097+00:00",
+        "context": {
+          "id": "01GJ3R4YJHQAMDV27MS5F5CT8A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.unknown",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 95,
+          "latitude": 50.98681640625,
+          "longitude": -3.1223170866759324,
+          "gps_accuracy": 35,
+          "altitude": 60.10283660888672,
+          "vertical_accuracy": 14.304338455200195,
+          "friendly_name": "..."
+        },
+        "last_changed": "2022-11-17T22:12:01.240101+00:00",
+        "last_updated": "2022-11-17T22:12:01.240101+00:00",
+        "context": {
+          "id": "01GJ3TC72R79RCHP4DX9XKXMGF",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.synologynas_dsm_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "DSM 7.1.1-42962 Update 1",
+          "in_progress": false,
+          "latest_version": "DSM 7.1.1-42962 Update 1",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Synology DSM",
+          "attribution": "Data provided by Synology",
+          "entity_picture": "https://brands.home-assistant.io/_/synology_dsm/icon.png",
+          "friendly_name": "SynologyNAS DSM Update",
+          "supported_features": 0
+        },
+        "last_changed": "2022-11-17T21:32:35.073754+00:00",
+        "last_updated": "2022-11-17T21:32:35.073754+00:00",
+        "context": {
+          "id": "01GJ3R40C191GZR4BRHX596AEP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.synologynas_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "SynologyNAS Reboot"
+        },
+        "last_changed": "2022-11-17T21:32:35.096773+00:00",
+        "last_updated": "2022-11-17T21:32:35.096773+00:00",
+        "context": {
+          "id": "01GJ3R40CRCTXJWSF7YXKSGKR6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.synologynas_shutdown",
+        "state": "unknown",
+        "attributes": {
+          "icon": "mdi:power",
+          "friendly_name": "SynologyNAS Shutdown"
+        },
+        "last_changed": "2022-11-17T21:32:35.097090+00:00",
+        "last_updated": "2022-11-17T21:32:35.097090+00:00",
+        "context": {
+          "id": "01GJ3R40CSG9YGQTV0MA7JAAH6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+    }
+  ]
+}

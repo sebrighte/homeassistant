@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "42dcea61bf3cd60658fe35a537cbcbce",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "sw_version": "2022.11.3",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "eed62006f165e5b719cd2a1e79d8bdd1",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2022.11.dev1507",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "74d1da2ce329cc8ff347254374c9f834"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "6c:29:90:1e:9a:19"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "ESP05 01",
+        "id": "1502d049065c9fa32f4f29230d120b38",
+        "identifiers": [],
+        "manufacturer": "WiZ",
+        "model": "SHDW",
+        "name_by_user": null,
+        "name": "WiZ Dimmable White 1E9A19",
+        "sw_version": "1.28.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "5a5bbf9b2a3450cce3e77d8b05071b20"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "6c:29:90:1f:9c:c2"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "ESP05 01",
+        "id": "91bdf081f4d9af6083f0b6347157957e",
+        "identifiers": [],
+        "manufacturer": "WiZ",
+        "model": "SHDW",
+        "name_by_user": null,
+        "name": "WiZ Dimmable White 1F9CC2",
+        "sw_version": "1.28.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "fc7b6f478422d6613ba31d32c4f967f8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f6eaf76d7d1d0dc47558f320286f6ebf",
+        "identifiers": [
+          [
+            "cast",
+            "3d3b824dc0c26436c410cc7abdb13790"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Kitchen Cast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "025f1f1d970059b2001787bcae76e189"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f582e0690c721e15ff7c6bfd77b17dfe",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "15d75e41573b5d7934a4f704d1b6c5aa",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Studio Code Server",
+        "sw_version": "5.4.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "329c7ca8d87c3ee4a84cb58cf84d222b"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "6131dbbe7123083e953fd1dd19371607",
+        "identifiers": [
+          [
+            "mobile_app",
+            "EFFF7BD3-9EC3-4AB9-A628-0AD9900F7B3B"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPad7,5",
+        "name_by_user": null,
+        "name": "iPad-F35",
+        "sw_version": "15.7",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_ssh",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "c202f2a0389e21d3b050f43e42ddda72",
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Terminal & SSH",
+        "sw_version": "9.6.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "cfe6a5d1c4dd6e5725add19d0954939d"
+        ],
+        "configuration_url": "http://192.168.1.182:5000",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b6f2b8026a54a98015c202b61c169490",
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RLRMJCN1D"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "DS220+",
+        "name_by_user": null,
+        "name": "SynologyNAS",
+        "sw_version": "DSM 7.1.1-42962 Update 1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "cfe6a5d1c4dd6e5725add19d0954939d"
+        ],
+        "configuration_url": "http://192.168.1.182:5000",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "1e8b4f63fe834cc7d89ddac95a10e98e",
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RLRMJCN1D_sata1"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000VN008-2DR166",
+        "name_by_user": null,
+        "name": "SynologyNAS (Drive 2)",
+        "sw_version": "SC60",
+        "via_device_id": "b6f2b8026a54a98015c202b61c169490"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "cfe6a5d1c4dd6e5725add19d0954939d"
+        ],
+        "configuration_url": "http://192.168.1.182:5000",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "c80ff0d4cbefda58fd2b98e0bd0c26bc",
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RLRMJCN1D_sata2"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000VN008-2DR166",
+        "name_by_user": null,
+        "name": "SynologyNAS (Drive 1)",
+        "sw_version": "SC60",
+        "via_device_id": "b6f2b8026a54a98015c202b61c169490"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "cfe6a5d1c4dd6e5725add19d0954939d"
+        ],
+        "configuration_url": "http://192.168.1.182:5000",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "cf12200b8da4769af732fd452d4f8be3",
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RLRMJCN1D_volume_1"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "DS220+",
+        "name_by_user": null,
+        "name": "SynologyNAS (Volume 1)",
+        "sw_version": "DSM 7.1.1-42962 Update 1",
+        "via_device_id": "b6f2b8026a54a98015c202b61c169490"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "cfe6a5d1c4dd6e5725add19d0954939d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "3331c22c608560c22c32821a110886bc",
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RLRMJCN1D_SYNO.SurveillanceStation.Info"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "DS220+",
+        "name_by_user": null,
+        "name": "SynologyNAS Surveillance Station",
+        "sw_version": "9.0.2-10061",
+        "via_device_id": "b6f2b8026a54a98015c202b61c169490"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "cfe6a5d1c4dd6e5725add19d0954939d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a385b09222693c1d1f804ac39f032702",
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RLRMJCN1D_1"
+          ]
+        ],
+        "manufacturer": null,
+        "model": "Define",
+        "name_by_user": null,
+        "name": "DriveCamera",
+        "sw_version": null,
+        "via_device_id": "3331c22c608560c22c32821a110886bc"
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "54404b05bdd745bfcf8a3f9503b9041e"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e"
+          ],
+          [
+            "mac",
+            "b0:98:2b:41:58:0d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "67b1872e14a81aea6ba4277bd65e505c",
+        "identifiers": [
+          [
+            "upnp_host",
+            "192.168.1.254"
+          ],
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+          ],
+          [
+            "upnp_serial_number",
+            "+084316+NQ74140707"
+          ]
+        ],
+        "manufacturer": "BT",
+        "model": "BT Home Hub 6.0A",
+        "name_by_user": null,
+        "name": "BT Home Hub 6.0A",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "759ff0924144cc4cff9243d8ccf4056b"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "90:f1:aa:f6:f0:1b"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "84b78350def1719d8a2df010a4e5a7c8",
+        "identifiers": [
+          [
+            "samsungtv",
+            "068e7781-006e-1000-bbbf-90f1aaf6f01b"
+          ]
+        ],
+        "manufacturer": "Samsung Electronics",
+        "model": "UE48H6400",
+        "name_by_user": null,
+        "name": "[TV]Samsung LED48",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "768aed9a21c20e834ae9b8a10d736509"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:18701a81-009a-1000-9f6d-bc148514ea8d"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "15ce60008ebc3593ab5c1161650da91d",
+        "identifiers": [
+          [
+            "dlna_dmr",
+            "uuid:18701a81-009a-1000-9f6d-bc148514ea8d"
+          ]
+        ],
+        "manufacturer": "Samsung Electronics",
+        "model": "UE48H6400",
+        "name_by_user": null,
+        "name": "[TV]Samsung LED48",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "c7c4ae44ed026cc97585df7426d167e3"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "b610259535cf08282a9d72096bec4ad9",
+        "identifiers": [
+          [
+            "mobile_app",
+            "3977BB64-5402-4D3A-B3F8-3325BF689D95"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone11,8",
+        "name_by_user": null,
+        "name": "...",
+        "sw_version": "16.0.2",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "12151ed233aef823cb968855fd0197e1"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "87f6c1970546d2d1b0e53e9922436404",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.28.3",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_letsencrypt"
+          ]
+        ],
+        "id": "f1464049ced01eb9b173990a0859cc05",
+        "orphaned_timestamp": null
+      }
+    ]
+  }
+}

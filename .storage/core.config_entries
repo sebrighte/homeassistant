@@ -1,0 +1,297 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "64410f272b9bff3e1870990792546481",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0f5437fdc362c0659db520b1090f943e",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "74d1da2ce329cc8ff347254374c9f834",
+        "version": 1,
+        "domain": "wiz",
+        "title": "WiZ Dimmable White 1E9A19",
+        "data": {
+          "host": "192.168.1.117"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "dhcp",
+        "unique_id": "6c29901e9a19",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5a5bbf9b2a3450cce3e77d8b05071b20",
+        "version": 1,
+        "domain": "wiz",
+        "title": "WiZ Dimmable White 1F9CC2",
+        "data": {
+          "host": "192.168.1.181"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "dhcp",
+        "unique_id": "6c29901f9cc2",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "fc7b6f478422d6613ba31d32c4f967f8",
+        "version": 1,
+        "domain": "cast",
+        "title": "Google Cast",
+        "data": {
+          "ignore_cec": [],
+          "known_hosts": [],
+          "uuid": [],
+          "user_id": "3deb474438c94a348d5b7ce336a9a6b8"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "cast",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "025f1f1d970059b2001787bcae76e189",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "b96d8b9d63711aa905523620d098cdc5",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8ca96cb86cbf9c39664505dfb2db11d9",
+        "version": 1,
+        "domain": "group",
+        "title": "Kitchen Lights",
+        "data": {},
+        "options": {
+          "group_type": "light",
+          "name": "Kitchen Lights",
+          "entities": [
+            "light.wiz_dimmable_white_1e9a19",
+            "light.wiz_dimmable_white_1f9cc2"
+          ],
+          "hide_members": false
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "329c7ca8d87c3ee4a84cb58cf84d222b",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPad-F35",
+        "data": {
+          "supports_encryption": true,
+          "os_version": "15.7",
+          "app_version": "2022.10.1 (2022.424)",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "dgo4TFp5AEBzkxSafLqMp0:APA91bEUCYVGnAKnqYVl2eFe6WLrtep_tF_f4OyRBuWxT3_agROss9K9Y9d3fEiJ6ePCUc-tO30nuZSdu-r8TzUoKeuHcvAXxXwLebeULsEsyX-TFxLLCurCklixKPwlJQeKs3ejTgr6"
+          },
+          "manufacturer": "Apple",
+          "device_name": "iPad-F35",
+          "app_name": "Home Assistant",
+          "app_id": "io.robbie.HomeAssistant",
+          "device_id": "EFFF7BD3-9EC3-4AB9-A628-0AD9900F7B3B",
+          "model": "iPad7,5",
+          "os_name": "iPadOS",
+          "webhook_id": "aef00284f2deb5ffd14d10a2d322c0405f9106603ca50c722b1f6e567c036ebd",
+          "secret": "08dd89abfb7bf571038c58578b04ca0d59e5f3320ece418bd0a93d26829dc144",
+          "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-EFFF7BD3-9EC3-4AB9-A628-0AD9900F7B3B",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "cfe6a5d1c4dd6e5725add19d0954939d",
+        "version": 1,
+        "domain": "synology_dsm",
+        "title": "192.168.1.182",
+        "data": {
+          "host": "192.168.1.182",
+          "port": "5000",
+          "ssl": false,
+          "verify_ssl": false,
+          "username": "Ernie",
+          "password": "Maplatlop2021!",
+          "mac": [
+            "00-11-32-F8-04-53",
+            "00-11-32-F8-04-54"
+          ]
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "2150RLRMJCN1D",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "54404b05bdd745bfcf8a3f9503b9041e",
+        "version": 1,
+        "domain": "upnp",
+        "title": "BT Home Hub 6.0A",
+        "data": {
+          "udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
+          "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+          "original_udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
+          "location": "http://192.168.1.254:49153/3732755/gatedesc0b.xml",
+          "mac_address": "b0:98:2b:41:58:0d",
+          "host": "192.168.1.254"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "759ff0924144cc4cff9243d8ccf4056b",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "[TV]Samsung LED48 (UE48H6400)",
+        "data": {
+          "host": "192.168.1.97",
+          "mac": "90:f1:aa:f6:f0:1b",
+          "manufacturer": "Samsung Electronics",
+          "method": "encrypted",
+          "model": "UE48H6400",
+          "name": "[TV]Samsung LED48",
+          "port": 8000,
+          "ssdp_rendering_control_location": "http://192.168.1.97:7676/smp_15_",
+          "ssdp_main_tv_agent_location": "http://192.168.1.97:7676/smp_2_",
+          "token": "d87095d62a558723499ebd5bc304f5b6",
+          "session_id": "1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "068e7781-006e-1000-bbbf-90f1aaf6f01b",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "768aed9a21c20e834ae9b8a10d736509",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "[TV]Samsung LED48",
+        "data": {
+          "url": "http://192.168.1.97:7676/smp_15_",
+          "device_id": "uuid:18701a81-009a-1000-9f6d-bc148514ea8d",
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:18701a81-009a-1000-9f6d-bc148514ea8d",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "c7c4ae44ed026cc97585df7426d167e3",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "...",
+        "data": {
+          "os_name": "iOS",
+          "supports_encryption": true,
+          "manufacturer": "Apple",
+          "app_name": "Home Assistant",
+          "model": "iPhone11,8",
+          "app_version": "2022.10.1 (2022.424)",
+          "os_version": "16.0.2",
+          "app_data": {
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
+            "push_token": "eWop8qmDZ0j1swE5RlkeAn:APA91bG4v_W6zxUoC2UYOQ-cUaDjAH_zscODZATzW2PTyXmMkrI9gu1CBtI53B9v7OXvVPZFbUzEDHzShF-vjcUM3v-R6j_r9sAqzCVRRoHScM77vUcIPRn6Ebvs4z31GBU-qB7ErMk6"
+          },
+          "app_id": "io.robbie.HomeAssistant",
+          "device_name": "...",
+          "device_id": "3977BB64-5402-4D3A-B3F8-3325BF689D95",
+          "webhook_id": "3982f977d6c8ceba9d94529c77b6f5ee3f66d92ac947f1063158e307745b83a2",
+          "secret": "3ccba4d1dcf371b9d5f24d2d296de6c255e97f71df052357d98d0e372beaf4ac",
+          "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-3977BB64-5402-4D3A-B3F8-3325BF689D95",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "12151ed233aef823cb968855fd0197e1",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

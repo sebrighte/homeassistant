@@ -1,0 +1,37 @@
+- id: '1668715011099'
+  alias: Lights Off
+  description: ''
+  trigger:
+  - platform: time
+    at: '22:00:00'
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 1502d049065c9fa32f4f29230d120b38
+    entity_id: light.wiz_dimmable_white_1e9a19
+    domain: light
+  - type: turn_off
+    device_id: 91bdf081f4d9af6083f0b6347157957e
+    entity_id: light.wiz_dimmable_white_1f9cc2
+    domain: light
+  mode: single
+- id: '1668716092750'
+  alias: Lights on sunset
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: 0
+  condition: []
+  action:
+  - type: turn_on
+    device_id: 1502d049065c9fa32f4f29230d120b38
+    entity_id: light.wiz_dimmable_white_1e9a19
+    domain: light
+    brightness_pct: 1
+  - type: turn_on
+    device_id: 91bdf081f4d9af6083f0b6347157957e
+    entity_id: light.wiz_dimmable_white_1f9cc2
+    domain: light
+    brightness_pct: 1
+  mode: single

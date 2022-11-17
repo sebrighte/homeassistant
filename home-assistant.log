@@ -1,0 +1,114 @@
+2022-11-17 21:32:08.367 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-11-17 21:32:20.604 WARNING (MainThread) [homeassistant.setup] Setup of bluetooth is taking over 10 seconds.
+2022-11-17 22:14:26.666 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139650270685664] Error recieved: {'code': -32603, 'message': 'Internal error'}
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 200, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
+    await light.async_turn_on(**filter_turn_on_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/group/light.py", line 179, in async_turn_on
+    await self.hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
+    await light.async_turn_on(**filter_turn_on_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
+    await self._device.turn_on(_async_pilot_builder(**kwargs))
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
+    await self.send(pilot_builder.set_pilot_message())
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
+    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
+pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
+2022-11-17 22:14:28.008 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
+    await light.async_turn_on(**filter_turn_on_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
+    await self._device.turn_on(_async_pilot_builder(**kwargs))
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
+    await self.send(pilot_builder.set_pilot_message())
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
+    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
+pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
+2022-11-17 22:15:15.042 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139650270685664] Error recieved: {'code': -32603, 'message': 'Internal error'}
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 200, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
+    await light.async_turn_on(**filter_turn_on_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/group/light.py", line 179, in async_turn_on
+    await self.hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
+    await light.async_turn_on(**filter_turn_on_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
+    await self._device.turn_on(_async_pilot_builder(**kwargs))
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
+    await self.send(pilot_builder.set_pilot_message())
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
+    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
+pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
+2022-11-17 22:15:16.493 ERROR (Recorder) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
+    await light.async_turn_on(**filter_turn_on_params(light, params))
+  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
+    await self._device.turn_on(_async_pilot_builder(**kwargs))
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
+    await self.send(pilot_builder.set_pilot_message())
+  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
+    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
+pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}

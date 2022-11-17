@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "name": "admin",
+        "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+        "device_trackers": [
+          "device_tracker.ipad_f35",
+          "device_tracker.unknown"
+        ],
+        "id": "admin"
+      }
+    ]
+  }
+}
