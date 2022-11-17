@@ -26,7 +26,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -54,7 +54,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -82,14 +82,14 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
         "entity_id": "update.studio_code_server_update",
         "state": "off",
         "attributes": {
-          "auto_update": false,
+          "auto_update": true,
           "installed_version": "5.4.1",
           "in_progress": false,
           "latest_version": "5.4.1",
@@ -102,22 +102,22 @@
           "supported_features": 25
         },
         "last_changed": "2022-11-17T21:32:16.259676+00:00",
-        "last_updated": "2022-11-17T21:32:16.259676+00:00",
+        "last_updated": "2022-11-17T22:57:50.065787+00:00",
         "context": {
-          "id": "01GJ3R3E038ZB2PBFJN0YSTT4N",
+          "id": "01GJ3X03FH67D3V2746JGA2BX6",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
         "entity_id": "update.terminal_ssh_update",
         "state": "off",
         "attributes": {
-          "auto_update": false,
+          "auto_update": true,
           "installed_version": "9.6.1",
           "in_progress": false,
           "latest_version": "9.6.1",
@@ -130,43 +130,15 @@
           "supported_features": 25
         },
         "last_changed": "2022-11-17T21:32:16.259841+00:00",
-        "last_updated": "2022-11-17T21:32:16.259841+00:00",
+        "last_updated": "2022-11-17T22:57:50.066132+00:00",
         "context": {
-          "id": "01GJ3R3E03NT5F3S158NFZ1SCC",
+          "id": "01GJ3X03FJGX1WRFNS5TSTD4HE",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.let_s_encrypt_update",
-        "state": "off",
-        "attributes": {
-          "auto_update": false,
-          "installed_version": "4.12.7",
-          "in_progress": false,
-          "latest_version": "4.12.7",
-          "release_summary": null,
-          "release_url": null,
-          "skipped_version": null,
-          "title": "Let's Encrypt",
-          "entity_picture": "/api/hassio/addons/core_letsencrypt/icon",
-          "friendly_name": "Let's Encrypt Update",
-          "supported_features": 25
-        },
-        "last_changed": "2022-11-17T21:32:16.260041+00:00",
-        "last_updated": "2022-11-17T21:32:16.260041+00:00",
-        "context": {
-          "id": "01GJ3R3E04504RX63SV607JTGR",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -188,7 +160,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -210,31 +182,31 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.ipad_f35_battery_level",
-        "state": "61",
+        "state": "59",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-60",
+          "icon": "mdi:battery-50",
           "friendly_name": "iPad-F35 Battery Level"
         },
-        "last_changed": "2022-11-17T22:45:00.964470+00:00",
-        "last_updated": "2022-11-17T22:45:00.964470+00:00",
+        "last_changed": "2022-11-17T23:02:09.417074+00:00",
+        "last_updated": "2022-11-17T23:02:09.417074+00:00",
         "context": {
-          "id": "01GJ3W8MD4D8KZTAGKMAX0F7S9",
+          "id": "01GJ3X80R9R7E3H6DDFNXBEW82",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 61,
+        "native_value": 59,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -242,13 +214,13 @@
         "state": "Not Charging",
         "attributes": {
           "Low Power Mode": false,
-          "icon": "mdi:battery-60",
+          "icon": "mdi:battery-50",
           "friendly_name": "iPad-F35 Battery State"
         },
         "last_changed": "2022-11-17T21:32:28.186891+00:00",
-        "last_updated": "2022-11-17T21:32:28.186891+00:00",
+        "last_updated": "2022-11-17T23:02:09.417579+00:00",
         "context": {
-          "id": "01GJ3R3SMTFR9WSM7VS2YX01N7",
+          "id": "01GJ3X80R9AS8BG9PBY3WFYAMB",
           "parent_id": null,
           "user_id": null
         }
@@ -257,34 +229,34 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.ipad_f35_storage",
-        "state": "5.08",
+        "state": "5.02",
         "attributes": {
-          "Available": "2.90 GB",
-          "Available (Important)": "5.28 GB",
-          "Available (Opportunistic)": "1.63 GB",
+          "Available": "2.88 GB",
+          "Available (Important)": "5.26 GB",
+          "Available (Opportunistic)": "1.61 GB",
           "Total": "31.99 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "iPad-F35 Storage"
         },
-        "last_changed": "2022-11-17T22:45:00.965134+00:00",
-        "last_updated": "2022-11-17T22:45:00.965134+00:00",
+        "last_changed": "2022-11-17T23:02:09.417791+00:00",
+        "last_updated": "2022-11-17T23:02:09.417791+00:00",
         "context": {
-          "id": "01GJ3W8MD529XDVDX5S911NQAX",
+          "id": "01GJ3X80R9KT2ZZ6M2R0WG191H",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "5.08",
+        "native_value": "5.02",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -294,10 +266,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "iPad-F35 SSID"
         },
-        "last_changed": "2022-11-17T22:45:00.965335+00:00",
-        "last_updated": "2022-11-17T22:45:00.965335+00:00",
+        "last_changed": "2022-11-17T23:02:09.418039+00:00",
+        "last_updated": "2022-11-17T23:02:09.418039+00:00",
         "context": {
-          "id": "01GJ3W8MD5MD7XGZ31VS8QKCPH",
+          "id": "01GJ3X80RAZSESW5MECCHY3GKF",
           "parent_id": null,
           "user_id": null
         }
@@ -306,7 +278,7 @@
         "native_value": "Wifi-Home",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -316,10 +288,10 @@
           "icon": "mdi:wifi-star",
           "friendly_name": "iPad-F35 BSSID"
         },
-        "last_changed": "2022-11-17T22:45:00.965532+00:00",
-        "last_updated": "2022-11-17T22:45:00.965532+00:00",
+        "last_changed": "2022-11-17T23:02:09.418245+00:00",
+        "last_updated": "2022-11-17T23:02:09.418245+00:00",
         "context": {
-          "id": "01GJ3W8MD5GM6M8JM5TTHAQKY2",
+          "id": "01GJ3X80RASD2F255J51T3HFZY",
           "parent_id": null,
           "user_id": null
         }
@@ -328,7 +300,7 @@
         "native_value": "b0:98:2b:41:58:11",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -350,7 +322,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -391,7 +363,7 @@
         "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -401,10 +373,10 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "iPad-F35 Last Update Trigger"
         },
-        "last_changed": "2022-11-17T21:54:40.549836+00:00",
-        "last_updated": "2022-11-17T21:54:40.549836+00:00",
+        "last_changed": "2022-11-17T22:53:29.604472+00:00",
+        "last_updated": "2022-11-17T22:53:29.604472+00:00",
         "context": {
-          "id": "01GJ3SCES5HKTSSGG9J92AXX7B",
+          "id": "01GJ3WR5447V7X5JM2MFYM4P35",
           "parent_id": null,
           "user_id": null
         }
@@ -413,7 +385,7 @@
         "native_value": "Launch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -437,7 +409,7 @@
         "native_value": 95,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -460,7 +432,7 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -487,7 +459,7 @@
         "native_value": "66.72",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -509,7 +481,7 @@
         "native_value": "Wifi-Home",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -531,7 +503,7 @@
         "native_value": "b0:98:2b:41:58:11",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -553,7 +525,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -582,7 +554,7 @@
         "native_value": "Virgin",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -610,7 +582,7 @@
         "native_value": "N/A",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -651,7 +623,7 @@
         "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -673,7 +645,7 @@
         "native_value": "Launch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -698,7 +670,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -723,7 +695,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -752,7 +724,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -771,7 +743,7 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
     },
     {
       "state": {
@@ -790,7 +762,26 @@
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:47:35.122689+00:00"
+      "last_seen": "2022-11-17T23:02:35.123488+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.let_s_encrypt_update",
+        "state": "unavailable",
+        "attributes": {
+          "friendly_name": "Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-11-17T22:57:50.066288+00:00",
+        "last_updated": "2022-11-17T22:57:50.066288+00:00",
+        "context": {
+          "id": "01GJ3X03FJ6VMHSYW4HJVJ0QHA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-11-17T22:57:50.080848+00:00"
     }
   ]
 }
