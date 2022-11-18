@@ -174,7 +174,7 @@
       {
         "area_id": null,
         "config_entries": [
-          "329c7ca8d87c3ee4a84cb58cf84d222b"
+          "0578a10ac122923c71fbb979baba4eb8"
         ],
         "configuration_url": null,
         "connections": [],
@@ -465,7 +465,7 @@
       {
         "area_id": null,
         "config_entries": [
-          "c7c4ae44ed026cc97585df7426d167e3"
+          "56d485b566365bdbf358a105dd3c2a34"
         ],
         "configuration_url": null,
         "connections": [],
@@ -508,6 +508,30 @@
         "name_by_user": null,
         "name": "HACS",
         "sw_version": "1.28.3",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f63c5d54088d7349fbf7c98418f49cb8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "8c4bff0623b4ab5764c3835af2e65b82",
+        "identifiers": [
+          [
+            "mobile_app",
+            "125F0273-1646-484F-883C-12CED8A9503B"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone13,1",
+        "name_by_user": null,
+        "name": "???",
+        "sw_version": "16.0.2",
         "via_device_id": null
       }
     ],

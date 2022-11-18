@@ -17,8 +17,5 @@ scene: !include scenes.yaml
 http:
   use_x_forwarded_for: true
   trusted_proxies:
-    - 192.168.1.0/24
-    - 172.17.0.0/24
-
-
-
+    - 192.168.1.0/24 # Virtual Server IP
+    - 172.17.0.0/24 # Docker Servier IP

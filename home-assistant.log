@@ -112,3 +112,22 @@ Traceback (most recent call last):
   File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
     raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
 pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
+2022-11-17 23:23:40.773 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
+2022-11-17 23:29:14.489 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 2a00:23c7:1e0b:9501:1ce8:d602:fb2e:49c (2a00:23c7:1e0b:9501:1ce8:d602:fb2e:49c). Requested URL: '/auth/login_flow/e57b7ce29afae1a5289820a907ef0944'. (Mozilla/5.0 (iPad; CPU OS 15_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1)
+2022-11-17 23:34:43.476 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
+2022-11-17 23:34:58.504 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
+2022-11-17 23:34:58.546 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
+2022-11-17 23:50:12.088 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Heartbeat timeout, resetting connection
+2022-11-17 23:50:30.541 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.96', 8009)), retrying in 5.0s
+2022-11-17 23:51:11.642 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2022-11-17 23:51:11.646 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2022-11-18 00:02:35.707 ERROR (MainThread) [frontend.js.latest.202211080] :1233:28 InvalidStateError: The object is in an invalid state.
+2022-11-18 07:38:52.320 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
+2022-11-18 08:52:38.523 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Heartbeat timeout, resetting connection
+2022-11-18 08:53:08.556 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.96', 8009)), retrying in 5.0s
+2022-11-18 08:53:26.083 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2022-11-18 08:53:26.085 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2022-11-18 11:16:26.211 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Heartbeat timeout, resetting connection
+2022-11-18 11:16:56.241 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.96', 8009)), retrying in 5.0s
+2022-11-18 11:17:17.118 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2022-11-18 11:17:17.119 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds

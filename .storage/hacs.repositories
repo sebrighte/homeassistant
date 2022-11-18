@@ -18,11 +18,11 @@
       "category": "integration",
       "description": "HACS gives you a powerful UI to handle downloads of all your custom needs.",
       "domain": "hacs",
-      "downloads": 97477,
-      "etag_repository": "W/\"7028f2d90de0b2659c7971e19dbb9ed0798b73d7739d27a539ed8e3237ea2432\"",
+      "downloads": 98901,
+      "etag_repository": "W/\"06ff581a7803dc15f6abbb9cf1c7cce0f02bd2213703387cbf5efd6d9274e61a\"",
       "full_name": "hacs/integration",
       "last_updated": "2022-11-15T09:31:31Z",
-      "stargazers_count": 3074,
+      "stargazers_count": 3075,
       "topics": [
         "community",
         "package-manager"
@@ -44,7 +44,7 @@
       "pushed_at": "2022-11-15T09:31:31",
       "releases": true,
       "version_installed": "1.28.3",
-      "last_fetched": 1668720758.970861
+      "last_fetched": 1668771157.009717
     },
     "191831638": {
       "repository_manifest": {
@@ -3340,11 +3340,11 @@
       "category": "integration",
       "description": "A hass component to integrate with traccar_cn which adapts Chinese map coordinates (中文地图 traccar.cn)",
       "domain": "traccar_cn",
-      "etag_repository": "W/\"9a65ba9b6f6545e78a6b8782483a49ef75a31add4ad6ee5faf2b72b0890df194\"",
+      "etag_repository": "W/\"d0c6de4c06cd19246e3d73788caa9886a464de79813c9c75640b371e3bae411c\"",
       "full_name": "jihao/traccar-cn-hass",
       "last_updated": "2020-08-28T09:51:37Z",
       "stargazers_count": 21,
-      "last_fetched": 1662801814.101308
+      "last_fetched": 1668722378.507285
     },
     "278596510": {
       "repository_manifest": {
@@ -4580,15 +4580,15 @@
       "category": "integration",
       "description": "A custom component for Home Assistant to detect iPhones connected to local LAN, even if the phone is in deep sleep.",
       "domain": "iphonedetect",
-      "downloads": 9923,
-      "etag_repository": "W/\"d4a85cd05e5241d56b9f6b4fd660a88da33f0b2f7dd4915b990e9bf1885e6ea4\"",
+      "downloads": 10490,
+      "etag_repository": "W/\"2dc9b002dddf13539047d7412da746ee942d1137bb63fd093b6e296d6055610e\"",
       "full_name": "mudape/iphonedetect",
       "last_updated": "2022-06-15T17:47:40Z",
-      "stargazers_count": 216,
+      "stargazers_count": 225,
       "topics": [
         "iphonedetect"
       ],
-      "last_fetched": 1665938973.877086
+      "last_fetched": 1668728490.185439
     },
     "278930028": {
       "repository_manifest": {
@@ -6612,14 +6612,14 @@
       "category": "integration",
       "description": "Monitor Docker containers from Home Assistant",
       "domain": "monitor_docker",
-      "etag_repository": "W/\"df30acf452735a0808c352354d0bbf2909d010780f98da194d2b6e530dce8b0a\"",
+      "etag_repository": "W/\"612bf0686a591f7e02e8e0fd998974d3cb9c552fc42a0fa65a41167ffdac46f7\"",
       "full_name": "ualex73/monitor_docker",
       "last_updated": "2022-10-19T08:12:25Z",
-      "stargazers_count": 169,
+      "stargazers_count": 174,
       "topics": [
         "docker"
       ],
-      "last_fetched": 1666451561.123554
+      "last_fetched": 1668728561.795788
     },
     "247566230": {
       "repository_manifest": {
@@ -8113,11 +8113,11 @@
       "category": "plugin",
       "description": "⏰ Lovelace Card to Control Light Alarm Properties",
       "domain": "",
-      "etag_repository": "W/\"8fb2ce4d2d7a7228619e7a512555516e0ded723877e32e5178853cbfd846f5f6\"",
+      "etag_repository": "W/\"b07f463687de528e7010f9a6b1b9c1c54af155af135cfe0bcc8187032c7731dd\"",
       "full_name": "chaptergy/lightalarm-card",
-      "last_updated": "2022-03-26T01:52:04Z",
-      "stargazers_count": 31,
-      "last_fetched": 1657362436.553463
+      "last_updated": "2022-07-24T08:17:14Z",
+      "stargazers_count": 32,
+      "last_fetched": 1668722445.759737
     },
     "143850865": {
       "repository_manifest": {},
@@ -10852,10 +10852,10 @@
       "category": "integration",
       "description": "BLE monitor passively monitors BLE sensors (Xiaomi, Qingping, ATC, BlueMaestro, Brifit, Govee, Kegtron, Moat, Inkbird, iNode, Yeelight, RuuviTag, SensorPush, Teltonika, Thermoplus and Thermopro)",
       "domain": "ble_monitor",
-      "etag_repository": "W/\"8f518a9930ef60efb9e87f27e5e3bffa7708aad403adab5c3ac3eb70f89719f5\"",
+      "etag_repository": "W/\"223bf1408c08be4bba5de7089cc35d83f419e137ce9edc50cc1acac7337ee280\"",
       "full_name": "custom-components/ble_monitor",
-      "last_updated": "2022-10-12T17:29:39Z",
-      "stargazers_count": 1437,
+      "last_updated": "2022-11-13T17:42:08Z",
+      "stargazers_count": 1455,
       "topics": [
         "atc",
         "govee",
@@ -10872,7 +10872,7 @@
         "xiaomi",
         "xiaomi-sensors"
       ],
-      "last_fetched": 1666451231.486106
+      "last_fetched": 1668728433.443299
     },
     "178838527": {
       "repository_manifest": {
@@ -18670,11 +18670,11 @@
       "category": "plugin",
       "description": "Mushroom Cards - Build a beautiful dashboard easily 🍄",
       "domain": "",
-      "downloads": 15769,
-      "etag_repository": "W/\"20edaacacd4529d1c72027d8b1cc2bb26a9212c2d21f4c07ae825121f8510b5a\"",
+      "downloads": 16377,
+      "etag_repository": "W/\"67693603b1b08f24848d852067bc8b51b32c9f8315148a561e32144b0f2ed6b2\"",
       "full_name": "piitaya/lovelace-mushroom",
-      "last_updated": "2022-11-17T16:03:30Z",
-      "stargazers_count": 1683,
+      "last_updated": "2022-11-18T11:25:58Z",
+      "stargazers_count": 1688,
       "topics": [
         "card",
         "mushroom"
@@ -18684,7 +18684,7 @@
       "installed": true,
       "last_commit": "96f7f34",
       "last_version": "v2.3.6",
-      "open_issues": 175,
+      "open_issues": 176,
       "published_tags": [
         "v2.3.6",
         "v2.3.5",
@@ -18692,10 +18692,10 @@
         "v2.3.3",
         "v2.3.2"
       ],
-      "pushed_at": "2022-11-17T16:03:30",
+      "pushed_at": "2022-11-18T11:25:58",
       "releases": true,
       "version_installed": "v2.3.6",
-      "last_fetched": 1668720759.352511
+      "last_fetched": 1668771157.110661
     },
     "453143227": {
       "repository_manifest": {

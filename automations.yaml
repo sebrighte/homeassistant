@@ -35,3 +35,19 @@
     domain: light
     brightness_pct: 1
   mode: single
+- id: '1668771551951'
+  alias: Lights on at sunset
+  description: ''
+  trigger:
+  - platform: device
+    type: changed_states
+    device_id: 91bdf081f4d9af6083f0b6347157957e
+    entity_id: light.wiz_dimmable_white_1f9cc2
+    domain: light
+  condition: []
+  action:
+  - device_id: 6131dbbe7123083e953fd1dd19371607
+    domain: mobile_app
+    type: notify
+    message: Lights on at sunset
+  mode: single

@@ -5,3 +5,6 @@ home-assistant_v2.db-shm
 home-assistant_v2.db
 .storage/auth
 .storage/core.restore_state
+home-assistant_v2.db-shm
+home-assistant_v2.db-wal
+home-assistant.log

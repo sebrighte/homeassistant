@@ -6,7 +6,7 @@
     "items": [
       {
         "show_in_sidebar": true,
-        "title": "Lights",
+        "title": "Mobile",
         "require_admin": false,
         "mode": "storage",
         "url_path": "lovelace-home",
