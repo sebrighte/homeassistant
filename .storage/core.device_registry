@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2022.11.3",
+        "sw_version": "2023.2.5",
         "via_device_id": null
       },
       {
@@ -49,11 +49,11 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2022.11.dev1507",
+        "sw_version": "2023.01.1",
         "via_device_id": null
       },
       {
-        "area_id": null,
+        "area_id": "kitchen",
         "config_entries": [
           "74d1da2ce329cc8ff347254374c9f834"
         ],
@@ -77,7 +77,7 @@
         "via_device_id": null
       },
       {
-        "area_id": null,
+        "area_id": "kitchen",
         "config_entries": [
           "5a5bbf9b2a3450cce3e77d8b05071b20"
         ],
@@ -168,7 +168,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.4.1",
+        "sw_version": "5.5.2",
         "via_device_id": null
       },
       {
@@ -192,7 +192,7 @@
         "model": "iPad7,5",
         "name_by_user": null,
         "name": "iPad-F35",
-        "sw_version": "15.7",
+        "sw_version": "16.3.1",
         "via_device_id": null
       },
       {
@@ -385,16 +385,16 @@
         "id": "67b1872e14a81aea6ba4277bd65e505c",
         "identifiers": [
           [
+            "upnp_serial_number",
+            "+084316+NQ74140707"
+          ],
+          [
             "upnp_host",
             "192.168.1.254"
           ],
           [
             "upnp",
             "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
-          ],
-          [
-            "upnp_serial_number",
-            "+084316+NQ74140707"
           ]
         ],
         "manufacturer": "BT",
@@ -405,7 +405,7 @@
         "via_device_id": null
       },
       {
-        "area_id": null,
+        "area_id": "kitchen",
         "config_entries": [
           "759ff0924144cc4cff9243d8ccf4056b"
         ],
@@ -434,7 +434,7 @@
         "via_device_id": null
       },
       {
-        "area_id": null,
+        "area_id": "living_room",
         "config_entries": [
           "768aed9a21c20e834ae9b8a10d736509"
         ],
@@ -443,6 +443,10 @@
           [
             "upnp",
             "uuid:18701a81-009a-1000-9f6d-bc148514ea8d"
+          ],
+          [
+            "mac",
+            "90:f1:aa:f6:f0:1b"
           ]
         ],
         "disabled_by": null,
@@ -465,7 +469,7 @@
       {
         "area_id": null,
         "config_entries": [
-          "56d485b566365bdbf358a105dd3c2a34"
+          "9345277b09527d86ff791526533da48c"
         ],
         "configuration_url": null,
         "connections": [],
@@ -483,7 +487,7 @@
         "model": "iPhone11,8",
         "name_by_user": null,
         "name": "...",
-        "sw_version": "16.0.2",
+        "sw_version": "16.3.1",
         "via_device_id": null
       },
       {
@@ -507,7 +511,7 @@
         "model": "",
         "name_by_user": null,
         "name": "HACS",
-        "sw_version": "1.28.3",
+        "sw_version": "1.28.4",
         "via_device_id": null
       },
       {
@@ -531,7 +535,346 @@
         "model": "iPhone13,1",
         "name_by_user": null,
         "name": "???",
-        "sw_version": "16.0.2",
+        "sw_version": "16.3.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "fc7b6f478422d6613ba31d32c4f967f8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "0a45df51e7d3e1f5f98c92e3c2a21f27",
+        "identifiers": [
+          [
+            "cast",
+            "1570da5b3ef7f6c4ec995ee52a221b96"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Snug Cast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "fc7b6f478422d6613ba31d32c4f967f8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e160284f17a6213859761ec1bd4c7647",
+        "identifiers": [
+          [
+            "cast",
+            "71a45ef54de1db5ef21257fe6abaf547"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name_by_user": null,
+        "name": "Lounge Cast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "living_room",
+        "config_entries": [
+          "9138c636ccb37e28818021e248b1cac0"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "90:f1:aa:d9:4b:8e"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "78869f2d8143649005999f6280b02b91",
+        "identifiers": [
+          [
+            "samsungtv",
+            "07270e01-0078-1000-8cd0-90f1aad94b8e"
+          ],
+          [
+            "samsungtv",
+            "07270e01-0078-1000-8cd0-90f1aaca6679"
+          ]
+        ],
+        "manufacturer": "Samsung Electronics",
+        "model": "UE40H6400",
+        "name_by_user": null,
+        "name": "Living room",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "958c3fc865dd5f49d85c1f3dbc7831f2"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "upnp",
+            "uuid:173eed82-0086-1000-8631-90f1aaca6679"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "912a1e75a380a3303ed7ceeb66687fbc",
+        "identifiers": [
+          [
+            "dlna_dmr",
+            "uuid:173eed82-0086-1000-8631-90f1aaca6679"
+          ]
+        ],
+        "manufacturer": "Samsung Electronics",
+        "model": "UE40H6400",
+        "name_by_user": null,
+        "name": "[TV] Living room",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/15d21743_samba_backup",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "dc4888eb562462d40e771393cc7119cb",
+        "identifiers": [
+          [
+            "hassio",
+            "15d21743_samba_backup"
+          ]
+        ],
+        "manufacturer": "Tom's Home Assistant Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Samba Backup",
+        "sw_version": "5.2.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "efe065432ee9b6c095aad16e730d0332"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "6c:29:90:1e:7f:3e"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "ESP05 01",
+        "id": "50503307fb42a3f17c8544ec06accf2e",
+        "identifiers": [],
+        "manufacturer": "WiZ",
+        "model": "SHDW",
+        "name_by_user": null,
+        "name": "WiZ Dimmable White 1E7F3E",
+        "sw_version": "1.28.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": "hall",
+        "config_entries": [
+          "18e7fe6516f4f418a9a90d95a76a12d0"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "6c:29:90:a0:f9:9c"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "ESP10 06",
+        "id": "e99452036c46bbab81fc2ad295bd14a9",
+        "identifiers": [],
+        "manufacturer": "WiZ",
+        "model": "SOCKET",
+        "name_by_user": null,
+        "name": "WiZ Socket A0F99C",
+        "sw_version": "1.28.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "fc7b6f478422d6613ba31d32c4f967f8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "447306d974877a989b1391590b9494c4",
+        "identifiers": [
+          [
+            "cast",
+            "9bb3175cf26afbffad8258a162820430"
+          ]
+        ],
+        "manufacturer": "Sony",
+        "model": "BRAVIA 4K VH2",
+        "name_by_user": null,
+        "name": "GoogleTV9339",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "fc7b6f478422d6613ba31d32c4f967f8"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "e69afb82141c7ec234491e64be0ba92a",
+        "identifiers": [
+          [
+            "cast",
+            "bb870bdf2acbe8af8920046b7cc294ac"
+          ]
+        ],
+        "manufacturer": "Sony",
+        "model": "BRAVIA 4K VH2",
+        "name_by_user": null,
+        "name": "Kitchen TV",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "326ee91a741e393d2fe077eefa0fc250"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "30:03:c8:52:c0:8d"
+          ],
+          [
+            "upnp",
+            "uuid:23456789-1234-1010-8000-88C9E8772A1F"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "afdacd5face509cfdee15262aa98d484",
+        "identifiers": [
+          [
+            "dlna_dmr",
+            "uuid:23456789-1234-1010-8000-88C9E8772A1F"
+          ]
+        ],
+        "manufacturer": "Sony Corporation",
+        "model": "MediaRenderer",
+        "name_by_user": null,
+        "name": "Kitchen TV",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "kitchen",
+        "config_entries": [
+          "25e3d78b1caeb16122790b8542ad9d0b"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+        "identifiers": [
+          [
+            "braviatv",
+            "73cc0e90db01438f9fd4e9bfe736de1f"
+          ]
+        ],
+        "manufacturer": "Sony",
+        "model": "XR-65A90J",
+        "name_by_user": null,
+        "name": "Sony XR-65A90J",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "452562fef331c386d1b63ae764f60634"
+        ],
+        "configuration_url": "http://192.168.1.59:631/sws/index.html?link=/sws/app/settings/network/AirPrint/AirPrint.html",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "7b10b455491738d6902bfe12a971cbcf",
+        "identifiers": [
+          [
+            "ipp",
+            "16a65700-007c-1000-bb49-30cda7ac8dd0"
+          ]
+        ],
+        "manufacturer": "Samsung",
+        "model": "C48x Series",
+        "name_by_user": null,
+        "name": "Samsung C48x Series",
+        "sw_version": [
+          "1.0,1.1,2.0",
+          "0.0",
+          "1.4"
+        ],
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/f4f71350_ewelink_smart_home_slug",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "a57bf854278fe278ac413ab4a3d507a5",
+        "identifiers": [
+          [
+            "hassio",
+            "f4f71350_ewelink_smart_home_slug"
+          ]
+        ],
+        "manufacturer": "eWeLink add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "eWeLink Smart Home",
+        "sw_version": "1.4.3",
         "via_device_id": null
       }
     ],

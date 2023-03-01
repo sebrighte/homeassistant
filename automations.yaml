@@ -1,5 +1,5 @@
 - id: '1668715011099'
-  alias: Lights Off
+  alias: automation.light.kitchen.off.time
   description: ''
   trigger:
   - platform: time
@@ -14,14 +14,26 @@
     device_id: 91bdf081f4d9af6083f0b6347157957e
     entity_id: light.wiz_dimmable_white_1f9cc2
     domain: light
+  - type: turn_off
+    device_id: e99452036c46bbab81fc2ad295bd14a9
+    entity_id: switch.wiz_socket_a0f99c
+    domain: switch
+  - type: turn_off
+    device_id: 50503307fb42a3f17c8544ec06accf2e
+    entity_id: light.wiz_dimmable_white_1e7f3e
+    domain: light
+  - service: scene.turn_on
+    target:
+      entity_id: scene.automation_light_tv_sony_off
+    metadata: {}
   mode: single
 - id: '1668716092750'
-  alias: Lights on sunset
+  alias: automation.light.kitchen.sunset.on
   description: ''
   trigger:
   - platform: sun
     event: sunset
-    offset: 0
+    offset: +00:30:00
   condition: []
   action:
   - type: turn_on
@@ -34,13 +46,33 @@
     entity_id: light.wiz_dimmable_white_1f9cc2
     domain: light
     brightness_pct: 1
+  - type: turn_on
+    device_id: 50503307fb42a3f17c8544ec06accf2e
+    entity_id: light.wiz_dimmable_white_1e7f3e
+    domain: light
+    brightness_pct: 1
+  - type: turn_on
+    device_id: e99452036c46bbab81fc2ad295bd14a9
+    entity_id: switch.wiz_socket_a0f99c
+    domain: switch
+  - if:
+    - condition: device
+      type: is_on
+      device_id: 74a9bb40dde6d2408e6c0fe8cb10a5e4
+      entity_id: remote.sony_xr_65a90j
+      domain: remote
+    then:
+    - service: scene.turn_on
+      target:
+        entity_id: scene.scene_tv_light_on
+      metadata: {}
   mode: single
 - id: '1668771551951'
-  alias: Lights on at sunset
+  alias: automation.light.kitchen.on.msg
   description: ''
   trigger:
   - platform: device
-    type: changed_states
+    type: turned_on
     device_id: 91bdf081f4d9af6083f0b6347157957e
     entity_id: light.wiz_dimmable_white_1f9cc2
     domain: light
@@ -49,5 +81,75 @@
   - device_id: 6131dbbe7123083e953fd1dd19371607
     domain: mobile_app
     type: notify
-    message: Lights on at sunset
+    message: Kitchen Lights on at {{ now().strftime('%H:%M %A %d %B %Y') }}
+    title: From Home Assistant F-35
+  - device_id: b610259535cf08282a9d72096bec4ad9
+    domain: mobile_app
+    type: notify
+    message: Kitchen Lights on at {{ now().strftime('%H:%M %A %d %B %Y') }}
+    title: From Home Assistant ...
+  mode: single
+- id: '1669847058620'
+  alias: Hall light off
+  description: ''
+  trigger:
+  - platform: time
+    at: '23:00:00'
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 50503307fb42a3f17c8544ec06accf2e
+    entity_id: light.wiz_dimmable_white_1e7f3e
+    domain: light
+  mode: single
+- id: '1672216846045'
+  alias: Block Sony TV
+  description: ''
+  trigger:
+  - platform: device
+    device_id: 74a9bb40dde6d2408e6c0fe8cb10a5e4
+    domain: media_player
+    entity_id: remote.sony_xr_65a90j
+    type: turned_on
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 74a9bb40dde6d2408e6c0fe8cb10a5e4
+    entity_id: remote.sony_xr_65a90j
+    domain: remote
+  mode: single
+- id: '1677700563646'
+  alias: automation.light.tv.Sony.on
+  description: ''
+  trigger:
+  - platform: device
+    type: turned_on
+    device_id: 74a9bb40dde6d2408e6c0fe8cb10a5e4
+    entity_id: remote.sony_xr_65a90j
+    domain: remote
+  condition:
+  - condition: sun
+    after: sunset
+    before: sunrise
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.scene_tv_light_on
+    metadata: {}
+  mode: single
+- id: '1677701107867'
+  alias: automation.light.tv.Sony.off
+  description: ''
+  trigger:
+  - platform: device
+    type: changed_states
+    device_id: 74a9bb40dde6d2408e6c0fe8cb10a5e4
+    entity_id: remote.sony_xr_65a90j
+    domain: remote
+  condition: []
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.automation_light_tv_sony_off
+    metadata: {}
   mode: single

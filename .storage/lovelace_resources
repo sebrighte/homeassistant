@@ -5,9 +5,19 @@
   "data": {
     "items": [
       {
-        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375236",
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375241",
         "type": "module",
         "id": "28de78e2bf76420b84103d735545f554"
+      },
+      {
+        "url": "/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173",
+        "type": "module",
+        "id": "89ddb3f17b8f4d8e8c8396b2dd5bae4c"
+      },
+      {
+        "url": "/hacsfiles/lovelace-layout-card/layout-card.js?hacstag=156434866244",
+        "type": "module",
+        "id": "d9cd23aff1464a3d882cca9aed9745a3"
       }
     ]
   }

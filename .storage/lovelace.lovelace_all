@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_all",
+  "data": {
+    "config": {
+      "title": "Home",
+      "views": [
+        {
+          "theme": "Backend-selected",
+          "path": "default_view",
+          "title": "Home",
+          "type": "custom:grid-layout",
+          "badges": [],
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                "person.admin"
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.synologynas_security_status"
+              ],
+              "title": "Binary Sensor"
+            },
+            {
+              "type": "picture-entity",
+              "entity": "camera.synologynas_drivecamera"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "light.kitchen_lights",
+                "light.wiz_dimmable_white_1e9a19",
+                "light.wiz_dimmable_white_1f9cc2"
+              ],
+              "title": "Light"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "media-control",
+                  "entity": "media_player.kitchen_cast"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.tv_samsung_led48_2"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.tv_samsung_led48"
+                },
+                {
+                  "type": "media-control",
+                  "entity": "media_player.snug_cast"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.bt_home_hub_6_0a_kib_s_received"
+                },
+                {
+                  "entity": "sensor.bt_home_hub_6_0a_kib_s_sent"
+                },
+                {
+                  "entity": "sensor.synologynas_volume_1_status"
+                },
+                {
+                  "entity": "sensor.synologynas_volume_1_used_space"
+                },
+                {
+                  "entity": "sensor.synologynas_volume_1_volume_used"
+                },
+                {
+                  "entity": "sensor.synologynas_cpu_load_average_15_min"
+                },
+                {
+                  "entity": "sensor.synologynas_cpu_load_average_5_min"
+                },
+                {
+                  "entity": "sensor.synologynas_cpu_utilization_total"
+                },
+                {
+                  "entity": "sensor.synologynas_cpu_utilization_user"
+                },
+                {
+                  "entity": "sensor.synologynas_download_throughput"
+                },
+                {
+                  "entity": "sensor.synologynas_memory_available_real"
+                },
+                {
+                  "entity": "sensor.synologynas_memory_available_swap"
+                },
+                {
+                  "entity": "sensor.synologynas_memory_total_real"
+                },
+                {
+                  "entity": "sensor.synologynas_memory_total_swap"
+                },
+                {
+                  "entity": "sensor.synologynas_memory_usage_real"
+                },
+                {
+                  "entity": "sensor.synologynas_upload_throughput"
+                },
+                {
+                  "entity": "sensor.hacs"
+                }
+              ],
+              "title": "Sensor"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.synologynas_surveillance_station_home_mode"
+              ],
+              "title": "Switch"
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home",
+              "show_forecast": false
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

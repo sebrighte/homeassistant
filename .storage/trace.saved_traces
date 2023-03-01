@@ -2,5 +2,1992 @@
   "version": 1,
   "minor_version": 1,
   "key": "trace.saved_traces",
-  "data": {}
+  "data": {
+    "automation.1668715011099": [
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "a83858f3cad5c0f1030c13fb7cde59bb",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-13T22:00:00.113682+00:00",
+            "finish": "2023-02-13T22:00:00.383119+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-13T22:00:00.113771+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-12T22:00:00.114346+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668715011099",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
+                    "last_updated": "2023-02-12T22:00:00.436414+00:00",
+                    "context": {
+                      "id": "01GS3T8QVHVHV93HXG5MMMW18J",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-13T22:00:00.113122+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-13T22:00:00.114414+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GS6CNEVHT2MRHV5C18S2JAA9",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-13T22:00:00.206729+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-13T22:00:00.313661+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-13T22:00:00.372420+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668715011099",
+            "alias": "automation.light.kitchen.off.time",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "22:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GS6CNEVHT2MRHV5C18S2JAA9",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "a83858f3cad5c0f1030c13fb7cde59bb",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-13T22:00:00.113682+00:00",
+            "finish": "2023-02-13T22:00:00.383119+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "49328ccd46d826b4771653450025e130",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-14T22:00:00.113958+00:00",
+            "finish": "2023-02-14T22:00:00.388641+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-14T22:00:00.114048+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-13T22:00:00.114019+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668715011099",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
+                    "last_updated": "2023-02-13T22:00:00.379156+00:00",
+                    "context": {
+                      "id": "01GS6CNEVHT2MRHV5C18S2JAA9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-14T22:00:00.113352+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-14T22:00:00.114680+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GS8Z25VHPHXAKCPQDMZTSBKA",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-14T22:00:00.195282+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-14T22:00:00.258259+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-14T22:00:00.385492+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668715011099",
+            "alias": "automation.light.kitchen.off.time",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "22:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GS8Z25VHPHXAKCPQDMZTSBKA",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "49328ccd46d826b4771653450025e130",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-14T22:00:00.113958+00:00",
+            "finish": "2023-02-14T22:00:00.388641+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "387b784d7c22004800e5f97f864e50ce",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-15T22:00:00.113803+00:00",
+            "finish": "2023-02-15T22:00:00.327812+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-15T22:00:00.113890+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-14T22:00:00.114291+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668715011099",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
+                    "last_updated": "2023-02-14T22:00:00.388048+00:00",
+                    "context": {
+                      "id": "01GS8Z25VHPHXAKCPQDMZTSBKA",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-15T22:00:00.113292+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-15T22:00:00.114561+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSBHEWVH9MXQ4DFJ8B0VBB16",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-15T22:00:00.170590+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-15T22:00:00.225201+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-15T22:00:00.325119+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668715011099",
+            "alias": "automation.light.kitchen.off.time",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "22:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSBHEWVH9MXQ4DFJ8B0VBB16",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "387b784d7c22004800e5f97f864e50ce",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-15T22:00:00.113803+00:00",
+            "finish": "2023-02-15T22:00:00.327812+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "91f64d485b26f5149fab8b9a3b95a9a5",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-16T22:00:00.114212+00:00",
+            "finish": "2023-02-16T22:00:00.373124+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-16T22:00:00.114299+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-15T22:00:00.114189+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668715011099",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
+                    "last_updated": "2023-02-15T22:00:00.327636+00:00",
+                    "context": {
+                      "id": "01GSBHEWVH9MXQ4DFJ8B0VBB16",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-16T22:00:00.113721+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-16T22:00:00.119326+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSE3VKVJ31DFBRKC8Z2PYK4M",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-16T22:00:00.208358+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-16T22:00:00.271502+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-16T22:00:00.369183+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668715011099",
+            "alias": "automation.light.kitchen.off.time",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "22:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSE3VKVJ31DFBRKC8Z2PYK4M",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "91f64d485b26f5149fab8b9a3b95a9a5",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-16T22:00:00.114212+00:00",
+            "finish": "2023-02-16T22:00:00.373124+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "4fcba2b8d42d751f9ff05368ac25ab51",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-17T22:00:00.114295+00:00",
+            "finish": "2023-02-17T22:00:00.324414+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-17T22:00:00.114432+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-16T22:00:00.115733+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668715011099",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
+                    "last_updated": "2023-02-16T22:00:00.372857+00:00",
+                    "context": {
+                      "id": "01GSE3VKVJ31DFBRKC8Z2PYK4M",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-17T22:00:00.113724+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-17T22:00:00.115016+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSGP8AVJG24V627R8RE240WT",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-17T22:00:00.167923+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-17T22:00:00.221842+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-17T22:00:00.320289+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668715011099",
+            "alias": "automation.light.kitchen.off.time",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "22:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSGP8AVJG24V627R8RE240WT",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "4fcba2b8d42d751f9ff05368ac25ab51",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-17T22:00:00.114295+00:00",
+            "finish": "2023-02-17T22:00:00.324414+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668715011099",
+          "trigger": "time"
+        }
+      }
+    ],
+    "automation.1669847058620": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "c9220bafd81abf19a5734c830653f121",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-13T23:00:00.371301+00:00",
+            "finish": "2023-02-13T23:00:00.375052+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-13T23:00:00.371391+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.hall_light_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-12T23:00:00.371739+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1669847058620",
+                      "friendly_name": "automation.light.hall.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
+                    "last_updated": "2023-02-12T23:00:00.376443+00:00",
+                    "context": {
+                      "id": "01GS3XPKQK0TXZTK49MMBNKDTZ",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-13T23:00:00.370799+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-13T23:00:00.372055+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GS6G3AQKB41VTXHDN1DFBE9F",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1669847058620",
+            "alias": "Hall light off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "23:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GS6G3AQKB41VTXHDN1DFBE9F",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "c9220bafd81abf19a5734c830653f121",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-13T23:00:00.371301+00:00",
+            "finish": "2023-02-13T23:00:00.375052+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "40a4b1d7bb057843a098d5b6168203c7",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-14T23:00:00.371385+00:00",
+            "finish": "2023-02-14T23:00:00.375649+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-14T23:00:00.371473+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.hall_light_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-13T23:00:00.371683+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1669847058620",
+                      "friendly_name": "automation.light.hall.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
+                    "last_updated": "2023-02-13T23:00:00.374886+00:00",
+                    "context": {
+                      "id": "01GS6G3AQKB41VTXHDN1DFBE9F",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-14T23:00:00.370789+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-14T23:00:00.372130+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GS92G1QK0XFKSDCQE56WJZTN",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1669847058620",
+            "alias": "Hall light off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "23:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GS92G1QK0XFKSDCQE56WJZTN",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "40a4b1d7bb057843a098d5b6168203c7",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-14T23:00:00.371385+00:00",
+            "finish": "2023-02-14T23:00:00.375649+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "074ad72ab6496eaf492ffaf4311d816b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-15T23:00:00.371010+00:00",
+            "finish": "2023-02-15T23:00:00.376413+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-15T23:00:00.371097+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.hall_light_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-14T23:00:00.371713+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1669847058620",
+                      "friendly_name": "automation.light.hall.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
+                    "last_updated": "2023-02-14T23:00:00.375362+00:00",
+                    "context": {
+                      "id": "01GS92G1QK0XFKSDCQE56WJZTN",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-15T23:00:00.370462+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-15T23:00:00.371703+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSBMWRQJB9TKCQ2Z19YP7TFF",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1669847058620",
+            "alias": "Hall light off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "23:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSBMWRQJB9TKCQ2Z19YP7TFF",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "074ad72ab6496eaf492ffaf4311d816b",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-15T23:00:00.371010+00:00",
+            "finish": "2023-02-15T23:00:00.376413+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "9d21561fb88a1e2616133655a17ccc4c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-16T23:00:00.370807+00:00",
+            "finish": "2023-02-16T23:00:00.375140+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-16T23:00:00.370900+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.hall_light_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-15T23:00:00.371335+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1669847058620",
+                      "friendly_name": "automation.light.hall.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
+                    "last_updated": "2023-02-15T23:00:00.376203+00:00",
+                    "context": {
+                      "id": "01GSBMWRQJB9TKCQ2Z19YP7TFF",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-16T23:00:00.370312+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-16T23:00:00.371505+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSE79FQJ8ZBEGVKBJBD7YFHY",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1669847058620",
+            "alias": "Hall light off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "23:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSE79FQJ8ZBEGVKBJBD7YFHY",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "9d21561fb88a1e2616133655a17ccc4c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-16T23:00:00.370807+00:00",
+            "finish": "2023-02-16T23:00:00.375140+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "a1b245b24887bae075d72b562070a47e",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-17T23:00:00.371243+00:00",
+            "finish": "2023-02-17T23:00:00.375476+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-17T23:00:00.371415+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.hall_light_off",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-16T23:00:00.371116+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1669847058620",
+                      "friendly_name": "automation.light.hall.off.time"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
+                    "last_updated": "2023-02-16T23:00:00.374950+00:00",
+                    "context": {
+                      "id": "01GSE79FQJ8ZBEGVKBJBD7YFHY",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "time",
+                    "now": "2023-02-17T23:00:00.370737+00:00",
+                    "description": "time",
+                    "entity_id": null
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-17T23:00:00.372015+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSGSP6QKRBGA8PDF02PCGG55",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1669847058620",
+            "alias": "Hall light off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "time",
+                "at": "23:00:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_off",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSGSP6QKRBGA8PDF02PCGG55",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "a1b245b24887bae075d72b562070a47e",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-17T23:00:00.371243+00:00",
+            "finish": "2023-02-17T23:00:00.375476+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1669847058620",
+          "trigger": "time"
+        }
+      }
+    ],
+    "automation.1668716092750": [
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "d32d93db29fd14e0c87ec11c82de129e",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-13T17:54:11.760199+00:00",
+            "finish": "2023-02-13T17:54:12.133924+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-13T17:54:11.760337+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-12T17:52:24.001930+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
+                    "last_updated": "2023-02-12T19:43:50.398351+00:00",
+                    "context": {
+                      "id": "01GS3JFDKYE68PVAW8SXZDCSCW",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-13T17:54:11.761929+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GS5YKC5GWB3TPA57KPS2X7NN",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-13T17:54:11.777530+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-13T17:54:11.790193+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-13T17:54:11.794078+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GS5YKC5GWB3TPA57KPS2X7NN",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "d32d93db29fd14e0c87ec11c82de129e",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-13T17:54:11.760199+00:00",
+            "finish": "2023-02-13T17:54:12.133924+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "9837d0851a8bb68327712b14ee1bb685",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-14T17:55:59.400201+00:00",
+            "finish": "2023-02-14T17:55:59.590918+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-14T17:55:59.400292+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-13T17:54:11.761569+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
+                    "last_updated": "2023-02-13T17:54:12.133771+00:00",
+                    "context": {
+                      "id": "01GS5YKC5GWB3TPA57KPS2X7NN",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-14T17:55:59.403348+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GS8H3C981CG126HT1M5WSAQ3",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-14T17:55:59.454434+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-14T17:55:59.510569+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-14T17:55:59.524056+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GS8H3C981CG126HT1M5WSAQ3",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "9837d0851a8bb68327712b14ee1bb685",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-14T17:55:59.400201+00:00",
+            "finish": "2023-02-14T17:55:59.590918+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "3cca8331681dda1226b2af951056e2d5",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-15T17:57:46.898370+00:00",
+            "finish": "2023-02-15T17:57:47.531334+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-15T17:57:46.898459+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-14T17:55:59.401835+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
+                    "last_updated": "2023-02-14T17:55:59.590651+00:00",
+                    "context": {
+                      "id": "01GS8H3C981CG126HT1M5WSAQ3",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-15T17:57:46.899109+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSB3KC8JHFFD0BQYQYPFJCJA",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-15T17:57:47.145095+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-15T17:57:47.472549+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-15T17:57:47.476765+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSB3KC8JHFFD0BQYQYPFJCJA",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "3cca8331681dda1226b2af951056e2d5",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-15T17:57:46.898370+00:00",
+            "finish": "2023-02-15T17:57:47.531334+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "2b38309cc11fde267bc62b82817df0c8",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-16T17:59:34.232357+00:00",
+            "finish": "2023-02-16T17:59:34.637863+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-16T17:59:34.232440+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-15T17:57:46.898714+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
+                    "last_updated": "2023-02-15T17:57:47.531180+00:00",
+                    "context": {
+                      "id": "01GSB3KC8JHFFD0BQYQYPFJCJA",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-16T17:59:34.233059+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSDP3C2RCGDRVKFSNRP68H1Q",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-16T17:59:34.334852+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-16T17:59:34.398216+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-16T17:59:34.400787+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSDP3C2RCGDRVKFSNRP68H1Q",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "2b38309cc11fde267bc62b82817df0c8",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-16T17:59:34.232357+00:00",
+            "finish": "2023-02-16T17:59:34.637863+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/3",
+          "run_id": "ef1b455cb27c264c8ff09a5ec6a0b723",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-17T18:01:21.383769+00:00",
+            "finish": "2023-02-17T18:01:21.421785+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-02-17T18:01:21.383853+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-02-16T17:59:34.232679+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
+                    "last_updated": "2023-02-16T17:59:34.637623+00:00",
+                    "context": {
+                      "id": "01GSDP3C2RCGDRVKFSNRP68H1Q",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-02-17T18:01:21.384436+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GSG8KBQ7EK0GVEQY18QM7EG3",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-02-17T18:01:21.397525+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-02-17T18:01:21.407125+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-02-17T18:01:21.409600+00:00"
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GSG8KBQ7EK0GVEQY18QM7EG3",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/3",
+          "run_id": "ef1b455cb27c264c8ff09a5ec6a0b723",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-02-17T18:01:21.383769+00:00",
+            "finish": "2023-02-17T18:01:21.421785+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      }
+    ]
+  }
 }

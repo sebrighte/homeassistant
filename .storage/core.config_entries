@@ -94,19 +94,6 @@
         "disabled_by": null
       },
       {
-        "entry_id": "b96d8b9d63711aa905523620d098cdc5",
-        "version": 1,
-        "domain": "radio_browser",
-        "title": "Radio Browser",
-        "data": {},
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "onboarding",
-        "unique_id": null,
-        "disabled_by": null
-      },
-      {
         "entry_id": "8ca96cb86cbf9c39664505dfb2db11d9",
         "version": 1,
         "domain": "group",
@@ -160,8 +147,8 @@
           "udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
-          "location": "http://192.168.1.254:49153/3732755/gatedesc0b.xml",
-          "mac_address": "b0:98:2b:41:58:0d",
+          "location": "http://192.168.1.254:49153/63763735/gatedesc0b.xml",
+          "mac_address": null,
           "host": "192.168.1.254"
         },
         "options": {},
@@ -177,15 +164,15 @@
         "domain": "samsungtv",
         "title": "[TV]Samsung LED48 (UE48H6400)",
         "data": {
-          "host": "192.168.1.97",
+          "host": "192.168.1.185",
           "mac": "90:f1:aa:f6:f0:1b",
           "manufacturer": "Samsung Electronics",
           "method": "encrypted",
           "model": "UE48H6400",
           "name": "[TV]Samsung LED48",
           "port": 8000,
-          "ssdp_rendering_control_location": "http://192.168.1.97:7676/smp_15_",
-          "ssdp_main_tv_agent_location": "http://192.168.1.97:7676/smp_2_",
+          "ssdp_rendering_control_location": "http://192.168.1.185:7676/smp_19_",
+          "ssdp_main_tv_agent_location": "http://192.168.1.185:7676/smp_2_",
           "token": "d87095d62a558723499ebd5bc304f5b6",
           "session_id": "1"
         },
@@ -202,9 +189,10 @@
         "domain": "dlna_dmr",
         "title": "[TV]Samsung LED48",
         "data": {
-          "url": "http://192.168.1.97:7676/smp_15_",
+          "url": "http://192.168.1.185:7676/smp_19_",
           "device_id": "uuid:18701a81-009a-1000-9f6d-bc148514ea8d",
-          "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1",
+          "mac": "90:f1:aa:f6:f0:1b"
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -221,7 +209,16 @@
         "data": {
           "token": "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"
         },
-        "options": {},
+        "options": {
+          "sidepanel_title": "HACS",
+          "sidepanel_icon": "hacs:hacs",
+          "release_limit": 5,
+          "country": "ALL",
+          "appdaemon": false,
+          "netdaemon": false,
+          "debug": false,
+          "experimental": false
+        },
         "pref_disable_new_entities": false,
         "pref_disable_polling": false,
         "source": "user",
@@ -235,16 +232,16 @@
         "title": "iPad-F35",
         "data": {
           "app_id": "io.robbie.HomeAssistant",
-          "app_version": "2022.10.1 (2022.424)",
+          "app_version": "2023.2 (2023.444)",
           "os_name": "iPadOS",
           "supports_encryption": true,
           "manufacturer": "Apple",
           "device_name": "iPad-F35",
           "app_data": {
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
-            "push_token": "dgo4TFp5AEBzkxSafLqMp0:APA91bEUCYVGnAKnqYVl2eFe6WLrtep_tF_f4OyRBuWxT3_agROss9K9Y9d3fEiJ6ePCUc-tO30nuZSdu-r8TzUoKeuHcvAXxXwLebeULsEsyX-TFxLLCurCklixKPwlJQeKs3ejTgr6"
+            "push_token": "dgo4TFp5AEBzkxSafLqMp0:APA91bEUCYVGnAKnqYVl2eFe6WLrtep_tF_f4OyRBuWxT3_agROss9K9Y9d3fEiJ6ePCUc-tO30nuZSdu-r8TzUoKeuHcvAXxXwLebeULsEsyX-TFxLLCurCklixKPwlJQeKs3ejTgr6",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
-          "os_version": "15.7",
+          "os_version": "16.3.1",
           "device_id": "EFFF7BD3-9EC3-4AB9-A628-0AD9900F7B3B",
           "model": "iPad7,5",
           "app_name": "Home Assistant",
@@ -261,50 +258,18 @@
         "disabled_by": null
       },
       {
-        "entry_id": "56d485b566365bdbf358a105dd3c2a34",
-        "version": 1,
-        "domain": "mobile_app",
-        "title": "...",
-        "data": {
-          "app_name": "Home Assistant",
-          "app_id": "io.robbie.HomeAssistant",
-          "device_name": "...",
-          "os_version": "16.0.2",
-          "device_id": "3977BB64-5402-4D3A-B3F8-3325BF689D95",
-          "supports_encryption": true,
-          "app_version": "2022.10.1 (2022.424)",
-          "os_name": "iOS",
-          "manufacturer": "Apple",
-          "model": "iPhone11,8",
-          "app_data": {
-            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification",
-            "push_token": "eWop8qmDZ0j1swE5RlkeAn:APA91bG4v_W6zxUoC2UYOQ-cUaDjAH_zscODZATzW2PTyXmMkrI9gu1CBtI53B9v7OXvVPZFbUzEDHzShF-vjcUM3v-R6j_r9sAqzCVRRoHScM77vUcIPRn6Ebvs4z31GBU-qB7ErMk6"
-          },
-          "webhook_id": "1751b4a863a32bba57a55c9994ed5830e1e80eb3fc44290ed1e794c3699c856f",
-          "secret": "1afdc9bf175bc5730b064980d1e04c96a3b78d231852077595a22029ca29e06d",
-          "user_id": "8ac495c44f8b47d29a7d7233ec4220fa",
-          "no_legacy_encryption": true
-        },
-        "options": {},
-        "pref_disable_new_entities": false,
-        "pref_disable_polling": false,
-        "source": "registration",
-        "unique_id": "io.robbie.HomeAssistant-3977BB64-5402-4D3A-B3F8-3325BF689D95",
-        "disabled_by": null
-      },
-      {
         "entry_id": "f63c5d54088d7349fbf7c98418f49cb8",
         "version": 1,
         "domain": "mobile_app",
         "title": "???",
         "data": {
           "supports_encryption": true,
-          "app_version": "2022.10.1 (2022.424)",
+          "app_version": "2023.2 (2023.444)",
           "app_id": "io.robbie.HomeAssistant",
           "os_name": "iOS",
           "device_name": "???",
           "model": "iPhone13,1",
-          "os_version": "16.0.2",
+          "os_version": "16.3.1",
           "app_name": "Home Assistant",
           "manufacturer": "Apple",
           "device_id": "125F0273-1646-484F-883C-12CED8A9503B",
@@ -322,6 +287,214 @@
         "pref_disable_polling": false,
         "source": "registration",
         "unique_id": "io.robbie.HomeAssistant-125F0273-1646-484F-883C-12CED8A9503B",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9345277b09527d86ff791526533da48c",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "...",
+        "data": {
+          "os_version": "16.3.1",
+          "app_version": "2023.2 (2023.444)",
+          "device_id": "3977BB64-5402-4D3A-B3F8-3325BF689D95",
+          "model": "iPhone11,8",
+          "manufacturer": "Apple",
+          "supports_encryption": true,
+          "os_name": "iOS",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_data": {
+            "push_token": "eWop8qmDZ0j1swE5RlkeAn:APA91bG4v_W6zxUoC2UYOQ-cUaDjAH_zscODZATzW2PTyXmMkrI9gu1CBtI53B9v7OXvVPZFbUzEDHzShF-vjcUM3v-R6j_r9sAqzCVRRoHScM77vUcIPRn6Ebvs4z31GBU-qB7ErMk6",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "app_name": "Home Assistant",
+          "device_name": "...",
+          "webhook_id": "10f8a1be89830fed2b18d47d6cab03b820c2cf85ab3d60c5fc8a234c64d13b9e",
+          "secret": "e8cd989102b93c1df73a80472b6d6153cb7b09d7c03f2e8ade61864ecdaca027",
+          "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-3977BB64-5402-4D3A-B3F8-3325BF689D95",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9138c636ccb37e28818021e248b1cac0",
+        "version": 2,
+        "domain": "samsungtv",
+        "title": "Living room (UE40H6400)",
+        "data": {
+          "host": "192.168.1.66",
+          "mac": "90:f1:aa:d9:4b:8e",
+          "manufacturer": "Samsung Electronics",
+          "method": "encrypted",
+          "model": "UE40H6400",
+          "name": "Living room",
+          "port": 8000,
+          "ssdp_rendering_control_location": "http://192.168.1.66:7676/smp_11_",
+          "ssdp_main_tv_agent_location": "http://192.168.1.66:7676/smp_2_",
+          "token": "1df93dd1c60da6c970e14d6edd02570b",
+          "session_id": "1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "07270e01-0078-1000-8cd0-90f1aaca6679",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "958c3fc865dd5f49d85c1f3dbc7831f2",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "[TV] Living room",
+        "data": {
+          "url": "http://192.168.1.66:7676/smp_11_",
+          "device_id": "uuid:173eed82-0086-1000-8631-90f1aaca6679",
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:173eed82-0086-1000-8631-90f1aaca6679",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "8cd03affa309a6358e1b81f5fa7eb8c7",
+        "version": 1,
+        "domain": "dwains_dashboard",
+        "title": "Dashboard",
+        "data": {},
+        "options": {
+          "sidepanel_title": "Dashboard",
+          "sidepanel_icon": "mdi:alpha-d-box"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "efe065432ee9b6c095aad16e730d0332",
+        "version": 1,
+        "domain": "wiz",
+        "title": "WiZ Dimmable White 1E7F3E",
+        "data": {
+          "host": "192.168.1.177"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "6c29901e7f3e",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "18e7fe6516f4f418a9a90d95a76a12d0",
+        "version": 1,
+        "domain": "wiz",
+        "title": "WiZ Socket A0F99C",
+        "data": {
+          "host": "192.168.1.183"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "integration_discovery",
+        "unique_id": "6c2990a0f99c",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "326ee91a741e393d2fe077eefa0fc250",
+        "version": 1,
+        "domain": "dlna_dmr",
+        "title": "Kitchen TV",
+        "data": {
+          "url": "http://192.168.1.187:52323/MediaRenderer.xml",
+          "device_id": "uuid:23456789-1234-1010-8000-88C9E8772A1F",
+          "type": "urn:schemas-upnp-org:device:MediaRenderer:1",
+          "mac": "30:03:c8:52:c0:8d"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "uuid:23456789-1234-1010-8000-88C9E8772A1F",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "25e3d78b1caeb16122790b8542ad9d0b",
+        "version": 1,
+        "domain": "braviatv",
+        "title": "XR-65A90J",
+        "data": {
+          "host": "192.168.1.187",
+          "pin": "1600",
+          "use_psk": false,
+          "client_id": "7f2a07ff9d88472f8c6a328a637814a6",
+          "nickname": "Home Assistant 7f2a07",
+          "mac": "30:03:C8:52:C0:8D"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ssdp",
+        "unique_id": "73cc0e90db01438f9fd4e9bfe736de1f",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5caccfec2c143661ba1904e4eb8d833b",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "Kitchen TV (Television)",
+        "data": {
+          "AccessoryIP": "192.168.1.187",
+          "AccessoryPort": 34217
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "b8:e5:62:02:a7:07",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "452562fef331c386d1b63ae764f60634",
+        "version": 1,
+        "domain": "ipp",
+        "title": "Samsung C48x Series (SEC30CDA7AC8DD0)",
+        "data": {
+          "host": "192.168.1.59",
+          "port": 631,
+          "ssl": false,
+          "verify_ssl": false,
+          "base_path": "/ipp/print",
+          "name": "Samsung C48x Series (SEC30CDA7AC8DD0)",
+          "uuid": "16a65700-007c-1000-bb49-30cda7ac8dd0"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "16a65700-007c-1000-bb49-30cda7ac8dd0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "05604e816ec40498451c35883f267c46",
+        "version": 1,
+        "domain": "syncthru",
+        "title": "Samsung C48x Series",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "ignore",
+        "unique_id": "uuid:16a65700-007c-1000-bb49-30cda7ac8dd0",
         "disabled_by": null
       }
     ]

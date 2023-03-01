@@ -1,133 +1,136 @@
-2022-11-17 21:32:08.367 WARNING (SyncWorker_0) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2022-11-17 21:32:20.604 WARNING (MainThread) [homeassistant.setup] Setup of bluetooth is taking over 10 seconds.
-2022-11-17 22:14:26.666 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139650270685664] Error recieved: {'code': -32603, 'message': 'Internal error'}
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 200, in handle_call_service
-    await hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
-    task.result()
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
-    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
-    await service.entity_service_call(
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
-    future.result()  # pop exception if have
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/group/light.py", line 179, in async_turn_on
-    await self.hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
-    task.result()
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
-    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
-    await service.entity_service_call(
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
-    future.result()  # pop exception if have
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
-    await self._device.turn_on(_async_pilot_builder(**kwargs))
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
-    await self.send(pilot_builder.set_pilot_message())
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
-    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
-pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
-2022-11-17 22:14:28.008 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
-    await self._device.turn_on(_async_pilot_builder(**kwargs))
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
-    await self.send(pilot_builder.set_pilot_message())
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
-    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
-pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
-2022-11-17 22:15:15.042 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139650270685664] Error recieved: {'code': -32603, 'message': 'Internal error'}
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 200, in handle_call_service
-    await hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
-    task.result()
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
-    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
-    await service.entity_service_call(
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
-    future.result()  # pop exception if have
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/group/light.py", line 179, in async_turn_on
-    await self.hass.services.async_call(
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1744, in async_call
-    task.result()
-  File "/usr/src/homeassistant/homeassistant/core.py", line 1781, in _execute_service
-    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
-  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 208, in handle_service
-    await service.entity_service_call(
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
-    future.result()  # pop exception if have
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
-    await self._device.turn_on(_async_pilot_builder(**kwargs))
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
-    await self.send(pilot_builder.set_pilot_message())
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
-    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
-pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
-2022-11-17 22:15:16.493 ERROR (Recorder) [homeassistant] Error doing job: Task exception was never retrieved
-Traceback (most recent call last):
-  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 943, in async_request_call
-    await coro
-  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
-    await result
-  File "/usr/src/homeassistant/homeassistant/components/light/__init__.py", line 570, in async_handle_light_on_service
-    await light.async_turn_on(**filter_turn_on_params(light, params))
-  File "/usr/src/homeassistant/homeassistant/components/wiz/light.py", line 125, in async_turn_on
-    await self._device.turn_on(_async_pilot_builder(**kwargs))
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 657, in turn_on
-    await self.send(pilot_builder.set_pilot_message())
-  File "/usr/local/lib/python3.10/site-packages/pywizlight/bulb.py", line 781, in send
-    raise WizLightConnectionError(f'Error recieved: {resp["error"]}')
-pywizlight.exceptions.WizLightConnectionError: Error recieved: {'code': -32603, 'message': 'Internal error'}
-2022-11-17 23:23:40.773 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
-2022-11-17 23:29:14.489 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 2a00:23c7:1e0b:9501:1ce8:d602:fb2e:49c (2a00:23c7:1e0b:9501:1ce8:d602:fb2e:49c). Requested URL: '/auth/login_flow/e57b7ce29afae1a5289820a907ef0944'. (Mozilla/5.0 (iPad; CPU OS 15_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1)
-2022-11-17 23:34:43.476 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
-2022-11-17 23:34:58.504 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
-2022-11-17 23:34:58.546 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
-2022-11-17 23:50:12.088 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Heartbeat timeout, resetting connection
-2022-11-17 23:50:30.541 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.96', 8009)), retrying in 5.0s
-2022-11-17 23:51:11.642 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
-2022-11-17 23:51:11.646 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
-2022-11-18 00:02:35.707 ERROR (MainThread) [frontend.js.latest.202211080] :1233:28 InvalidStateError: The object is in an invalid state.
-2022-11-18 07:38:52.320 ERROR (MainThread) [frontend.js.latest.202211080] :0:0 Script error.
-2022-11-18 08:52:38.523 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Heartbeat timeout, resetting connection
-2022-11-18 08:53:08.556 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.96', 8009)), retrying in 5.0s
-2022-11-18 08:53:26.083 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
-2022-11-18 08:53:26.085 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
-2022-11-18 11:16:26.211 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Heartbeat timeout, resetting connection
-2022-11-18 11:16:56.241 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen Cast(192.168.1.96):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.96', 8009)), retrying in 5.0s
-2022-11-18 11:17:17.118 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
-2022-11-18 11:17:17.119 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2023-02-18 09:56:52.966 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-02-18 09:56:52.980 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-02-18 09:57:08.785 WARNING (MainThread) [homeassistant.setup] Setup of hassio is taking over 10 seconds.
+2023-02-18 09:57:11.901 WARNING (MainThread) [homeassistant.setup] Setup of bluetooth is taking over 10 seconds.
+2023-02-18 09:57:30.558 WARNING (MainThread) [homeassistant.components.systemmonitor.sensor] Cannot read CPU / processor temperature information
+2023-02-18 09:57:33.625 WARNING (MainThread) [homeassistant.helpers.frame] Detected integration that called async_setup_platforms instead of awaiting async_forward_entry_setups; this will fail in version 2023.3. Please report issue to the custom integration author for hacs using this method at custom_components/hacs/__init__.py, line 171: hass.config_entries.async_setup_platforms(
+2023-02-18 09:57:44.862 WARNING (MainThread) [homeassistant.config_entries] Config entry 'WiZ Dimmable White 1E7F3E' for wiz integration not ready yet: 192.168.1.177: The request to the bulb timed out; Retrying in background
+2023-02-18 18:03:08.732 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-18 22:00:00.369 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-18 22:35:48.439 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-18 22:35:56.487 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-18 22:35:58.957 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-18 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-19 18:04:55.634 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-19 20:24:54.259 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-19 22:00:00.150 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-19 23:00:00.073 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-20 06:57:38.177 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
+2023-02-20 06:57:38.207 ERROR (MainThread) [homeassistant.components.met] Error fetching met data: Update failed: 
+2023-02-20 18:06:41.909 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-20 22:00:00.308 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-20 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-21 18:08:27.984 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-21 22:00:00.265 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-21 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-22 18:10:14.157 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-22 18:51:39.172 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139947264041376] Error handling message: Unauthorized (unauthorized) from 109.156.0.38 (Mozilla/5.0 (iPhone; CPU iPhone OS 16_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.2 (io.robbie.HomeAssistant; build:2023.444; iOS 16.3.1) Mobile/HomeAssistant, like Safari)
+2023-02-22 20:45:46.224 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Samsung C48x Series (SEC30CDA7AC8DD0)' for ipp integration not ready yet: Invalid response from API: Timeout occurred while connecting to IPP server.; Retrying in background
+2023-02-22 22:00:00.271 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-22 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-23 02:04:37.043 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='mdns', data='Chromecast-71a45ef54de1db5ef21257fe6abaf547._googlecast._tcp.local.'), retrying in 5.0s
+2023-02-23 02:15:22.675 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Heartbeat timeout, resetting connection
+2023-02-23 02:15:52.708 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-02-23 18:12:00.143 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-23 22:00:00.360 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-23 22:26:38.204 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Heartbeat timeout, resetting connection
+2023-02-23 22:27:08.236 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-02-23 23:00:00.073 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-24 02:02:45.185 WARNING (Thread-4) [pychromecast.socket_client] [Kitchen TV(192.168.1.187):8009] Heartbeat timeout, resetting connection
+2023-02-24 02:03:15.218 ERROR (Thread-4) [pychromecast.socket_client] [Kitchen TV(192.168.1.187):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.187', 8009)), retrying in 5.0s
+2023-02-24 02:03:38.239 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Socket A0F99C data: Failed to update device at 192.168.1.183: The request to the bulb timed out
+2023-02-24 02:03:38.241 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1F9CC2 data: Failed to update device at 192.168.1.181: The request to the bulb timed out
+2023-02-24 02:03:38.242 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1E9A19 data: Failed to update device at 192.168.1.117: The request to the bulb timed out
+2023-02-24 02:05:58.249 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Socket A0F99C data: Failed to update device at 192.168.1.183: The request to the bulb timed out
+2023-02-24 02:06:18.252 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1F9CC2 data: Failed to update device at 192.168.1.181: The request to the bulb timed out
+2023-02-24 02:06:18.253 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1E9A19 data: Failed to update device at 192.168.1.117: The request to the bulb timed out
+2023-02-24 17:58:59.747 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Heartbeat timeout, resetting connection
+2023-02-24 17:59:29.765 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-02-24 18:13:45.432 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-24 20:39:18.477 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-24 22:00:00.153 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-24 22:56:27.687 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2023-02-24 22:56:27.688 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2023-02-24 22:56:27.727 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Heartbeat timeout, resetting connection
+2023-02-24 22:56:47.690 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2023-02-24 22:56:47.704 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2023-02-24 22:56:57.761 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-02-24 22:57:07.693 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2023-02-24 22:57:07.694 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2023-02-24 23:00:00.076 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-24 23:07:10.455 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Error fetching ipp data: Invalid response from API: Timeout occurred while connecting to IPP server.
+2023-02-25 18:15:30.666 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-25 22:00:00.353 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-25 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-26 18:17:15.711 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-26 19:43:55.298 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-26 22:00:00.336 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-26 22:08:33.446 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Heartbeat timeout, resetting connection
+2023-02-26 22:09:03.478 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-02-26 23:00:00.073 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-27 18:19:00.427 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-27 22:00:00.352 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-27 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-28 13:00:32.490 ERROR (Thread-5) [pychromecast.socket_client] Chromecast is disconnected. Cannot ping until reconnected.
+2023-02-28 13:00:32.493 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Error communicating with socket, resetting connection
+2023-02-28 13:00:35.558 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-02-28 17:24:43.456 ERROR (MainThread) [homeassistant.components.ipp.coordinator] Error fetching ipp data: Invalid response from API: Timeout occurred while connecting to IPP server.
+2023-02-28 18:20:44.351 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-28 22:00:00.318 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-02-28 23:00:00.074 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-03-01 16:39:20.598 ERROR (MainThread) [frontend.js.latest.202302020] :0:0 Script error.
+2023-03-01 16:40:08.390 WARNING (MainThread) [homeassistant.components.media_player] Setup of media_player platform dlna_dmr is taking over 10 seconds.
+2023-03-01 16:40:44.999 ERROR (MainThread) [frontend.js.latest.202302020] :0:0 Script error.
+2023-03-01 16:48:29.824 ERROR (MainThread) [frontend.js.latest.202302020] :0:0 Script error.
+2023-03-01 16:49:54.554 ERROR (MainThread) [frontend.js.latest.202302020] :0:0 Script error.
+2023-03-01 17:07:30.839 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:07:34.747 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:07:47.176 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:07:57.339 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:08:25.457 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:08:38.304 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:08:38.949 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:08:50.104 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 17:08:51.551 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /store/repositories - expected a URL for dictionary value @ data['repository']. Got ' https://github.com/CoolKit-Technologies/ha-addon'
+2023-03-01 18:22:28.679 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities light.wiz_dimmable_white_1e7f3e or it is/they are currently not available
+2023-03-01 19:37:39.771 ERROR (MainThread) [frontend.js.latest.202302020] :0:0 Script error.
+2023-03-01 19:38:04.447 ERROR (MainThread) [frontend.js.latest.202302020] :0:0 Script error.
+2023-03-01 19:45:40.463 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:45:41.490 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:45:42.157 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:45:42.687 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:45:43.355 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:45:45.161 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:46:23.830 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:46:25.655 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:46:31.524 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:46:36.034 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:51:03.250 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139947496851248] Error handling message: Integration '' not found (unknown_error) from 2a00:23c7:1e0b:9501:65af:4df4:c464:9449 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.2 (io.robbie.HomeAssistant; build:2023.444; iPadOS 16.3.1) Mobile/HomeAssistant, like Safari)
+2023-03-01 19:55:01.559 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:55:13.876 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:55:46.520 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139947496851248] Error handling message: Integration '' not found (unknown_error) from 2a00:23c7:1e0b:9501:65af:4df4:c464:9449 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.2 (io.robbie.HomeAssistant; build:2023.444; iPadOS 16.3.1) Mobile/HomeAssistant, like Safari)
+2023-03-01 19:56:38.770 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:56:50.730 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:58:31.316 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:58:44.577 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 19:59:05.281 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:01:29.432 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:01:32.993 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:01:36.789 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:01:48.806 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:01:55.399 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:02:04.290 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:02:38.309 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:02:44.835 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:03:00.032 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:03:07.810 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:03:29.620 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:03:51.916 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:03:54.833 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:06:48.454 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [139947327182000] Error handling message: Integration '' not found (unknown_error) from 2a00:23c7:1e0b:9501:65af:4df4:c464:9449 (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.2 (io.robbie.HomeAssistant; build:2023.444; iPadOS 16.3.1) Mobile/HomeAssistant, like Safari)
+2023-03-01 20:07:10.396 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:07:14.019 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:08:55.581 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:08:57.918 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:13:35.328 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-03-01 20:13:45.544 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available

@@ -1,0 +1,26 @@
+number.wiz_dimmable_white_1e9a19_effect_speed:
+  excluded: true
+  sort_order: 4
+  hidden: true
+light.wiz_dimmable_white_1e9a19:
+  sort_order: 1
+light.wiz_dimmable_white_1f9cc2:
+  sort_order: 2
+media_player.tv_samsung_led48:
+  sort_order: 3
+number.wiz_dimmable_white_1f9cc2_effect_speed:
+  sort_order: 5
+  hidden: true
+  excluded: false
+  disabled: false
+  friendly_name: ''
+  col_span: '1'
+  row_span: '1'
+  col_span_lg: '1'
+  row_span_lg: '1'
+  col_span_xl: '1'
+  row_span_xl: '1'
+  custom_card: false
+  custom_popup: true
+scene.evening:
+  sort_order: 6

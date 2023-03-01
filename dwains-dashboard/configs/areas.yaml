@@ -1,0 +1,6 @@
+living_room:
+  sort_order: 2
+bedroom:
+  sort_order: 3
+kitchen:
+  sort_order: 1

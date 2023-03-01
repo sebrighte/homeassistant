@@ -5,9 +5,9 @@
   "data": {
     "language": {
       "language": "en-GB",
-      "number_format": "language",
-      "time_format": "language",
-      "first_weekday": "language"
+      "number_format": "system",
+      "time_format": "24",
+      "first_weekday": "monday"
     },
     "core": {
       "showAdvanced": true

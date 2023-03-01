@@ -1,0 +1,118 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.lovelace_test",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "light.kitchen_lights"
+                },
+                {
+                  "entity": "scene.evening"
+                },
+                {
+                  "entity": "weather.forecast_home"
+                },
+                {
+                  "entity": "automation.block_sony_tv"
+                },
+                {
+                  "entity": "remote.sony_xr_65a90j"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "title": "System Monitor",
+              "entities": [
+                {
+                  "type": "custom:hui-gauge-card",
+                  "theme": "default",
+                  "entity": "sensor.memory_use_percent",
+                  "severity": {
+                    "red": 90,
+                    "yellow": 50,
+                    "green": 0
+                  }
+                },
+                {
+                  "type": "custom:hui-gauge-card",
+                  "theme": "default",
+                  "entity": "sensor.load_15m"
+                },
+                {
+                  "type": "custom:hui-gauge-card",
+                  "theme": "default",
+                  "entity": "sensor.disk_use_percent_config",
+                  "severity": {
+                    "red": 90,
+                    "yellow": 50,
+                    "green": 0
+                  }
+                }
+              ]
+            },
+            {
+              "type": "gauge",
+              "entity": "sensor.disk_use",
+              "needle": false
+            },
+            {
+              "type": "map",
+              "entities": [
+                {
+                  "entity": "person.gwawr"
+                },
+                {
+                  "entity": "person.admin"
+                }
+              ]
+            },
+            {
+              "type": "custom:mushroom-light-card",
+              "entity": "light.kitchen_lights",
+              "show_brightness_control": true,
+              "collapsible_controls": false,
+              "use_light_color": false,
+              "show_color_control": false,
+              "show_color_temp_control": false,
+              "name": "Kitchen Lights",
+              "fill_container": false
+            },
+            {
+              "type": "custom:mushroom-light-card",
+              "entity": "light.wiz_dimmable_white_1e7f3e",
+              "show_brightness_control": true,
+              "collapsible_controls": false,
+              "use_light_color": false,
+              "show_color_control": false,
+              "show_color_temp_control": false
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_home"
+            },
+            {
+              "type": "custom:layout-card",
+              "layout_type": "masonry",
+              "layout": {},
+              "cards": []
+            },
+            {
+              "type": "light",
+              "entity": "light.wiz_dimmable_white_1e7f3e",
+              "name": "Set Hall Lights (Brightness - On/Off)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

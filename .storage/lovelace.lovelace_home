@@ -4,19 +4,67 @@
   "key": "lovelace.lovelace_home",
   "data": {
     "config": {
+      "kiosk_mode": {
+        "non_admin_settings": {
+          "kiosk": true,
+          "ignore_entity_settings": true
+        }
+      },
       "title": "Home",
       "views": [
         {
+          "theme": "Backend-selected",
           "path": "default_view",
           "title": "Home",
+          "type": "custom:vertical-layout",
+          "badges": [],
           "cards": [
+            {
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "scene.all_off",
+              "show_state": false,
+              "icon": "mdi:alarm-light-off-outline",
+              "icon_height": "50px",
+              "name": "All Lights Off"
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "scene.evening",
+              "show_state": true,
+              "name": "Set Downstairs Lights (Evening Mode)",
+              "icon_height": "100px"
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "switch.wiz_socket_a0f99c",
+              "icon": "mdi:floor-lamp",
+              "name": "Hall Light",
+              "show_state": false,
+              "icon_height": "50px"
+            },
             {
               "type": "light",
               "entity": "light.kitchen_lights"
             },
             {
-              "type": "picture-entity",
-              "entity": "camera.synologynas_drivecamera"
+              "type": "light",
+              "entity": "light.wiz_dimmable_white_1e7f3e",
+              "name": "Snug Light"
             }
           ]
         }

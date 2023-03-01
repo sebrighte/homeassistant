@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_other",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Home",
+          "cards": [
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "automation.block_sony_tv",
+                  "icon": "mdi:key-chain-variant",
+                  "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "media_player.sony_xr_65a90j",
+                  "icon": "mdi:television-classic"
+                },
+                {
+                  "entity": "switch.100168336c_1"
+                }
+              ],
+              "show_header_toggle": false,
+              "state_color": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

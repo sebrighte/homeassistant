@@ -10,23 +10,44 @@
         "attributes": {
           "editable": true,
           "id": "admin",
-          "latitude": 50.98681640625,
-          "longitude": -3.1223169786288536,
-          "gps_accuracy": 35,
-          "source": "device_tracker.unknown",
+          "latitude": 50.98683277127227,
+          "longitude": -3.1222178607975293,
+          "gps_accuracy": 58,
+          "source": "device_tracker.ipad_f35",
           "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+          "entity_picture": "/api/image/serve/de2baee7d5347643b918433ea73536da/512x512",
           "friendly_name": "admin"
         },
-        "last_changed": "2022-11-17T21:32:09.496827+00:00",
-        "last_updated": "2022-11-17T23:36:07.561965+00:00",
+        "last_changed": "2023-02-18T09:56:55.392453+00:00",
+        "last_updated": "2023-03-01T19:43:10.330327+00:00",
         "context": {
-          "id": "01GJ3Z674947QH4SPHZFKST5DE",
+          "id": "01GTFB6DFT97BB3X7CRGGX5TCW",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.gwawr",
+        "state": "unknown",
+        "attributes": {
+          "editable": true,
+          "id": "gwawr",
+          "friendly_name": "Gwawr"
+        },
+        "last_changed": "2023-02-18T09:56:55.392681+00:00",
+        "last_updated": "2023-02-18T09:57:54.340948+00:00",
+        "context": {
+          "id": "01GSHZAVH4R92VVGDK4518ZMC6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -34,27 +55,27 @@
         "state": "off",
         "attributes": {
           "auto_update": true,
-          "installed_version": "2022.11.dev1507",
+          "installed_version": "2023.01.1",
           "in_progress": false,
-          "latest_version": "2022.10.2",
+          "latest_version": "2023.01.1",
           "release_summary": null,
-          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.10.2",
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2023.01.1",
           "skipped_version": null,
           "title": "Home Assistant Supervisor",
           "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
           "friendly_name": "Home Assistant Supervisor Update",
           "supported_features": 1
         },
-        "last_changed": "2022-11-17T21:32:16.259053+00:00",
-        "last_updated": "2022-11-17T21:32:16.259053+00:00",
+        "last_changed": "2023-03-01T17:35:37.106829+00:00",
+        "last_updated": "2023-03-01T17:35:37.106829+00:00",
         "context": {
-          "id": "01GJ3R3E03PG5JQHTKRQP5CB51",
+          "id": "01GTF3WVMJZD6KDZA1F8T0XTEC",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -62,9 +83,9 @@
         "state": "off",
         "attributes": {
           "auto_update": false,
-          "installed_version": "2022.11.3",
+          "installed_version": "2023.2.5",
           "in_progress": false,
-          "latest_version": "2022.11.3",
+          "latest_version": "2023.2.5",
           "release_summary": null,
           "release_url": "https://www.home-assistant.io/latest-release-notes/",
           "skipped_version": null,
@@ -73,16 +94,16 @@
           "friendly_name": "Home Assistant Core Update",
           "supported_features": 11
         },
-        "last_changed": "2022-11-17T21:32:16.259483+00:00",
-        "last_updated": "2022-11-17T21:32:16.259483+00:00",
+        "last_changed": "2023-03-01T17:35:37.107296+00:00",
+        "last_updated": "2023-03-01T17:35:37.107296+00:00",
         "context": {
-          "id": "01GJ3R3E03Y66WR2W25S8AB6DT",
+          "id": "01GTF3WVMKCY14WW68B4JM1QKM",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -90,10 +111,10 @@
         "state": "off",
         "attributes": {
           "auto_update": true,
-          "installed_version": "5.4.1",
+          "installed_version": "5.5.2",
           "in_progress": false,
-          "latest_version": "5.4.1",
-          "release_summary": "## What’s changed\n\nℹ️  The default configuration changed. If you have custom settings, the new improvement to the configuration won't be applied. You may consider [resetting your VSCode settings to the add-on defaults](https://github.com/hassio-addons/add",
+          "latest_version": "5.5.2",
+          "release_summary": "## What’s changed\n\nPrepares for Home Assistant Core 2023.2, by providing compatibility with custom sentences/intents from the conversation integration.\n\n## 🧰 Maintenance\n\n- 🎆 Updates maintenance/license year to 2023 @frenck ([#566](https://github.com/hass",
           "release_url": null,
           "skipped_version": null,
           "title": "Studio Code Server",
@@ -101,16 +122,16 @@
           "friendly_name": "Studio Code Server Update",
           "supported_features": 25
         },
-        "last_changed": "2022-11-17T21:32:16.259676+00:00",
-        "last_updated": "2022-11-17T22:57:50.065787+00:00",
+        "last_changed": "2023-03-01T17:35:37.107516+00:00",
+        "last_updated": "2023-03-01T17:35:37.107516+00:00",
         "context": {
-          "id": "01GJ3X03FH67D3V2746JGA2BX6",
+          "id": "01GTF3WVMKZSY5K50DH713DKAF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -129,251 +150,281 @@
           "friendly_name": "Terminal & SSH Update",
           "supported_features": 25
         },
-        "last_changed": "2022-11-17T21:32:16.259841+00:00",
-        "last_updated": "2022-11-17T22:57:50.066132+00:00",
+        "last_changed": "2023-03-01T17:35:37.107688+00:00",
+        "last_updated": "2023-03-01T17:35:37.107688+00:00",
         "context": {
-          "id": "01GJ3X03FJGX1WRFNS5TSTD4HE",
+          "id": "01GTF3WVMKVPEDM5P6PSH7AMTQ",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.samba_backup_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "5.2.0",
+          "in_progress": false,
+          "latest_version": "5.2.0",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Samba Backup",
+          "entity_picture": "/api/hassio/addons/15d21743_samba_backup/icon",
+          "friendly_name": "Samba Backup Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-03-01T17:35:37.107846+00:00",
+        "last_updated": "2023-03-01T17:35:37.107846+00:00",
+        "context": {
+          "id": "01GTF3WVMKV2AXWFDKWT1KVYYC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.evening",
+        "state": "2023-02-26T19:05:32.763455+00:00",
+        "attributes": {
+          "entity_id": [
+            "light.wiz_dimmable_white_1e9a19",
+            "light.wiz_dimmable_white_1f9cc2",
+            "switch.wiz_socket_a0f99c"
+          ],
+          "id": "1668815113409",
+          "icon": "mdi:lightbulb-group-outline",
+          "friendly_name": "scene.downstairs.evening"
+        },
+        "last_changed": "2023-03-01T20:03:49.814867+00:00",
+        "last_updated": "2023-03-01T20:03:49.814867+00:00",
+        "context": {
+          "id": "01GTFCC7XPV3RW84G686G32PMJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.all_off",
+        "state": "2023-02-26T19:43:55.293337+00:00",
+        "attributes": {
+          "entity_id": [
+            "switch.wiz_socket_a0f99c",
+            "light.wiz_dimmable_white_1f9cc2",
+            "light.wiz_dimmable_white_1e9a19",
+            "light.wiz_dimmable_white_1e7f3e"
+          ],
+          "id": "1671396438245",
+          "friendly_name": "All Off"
+        },
+        "last_changed": "2023-03-01T20:03:49.815156+00:00",
+        "last_updated": "2023-03-01T20:03:49.815156+00:00",
+        "context": {
+          "id": "01GTFCC7XQ45KQP53QAK92NW2B",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "automation.lights_off",
         "state": "on",
         "attributes": {
-          "last_triggered": "2022-11-17T22:00:00.001611+00:00",
+          "last_triggered": "2023-02-28T22:00:00.110635+00:00",
           "mode": "single",
           "current": 0,
           "id": "1668715011099",
-          "friendly_name": "Lights Off"
+          "icon": "mdi:lightbulb-group-outline",
+          "friendly_name": "automation.light.kitchen.off.time"
         },
-        "last_changed": "2022-11-17T21:32:27.256442+00:00",
-        "last_updated": "2022-11-17T22:00:00.114978+00:00",
+        "last_changed": "2023-02-18T09:57:33.010864+00:00",
+        "last_updated": "2023-02-28T22:00:00.320148+00:00",
         "context": {
-          "id": "01GJ3SP6R18EZ9SGGKXVYV8BNC",
+          "id": "01GTD0M7VEHD17CVE7H8EEC1NB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "automation.lights_on_sunset",
         "state": "on",
         "attributes": {
-          "last_triggered": "2022-11-17T20:17:03.020428+00:00",
+          "last_triggered": "2023-03-01T18:22:28.256928+00:00",
           "mode": "single",
           "current": 0,
           "id": "1668716092750",
-          "friendly_name": "Lights on sunset"
+          "icon": "mdi:lightbulb-group-outline",
+          "friendly_name": "automation.light.kitchen.sunset.on"
         },
-        "last_changed": "2022-11-17T21:32:27.256868+00:00",
-        "last_updated": "2022-11-17T21:32:27.256868+00:00",
+        "last_changed": "2023-02-18T09:57:33.011467+00:00",
+        "last_updated": "2023-03-01T18:22:28.986990+00:00",
         "context": {
-          "id": "01GJ3R3RQREA49H5R6H4C3PEAQ",
+          "id": "01GTF6JMX0DQ8P2BYC9B5G8M53",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
-        "entity_id": "device_tracker.ipad_f35",
-        "state": "not_home",
-        "attributes": {
-          "source_type": "gps",
-          "battery_level": 66,
-          "latitude": 50.98681640625,
-          "longitude": -3.122307855389828,
-          "gps_accuracy": 35,
-          "altitude": 59.955291748046875,
-          "vertical_accuracy": 12.503868103027344,
-          "friendly_name": "iPad-F35"
-        },
-        "last_changed": "2022-11-17T23:29:25.092724+00:00",
-        "last_updated": "2022-11-17T23:29:25.092724+00:00",
-        "context": {
-          "id": "01GJ3YSY3439SVR6C7KMTMBGFB",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "device_tracker.unknown",
-        "state": "not_home",
-        "attributes": {
-          "source_type": "gps",
-          "battery_level": 93,
-          "latitude": 50.98681640625,
-          "longitude": -3.1223169786288536,
-          "gps_accuracy": 35,
-          "altitude": 60.093116760253906,
-          "vertical_accuracy": 13.752543449401855,
-          "friendly_name": "..."
-        },
-        "last_changed": "2022-11-17T23:36:07.561431+00:00",
-        "last_updated": "2022-11-17T23:36:07.561431+00:00",
-        "context": {
-          "id": "01GJ3Z674917D0S8GJ3FAW0Z4J",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "update.synologynas_dsm_update",
+        "entity_id": "automation.lights_on_at_sunset",
         "state": "off",
         "attributes": {
-          "auto_update": false,
-          "installed_version": "DSM 7.1.1-42962 Update 1",
-          "in_progress": false,
-          "latest_version": "DSM 7.1.1-42962 Update 1",
-          "release_summary": null,
-          "release_url": null,
-          "skipped_version": null,
-          "title": "Synology DSM",
-          "attribution": "Data provided by Synology",
-          "entity_picture": "https://brands.home-assistant.io/_/synology_dsm/icon.png",
-          "friendly_name": "SynologyNAS DSM Update",
-          "supported_features": 0
+          "last_triggered": "2022-12-08T19:44:45.479838+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1668771551951",
+          "icon": "mdi:cellphone-message",
+          "friendly_name": "automation.light.kitchen.on.msg"
         },
-        "last_changed": "2022-11-17T21:32:35.073754+00:00",
-        "last_updated": "2022-11-17T21:32:35.073754+00:00",
+        "last_changed": "2023-02-18T09:57:33.011686+00:00",
+        "last_updated": "2023-02-18T09:57:33.011686+00:00",
         "context": {
-          "id": "01GJ3R40C191GZR4BRHX596AEP",
+          "id": "01GSHZA6PKSKMFT9E3D1CWYBBA",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
-        "entity_id": "button.synologynas_reboot",
-        "state": "unknown",
+        "entity_id": "automation.hall_light_off",
+        "state": "on",
         "attributes": {
-          "device_class": "restart",
-          "friendly_name": "SynologyNAS Reboot"
+          "last_triggered": "2023-02-28T23:00:00.072857+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1669847058620",
+          "friendly_name": "automation.light.hall.off.time"
         },
-        "last_changed": "2022-11-17T21:32:35.096773+00:00",
-        "last_updated": "2022-11-17T21:32:35.096773+00:00",
+        "last_changed": "2023-02-18T09:57:33.011899+00:00",
+        "last_updated": "2023-02-28T23:00:00.079205+00:00",
         "context": {
-          "id": "01GJ3R40CRCTXJWSF7YXKSGKR6",
+          "id": "01GTD423E809RHS3BXJERCWB6E",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
-        "entity_id": "button.synologynas_shutdown",
-        "state": "unknown",
+        "entity_id": "automation.block_sony_tv",
+        "state": "off",
         "attributes": {
-          "icon": "mdi:power",
-          "friendly_name": "SynologyNAS Shutdown"
+          "last_triggered": "2023-01-05T14:17:25.227517+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1672216846045",
+          "friendly_name": "automation,tv.sony.lock"
         },
-        "last_changed": "2022-11-17T21:32:35.097090+00:00",
-        "last_updated": "2022-11-17T21:32:35.097090+00:00",
+        "last_changed": "2023-02-18T09:57:33.012143+00:00",
+        "last_updated": "2023-02-18T09:57:33.012143+00:00",
         "context": {
-          "id": "01GJ3R40CSG9YGQTV0MA7JAAH6",
+          "id": "01GSHZA6PMD9PRJ1513SAJ70GR",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.ipad_f35_battery_level",
-        "state": "87",
+        "state": "86",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-charging-80",
+          "icon": "mdi:battery-80",
           "friendly_name": "iPad-F35 Battery Level"
         },
-        "last_changed": "2022-11-18T11:42:47.140180+00:00",
-        "last_updated": "2022-11-18T11:42:47.140180+00:00",
+        "last_changed": "2023-03-01T20:10:57.405670+00:00",
+        "last_updated": "2023-03-01T20:10:57.405670+00:00",
         "context": {
-          "id": "01GJ58RRV4CCSKP711G1WS253Q",
+          "id": "01GTFCS9FXC5ZRD0X0CFWA423T",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 87,
+        "native_value": 86,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.ipad_f35_battery_state",
-        "state": "Charging",
+        "state": "Not Charging",
         "attributes": {
           "Low Power Mode": false,
-          "icon": "mdi:battery-charging-80",
+          "icon": "mdi:battery-80",
           "friendly_name": "iPad-F35 Battery State"
         },
-        "last_changed": "2022-11-18T09:03:58.377081+00:00",
-        "last_updated": "2022-11-18T11:28:36.193140+00:00",
+        "last_changed": "2023-02-19T20:24:46.888255+00:00",
+        "last_updated": "2023-03-01T20:03:28.808002+00:00",
         "context": {
-          "id": "01GJ57YSV13424BEQ3100E8FXB",
+          "id": "01GTFCBKD81CYAEF6GC4P4N38G",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Charging",
+        "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.ipad_f35_storage",
-        "state": "4.15",
+        "state": "5.06",
         "attributes": {
-          "Available": "2.60 GB",
-          "Available (Important)": "4.47 GB",
-          "Available (Opportunistic)": "1.33 GB",
+          "Available": "2.58 GB",
+          "Available (Important)": "3.34 GB",
+          "Available (Opportunistic)": "1.62 GB",
           "Total": "31.99 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "iPad-F35 Storage"
         },
-        "last_changed": "2022-11-18T11:42:47.140926+00:00",
-        "last_updated": "2022-11-18T11:42:47.140926+00:00",
+        "last_changed": "2023-03-01T20:10:57.406456+00:00",
+        "last_updated": "2023-03-01T20:10:57.406456+00:00",
         "context": {
-          "id": "01GJ58RRV4K835H6M2M1VWPH9N",
+          "id": "01GTFCS9FYMBFRBDBWKZD4SZB3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "4.15",
+        "native_value": "5.06",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -383,10 +434,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "iPad-F35 SSID"
         },
-        "last_changed": "2022-11-18T11:42:49.539342+00:00",
-        "last_updated": "2022-11-18T11:42:49.539342+00:00",
+        "last_changed": "2023-03-01T19:43:10.744836+00:00",
+        "last_updated": "2023-03-01T19:43:10.744836+00:00",
         "context": {
-          "id": "01GJ58RV636MFKHQ9WTPKG5DJ4",
+          "id": "01GTFB6DWR58365Y08QSH47TZR",
           "parent_id": null,
           "user_id": null
         }
@@ -395,7 +446,7 @@
         "native_value": "Wifi-Home",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -405,10 +456,10 @@
           "icon": "mdi:wifi-star",
           "friendly_name": "iPad-F35 BSSID"
         },
-        "last_changed": "2022-11-18T11:42:49.539799+00:00",
-        "last_updated": "2022-11-18T11:42:49.539799+00:00",
+        "last_changed": "2023-03-01T19:43:10.745144+00:00",
+        "last_updated": "2023-03-01T19:43:10.745144+00:00",
         "context": {
-          "id": "01GJ58RV631JBP2PRCFX9N9GNQ",
+          "id": "01GTFB6DWSK5XY5A5S2DZTMSX1",
           "parent_id": null,
           "user_id": null
         }
@@ -417,7 +468,7 @@
         "native_value": "b0:98:2b:41:58:11",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -427,10 +478,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "iPad-F35 Connection Type"
         },
-        "last_changed": "2022-11-17T23:29:25.410789+00:00",
-        "last_updated": "2022-11-17T23:29:25.410789+00:00",
+        "last_changed": "2023-02-18T09:57:33.198493+00:00",
+        "last_updated": "2023-02-18T09:57:33.198493+00:00",
         "context": {
-          "id": "01GJ3YSYD22VDTBJ74PS3T8XJW",
+          "id": "01GSHZA6WECCEG1H1CRQ9Z6ANM",
           "parent_id": null,
           "user_id": null
         }
@@ -439,7 +490,7 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -453,8 +504,8 @@
           "ISO Country Code": "GB",
           "Locality": "Taunton",
           "Location": [
-            50.98681640625,
-            -3.122307855389828
+            50.98683277127227,
+            -3.1222178607975293
           ],
           "Name": "Spearcey House, Spearcey Lane",
           "Ocean": "N/A",
@@ -468,10 +519,10 @@
           "icon": "mdi:map",
           "friendly_name": "iPad-F35 Geocoded Location"
         },
-        "last_changed": "2022-11-17T23:29:25.410978+00:00",
-        "last_updated": "2022-11-17T23:29:25.410978+00:00",
+        "last_changed": "2023-02-18T09:57:33.198647+00:00",
+        "last_updated": "2023-03-01T19:43:10.745705+00:00",
         "context": {
-          "id": "01GJ3YSYD2V0ANBB5QRJ3J51ZS",
+          "id": "01GTFB6DWSYTNZ1W3GM1CZ4AF7",
           "parent_id": null,
           "user_id": null
         }
@@ -480,7 +531,7 @@
         "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -490,10 +541,10 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "iPad-F35 Last Update Trigger"
         },
-        "last_changed": "2022-11-18T11:42:49.540184+00:00",
-        "last_updated": "2022-11-18T11:42:49.540184+00:00",
+        "last_changed": "2023-03-01T20:10:57.408414+00:00",
+        "last_updated": "2023-03-01T20:10:57.408414+00:00",
         "context": {
-          "id": "01GJ58RV64ZPE6VX3T7RYSPZPX",
+          "id": "01GTFCS9G05J5GREH3NDDR1NJH",
           "parent_id": null,
           "user_id": null
         }
@@ -502,310 +553,31 @@
         "native_value": "Launch",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.battery_level",
-        "state": "84",
-        "attributes": {
-          "unit_of_measurement": "%",
-          "device_class": "battery",
-          "icon": "mdi:battery-80",
-          "friendly_name": "... Battery Level"
-        },
-        "last_changed": "2022-11-18T09:04:12.316699+00:00",
-        "last_updated": "2022-11-18T09:04:12.316699+00:00",
-        "context": {
-          "id": "01GJ4ZPD0WYK87PP6GZ1526JXN",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 84,
-        "native_unit_of_measurement": "%"
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.battery_state",
-        "state": "Not Charging",
-        "attributes": {
-          "Low Power Mode": false,
-          "icon": "mdi:battery-80",
-          "friendly_name": "... Battery State"
-        },
-        "last_changed": "2022-11-17T23:32:46.150941+00:00",
-        "last_updated": "2022-11-18T09:04:12.317269+00:00",
-        "context": {
-          "id": "01GJ4ZPD0X23HGHYCQMXN5969Q",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Not Charging",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.storage",
-        "state": "66.86",
-        "attributes": {
-          "Available": "76.40 GB",
-          "Available (Important)": "97.95 GB",
-          "Available (Opportunistic)": "85.54 GB",
-          "Total": "127.94 GB",
-          "unit_of_measurement": "% available",
-          "icon": "mdi:database",
-          "friendly_name": "... Storage"
-        },
-        "last_changed": "2022-11-18T11:39:43.351591+00:00",
-        "last_updated": "2022-11-18T11:39:43.351591+00:00",
-        "context": {
-          "id": "01GJ58K5BQ675TFD6GNSMQ4PKH",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "66.86",
-        "native_unit_of_measurement": "% available"
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.ssid",
-        "state": "Wifi-Home",
-        "attributes": {
-          "icon": "mdi:wifi",
-          "friendly_name": "... SSID"
-        },
-        "last_changed": "2022-11-18T11:39:43.352128+00:00",
-        "last_updated": "2022-11-18T11:39:43.352128+00:00",
-        "context": {
-          "id": "01GJ58K5BR1Y9CMFHPXDV6NMCP",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Wifi-Home",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.bssid",
-        "state": "b0:98:2b:41:58:11",
-        "attributes": {
-          "icon": "mdi:wifi-star",
-          "friendly_name": "... BSSID"
-        },
-        "last_changed": "2022-11-18T11:39:43.352383+00:00",
-        "last_updated": "2022-11-18T11:39:43.352383+00:00",
-        "context": {
-          "id": "01GJ58K5BR96X3QBV23CENRTF6",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "b0:98:2b:41:58:11",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.connection_type",
-        "state": "Wi-Fi",
-        "attributes": {
-          "icon": "mdi:wifi",
-          "friendly_name": "... Connection Type"
-        },
-        "last_changed": "2022-11-17T23:52:50.875388+00:00",
-        "last_updated": "2022-11-17T23:52:50.875388+00:00",
-        "context": {
-          "id": "01GJ404TXVFCDK7BF1FH9JQHXP",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Wi-Fi",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.sim_1",
-        "state": "Virgin",
-        "attributes": {
-          "Allows VoIP": true,
-          "Carrier ID": "0000000100000001",
-          "Carrier Name": "Virgin",
-          "Current Radio Technology": "Long-Term Evolution (LTE)",
-          "ISO Country Code": "gb",
-          "Mobile Country Code": "234",
-          "Mobile Network Code": "38",
-          "icon": "mdi:sim",
-          "friendly_name": "... SIM 1"
-        },
-        "last_changed": "2022-11-17T23:32:46.151968+00:00",
-        "last_updated": "2022-11-17T23:32:46.151968+00:00",
-        "context": {
-          "id": "01GJ3Z02E7KWV4N54WJ8J8Z3XP",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Virgin",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.sim_2",
-        "state": "N/A",
-        "attributes": {
-          "Allows VoIP": true,
-          "Carrier ID": "0000000100000002",
-          "Carrier Name": "N/A",
-          "ISO Country Code": "N/A",
-          "Mobile Country Code": "N/A",
-          "Mobile Network Code": "N/A",
-          "icon": "mdi:sim",
-          "friendly_name": "... SIM 2"
-        },
-        "last_changed": "2022-11-17T23:32:46.152145+00:00",
-        "last_updated": "2022-11-17T23:32:46.152145+00:00",
-        "context": {
-          "id": "01GJ3Z02E8QNZW93VENZXJXE50",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "N/A",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.geocoded_location",
-        "state": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
-        "attributes": {
-          "Administrative Area": "England",
-          "Areas Of Interest": "N/A",
-          "Country": "United Kingdom",
-          "Inland Water": "N/A",
-          "ISO Country Code": "GB",
-          "Locality": "Taunton",
-          "Location": [
-            50.98681640625,
-            -3.1223169786288536
-          ],
-          "Name": "Spearcey House, Spearcey Lane",
-          "Ocean": "N/A",
-          "Postal Code": "TA3 7HW",
-          "Sub Administrative Area": "Somerset",
-          "Sub Locality": "Trull",
-          "Sub Thoroughfare": "N/A",
-          "Thoroughfare": "Spearcey Lane",
-          "Time Zone": "Europe/London",
-          "Zones": [],
-          "icon": "mdi:map",
-          "friendly_name": "... Geocoded Location"
-        },
-        "last_changed": "2022-11-17T23:32:46.152388+00:00",
-        "last_updated": "2022-11-17T23:36:07.723098+00:00",
-        "context": {
-          "id": "01GJ3Z679BGG97FH98H7GCTXC0",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.last_update_trigger",
-        "state": "Launch",
-        "attributes": {
-          "icon": "mdi:cellphone-wireless",
-          "friendly_name": "... Last Update Trigger"
-        },
-        "last_changed": "2022-11-17T23:52:50.875916+00:00",
-        "last_updated": "2022-11-17T23:52:50.875916+00:00",
-        "context": {
-          "id": "01GJ404TXVEHQDFFWNNS51K2PY",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Launch",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "device_tracker.unknown_2",
-        "state": "unknown",
-        "attributes": {
-          "source_type": "gps",
-          "friendly_name": "???"
-        },
-        "last_changed": "2022-11-18T06:53:34.403772+00:00",
-        "last_updated": "2022-11-18T06:53:34.403772+00:00",
-        "context": {
-          "id": "01GJ4R76T35KSGE5V1CF85HWYV",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.battery_level_2",
-        "state": "67",
+        "state": "54",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-60",
+          "icon": "mdi:battery-50",
           "friendly_name": "??? Battery Level"
         },
-        "last_changed": "2022-11-18T07:38:02.145741+00:00",
-        "last_updated": "2022-11-18T07:38:02.145741+00:00",
+        "last_changed": "2023-02-26T19:05:29.215516+00:00",
+        "last_updated": "2023-02-26T19:05:29.215516+00:00",
         "context": {
-          "id": "01GJ4TRM11VRDGF4N98KX48KRS",
+          "id": "01GT7HV8BZN146YWDNRTZ17K5V",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 67,
+        "native_value": 54,
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -813,13 +585,13 @@
         "state": "Not Charging",
         "attributes": {
           "Low Power Mode": false,
-          "icon": "mdi:battery-60",
+          "icon": "mdi:battery-50",
           "friendly_name": "??? Battery State"
         },
-        "last_changed": "2022-11-18T06:53:34.748760+00:00",
-        "last_updated": "2022-11-18T07:38:02.146119+00:00",
+        "last_changed": "2023-02-18T09:57:33.199124+00:00",
+        "last_updated": "2023-02-26T19:05:29.216017+00:00",
         "context": {
-          "id": "01GJ4TRM127EBENN3BN5H0PGPN",
+          "id": "01GT7HV8C0Q38M5BEC6JW37Y2Y",
           "parent_id": null,
           "user_id": null
         }
@@ -828,34 +600,34 @@
         "native_value": "Not Charging",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.storage_2",
-        "state": "57.55",
+        "state": "55.58",
         "attributes": {
-          "Available": "35.79 GB",
-          "Available (Important)": "38.84 GB",
-          "Available (Opportunistic)": "36.76 GB",
+          "Available": "34.76 GB",
+          "Available (Important)": "37.44 GB",
+          "Available (Opportunistic)": "35.50 GB",
           "Total": "63.87 GB",
           "unit_of_measurement": "% available",
           "icon": "mdi:database",
           "friendly_name": "??? Storage"
         },
-        "last_changed": "2022-11-18T07:38:02.146349+00:00",
-        "last_updated": "2022-11-18T07:38:02.146349+00:00",
+        "last_changed": "2023-02-26T19:43:41.038207+00:00",
+        "last_updated": "2023-02-26T19:43:41.038207+00:00",
         "context": {
-          "id": "01GJ4TRM12JVZQ5D3516SZ4G0B",
+          "id": "01GT7M16FEPVG1DW88Z6B1AXZB",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "57.55",
+        "native_value": "55.58",
         "native_unit_of_measurement": "% available"
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -865,10 +637,10 @@
           "icon": "mdi:wifi-off",
           "friendly_name": "??? SSID"
         },
-        "last_changed": "2022-11-18T06:53:34.749049+00:00",
-        "last_updated": "2022-11-18T06:53:34.749049+00:00",
+        "last_changed": "2023-02-18T09:57:33.199479+00:00",
+        "last_updated": "2023-02-18T09:57:33.199479+00:00",
         "context": {
-          "id": "01GJ4R774XF3JVBPFEKRB6274E",
+          "id": "01GSHZA6WF70XTS85MW5MKWEHM",
           "parent_id": null,
           "user_id": null
         }
@@ -877,7 +649,7 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -887,10 +659,10 @@
           "icon": "mdi:wifi-off",
           "friendly_name": "??? BSSID"
         },
-        "last_changed": "2022-11-18T06:53:34.774527+00:00",
-        "last_updated": "2022-11-18T06:53:34.774527+00:00",
+        "last_changed": "2023-02-18T09:57:33.199640+00:00",
+        "last_updated": "2023-02-18T09:57:33.199640+00:00",
         "context": {
-          "id": "01GJ4R775PX038JHEH7H525SK2",
+          "id": "01GSHZA6WFEFXABX22GP7CWS8V",
           "parent_id": null,
           "user_id": null
         }
@@ -899,30 +671,29 @@
         "native_value": "Not Connected",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.connection_type_2",
-        "state": "Cellular",
+        "state": "Wi-Fi",
         "attributes": {
-          "Cellular Technology": "4G",
-          "icon": "mdi:signal",
+          "icon": "mdi:wifi",
           "friendly_name": "??? Connection Type"
         },
-        "last_changed": "2022-11-18T07:11:26.189996+00:00",
-        "last_updated": "2022-11-18T07:11:26.189996+00:00",
+        "last_changed": "2023-02-18T09:57:33.199799+00:00",
+        "last_updated": "2023-02-18T09:57:33.199799+00:00",
         "context": {
-          "id": "01GJ4S7XFD24T3G39J03VJXJEK",
+          "id": "01GSHZA6WFJDHGAGB5PG1XQ953",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Cellular",
+        "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -938,10 +709,10 @@
           "icon": "mdi:sim",
           "friendly_name": "??? SIM 2"
         },
-        "last_changed": "2022-11-18T06:53:34.774968+00:00",
-        "last_updated": "2022-11-18T06:53:34.774968+00:00",
+        "last_changed": "2023-02-18T09:57:33.199947+00:00",
+        "last_updated": "2023-02-18T09:57:33.199947+00:00",
         "context": {
-          "id": "01GJ4R775PF7FTV0ZZTJ53N3R2",
+          "id": "01GSHZA6WF8264GDNMCWPQDBKX",
           "parent_id": null,
           "user_id": null
         }
@@ -950,36 +721,36 @@
         "native_value": "N/A",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.sim_1_2",
-        "state": "Virgin",
+        "state": "O2",
         "attributes": {
           "Allows VoIP": true,
           "Carrier ID": "0000000100000001",
-          "Carrier Name": "Virgin",
+          "Carrier Name": "O2",
           "Current Radio Technology": "Long-Term Evolution (LTE)",
           "ISO Country Code": "gb",
           "Mobile Country Code": "234",
-          "Mobile Network Code": "38",
+          "Mobile Network Code": "10",
           "icon": "mdi:sim",
           "friendly_name": "??? SIM 1"
         },
-        "last_changed": "2022-11-18T06:53:34.775108+00:00",
-        "last_updated": "2022-11-18T06:53:34.775108+00:00",
+        "last_changed": "2023-02-18T09:57:33.200106+00:00",
+        "last_updated": "2023-02-18T09:57:33.200106+00:00",
         "context": {
-          "id": "01GJ4R775Q223DAKEJMBKXZVVK",
+          "id": "01GSHZA6WGSTNJPPKFT73KSK5G",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Virgin",
+        "native_value": "O2",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -989,10 +760,10 @@
           "icon": "mdi:map",
           "friendly_name": "??? Geocoded Location"
         },
-        "last_changed": "2022-11-18T06:53:34.775243+00:00",
-        "last_updated": "2022-11-18T06:53:34.775243+00:00",
+        "last_changed": "2023-02-18T09:57:33.200285+00:00",
+        "last_updated": "2023-02-18T09:57:33.200285+00:00",
         "context": {
-          "id": "01GJ4R775QERW78J4SW3CWTAV3",
+          "id": "01GSHZA6WGBQ7G72VNRB00WCKW",
           "parent_id": null,
           "user_id": null
         }
@@ -1001,29 +772,29 @@
         "native_value": "Unknown",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
         "entity_id": "sensor.last_update_trigger_2",
-        "state": "Launch",
+        "state": "Signaled",
         "attributes": {
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "??? Last Update Trigger"
         },
-        "last_changed": "2022-11-18T06:54:37.289645+00:00",
-        "last_updated": "2022-11-18T06:54:37.289645+00:00",
+        "last_changed": "2023-02-26T19:43:44.393698+00:00",
+        "last_updated": "2023-02-26T19:43:44.393698+00:00",
         "context": {
-          "id": "01GJ4R9479Q7H3J8EWNEXJX3FA",
+          "id": "01GT7M19R9JEW1E1H82RSH2R2G",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Launch",
+        "native_value": "Signaled",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
@@ -1033,77 +804,589 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "??? Focus"
         },
-        "last_changed": "2022-11-18T06:54:37.355678+00:00",
-        "last_updated": "2022-11-18T06:54:37.355678+00:00",
+        "last_changed": "2023-02-18T09:57:33.200592+00:00",
+        "last_updated": "2023-02-18T09:57:33.200592+00:00",
         "context": {
-          "id": "01GJ4R949B3SZ09DQZTCWR7Z1S",
+          "id": "01GSHZA6WG2TEA38KJB1EA8716",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
-        "entity_id": "automation.lights_on_at_sunset",
-        "state": "on",
+        "entity_id": "sensor.battery_level",
+        "state": "100",
         "attributes": {
-          "last_triggered": "2022-11-18T11:43:29.628858+00:00",
-          "mode": "single",
-          "current": 0,
-          "id": "1668771551951",
-          "friendly_name": "Lights on at sunset"
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery",
+          "friendly_name": "... Battery Level"
         },
-        "last_changed": "2022-11-18T11:39:26.019574+00:00",
-        "last_updated": "2022-11-18T11:43:29.958953+00:00",
+        "last_changed": "2023-03-01T17:38:30.643649+00:00",
+        "last_updated": "2023-03-01T17:38:30.643649+00:00",
         "context": {
-          "id": "01GJ58T2AW6K6PJJWQB8K600C2",
-          "parent_id": "01GJ58T292JRN60E22R1DH526M",
+          "id": "01GTF4253KHFTHFZN99PE8TGW4",
+          "parent_id": null,
           "user_id": null
         }
       },
-      "extra_data": null,
-      "last_seen": "2022-11-18T11:47:35.185771+00:00"
+      "extra_data": {
+        "native_value": 100,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
-        "entity_id": "update.let_s_encrypt_update",
-        "state": "unavailable",
+        "entity_id": "sensor.battery_state",
+        "state": "Full",
         "attributes": {
-          "friendly_name": "Update",
-          "supported_features": 25
+          "Low Power Mode": false,
+          "icon": "mdi:battery",
+          "friendly_name": "... Battery State"
         },
-        "last_changed": "2022-11-17T22:57:50.066288+00:00",
-        "last_updated": "2022-11-17T22:57:50.066288+00:00",
+        "last_changed": "2023-03-01T17:38:30.644112+00:00",
+        "last_updated": "2023-03-01T17:38:30.644112+00:00",
         "context": {
-          "id": "01GJ3X03FJ6VMHSYW4HJVJ0QHA",
+          "id": "01GTF4253MT938VJ3TME9G4R6S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Full",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.storage",
+        "state": "64.27",
+        "attributes": {
+          "Available": "74.02 GB",
+          "Available (Important)": "95.29 GB",
+          "Available (Opportunistic)": "82.23 GB",
+          "Total": "127.94 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "... Storage"
+        },
+        "last_changed": "2023-03-01T17:38:30.644396+00:00",
+        "last_updated": "2023-03-01T17:47:30.003729+00:00",
+        "context": {
+          "id": "01GTF4JKTK4F8968AFEN6GT0XX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "64.27",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "... SSID"
+        },
+        "last_changed": "2023-03-01T17:38:30.644658+00:00",
+        "last_updated": "2023-03-01T17:38:30.644658+00:00",
+        "context": {
+          "id": "01GTF4253MB75AJ78YZXZEB3YE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "... BSSID"
+        },
+        "last_changed": "2023-03-01T17:38:30.644911+00:00",
+        "last_updated": "2023-03-01T17:38:30.644911+00:00",
+        "context": {
+          "id": "01GTF4253MEYRH4J1FFFMFNXD1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "... Connection Type"
+        },
+        "last_changed": "2023-03-01T16:37:47.070409+00:00",
+        "last_updated": "2023-03-01T16:37:47.070409+00:00",
+        "context": {
+          "id": "01GTF0JYXYAYGMAXXKV1WGJZQ8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "... SIM 2"
+        },
+        "last_changed": "2023-02-18T09:57:33.201818+00:00",
+        "last_updated": "2023-02-18T09:57:33.201818+00:00",
+        "context": {
+          "id": "01GSHZA6WH7P7X5A0EN92ZV2YT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.sim_1",
+        "state": "O2",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "O2",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "gb",
+          "Mobile Country Code": "234",
+          "Mobile Network Code": "10",
+          "icon": "mdi:sim",
+          "friendly_name": "... SIM 1"
+        },
+        "last_changed": "2023-02-18T09:57:33.201985+00:00",
+        "last_updated": "2023-02-18T09:57:33.201985+00:00",
+        "context": {
+          "id": "01GSHZA6WHB490V4KNN2KGXFH0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "O2",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.geocoded_location",
+        "state": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
+        "attributes": {
+          "Administrative Area": "England",
+          "Areas Of Interest": "N/A",
+          "Country": "United Kingdom",
+          "Inland Water": "N/A",
+          "ISO Country Code": "GB",
+          "Locality": "Taunton",
+          "Location": [
+            50.98681640625,
+            -3.1222447516429783
+          ],
+          "Name": "Spearcey House, Spearcey Lane",
+          "Ocean": "N/A",
+          "Postal Code": "TA3 7HW",
+          "Sub Administrative Area": "Somerset",
+          "Sub Locality": "Trull",
+          "Sub Thoroughfare": "N/A",
+          "Thoroughfare": "Spearcey Lane",
+          "Time Zone": "Europe/London",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "... Geocoded Location"
+        },
+        "last_changed": "2023-02-18T09:57:33.202149+00:00",
+        "last_updated": "2023-02-18T09:57:33.202149+00:00",
+        "context": {
+          "id": "01GSHZA6WJEPFJJ2SV9Q43HMCR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Spearcey House, Spearcey Lane\nTaunton\nEngland\nTA3 7HW\nUnited Kingdom",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.last_update_trigger",
+        "state": "Background Fetch",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "... Last Update Trigger"
+        },
+        "last_changed": "2023-03-01T17:47:30.007913+00:00",
+        "last_updated": "2023-03-01T17:47:30.007913+00:00",
+        "context": {
+          "id": "01GTF4JKTQ438J7870N3C280X5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Background Fetch",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.ipad_f35",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 97,
+          "latitude": 50.98683277127227,
+          "longitude": -3.1222178607975293,
+          "gps_accuracy": 58,
+          "altitude": 59.729248046875,
+          "vertical_accuracy": 58.663665771484375,
+          "friendly_name": "iPad-F35"
+        },
+        "last_changed": "2023-03-01T19:43:10.329545+00:00",
+        "last_updated": "2023-03-01T19:43:10.329545+00:00",
+        "context": {
+          "id": "01GTFB6DFS0TDKB0WPP5CWSBEX",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T22:57:50.080848+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
     },
     {
       "state": {
-        "entity_id": "person.gwawr",
+        "entity_id": "device_tracker.unknown_2",
         "state": "unknown",
         "attributes": {
-          "editable": true,
-          "id": "gwawr",
-          "friendly_name": "Gwawr"
+          "source_type": "gps",
+          "friendly_name": "???"
         },
-        "last_changed": "2022-11-17T23:24:47.884098+00:00",
-        "last_updated": "2022-11-17T23:24:47.884098+00:00",
+        "last_changed": "2023-02-18T09:57:33.225954+00:00",
+        "last_updated": "2023-02-18T09:57:33.225954+00:00",
         "context": {
-          "id": "01GJ3YHFCC303KVYQM6WDGZTJD",
+          "id": "01GSHZA6X9X1W82A9CJKEPZBCF",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-11-17T23:25:06.437182+00:00"
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.unknown",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 100,
+          "latitude": 50.98681640625,
+          "longitude": -3.1222447516429783,
+          "gps_accuracy": 35,
+          "altitude": 71.41117095947266,
+          "vertical_accuracy": 6.8490190505981445,
+          "friendly_name": "..."
+        },
+        "last_changed": "2023-02-18T09:57:33.226155+00:00",
+        "last_updated": "2023-02-18T09:57:33.226155+00:00",
+        "context": {
+          "id": "01GSHZA6XANM8WY0ZFGGV9YKJM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.sony_xr_65a90j_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "Sony XR-65A90J Reboot"
+        },
+        "last_changed": "2023-02-18T09:57:38.720804+00:00",
+        "last_updated": "2023-02-18T09:57:38.720804+00:00",
+        "context": {
+          "id": "01GSHZAC90EB364Q0200QZ7PMJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.sony_xr_65a90j_terminate_apps",
+        "state": "unknown",
+        "attributes": {
+          "friendly_name": "Sony XR-65A90J Terminate apps"
+        },
+        "last_changed": "2023-02-18T09:57:38.721087+00:00",
+        "last_updated": "2023-02-18T09:57:38.721087+00:00",
+        "context": {
+          "id": "01GSHZAC91GBSRSK8ZQ9NM6JSV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.synologynas_reboot",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "SynologyNAS Reboot"
+        },
+        "last_changed": "2023-02-18T09:57:54.332881+00:00",
+        "last_updated": "2023-02-18T09:57:54.332881+00:00",
+        "context": {
+          "id": "01GSHZAVGW33ZSS8XXNH12MCXN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.synologynas_shutdown",
+        "state": "unknown",
+        "attributes": {
+          "icon": "mdi:power",
+          "friendly_name": "SynologyNAS Shutdown"
+        },
+        "last_changed": "2023-02-18T09:57:54.333145+00:00",
+        "last_updated": "2023-02-18T09:57:54.333145+00:00",
+        "context": {
+          "id": "01GSHZAVGXJVV2CX4QJ551Z75Z",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.synologynas_dsm_update",
+        "state": "on",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "DSM 7.1.1-42962 Update 1",
+          "in_progress": false,
+          "latest_version": "DSM 7.1.1-42962 Update 4",
+          "release_summary": null,
+          "release_url": "http://update.synology.com/autoupdate/whatsnew.php?model=DS220%2B&update_version=42962-4",
+          "skipped_version": null,
+          "title": "Synology DSM",
+          "attribution": "Data provided by Synology",
+          "entity_picture": "https://brands.home-assistant.io/_/synology_dsm/icon.png",
+          "friendly_name": "SynologyNAS DSM Update",
+          "supported_features": 0
+        },
+        "last_changed": "2023-02-26T03:53:50.934160+00:00",
+        "last_updated": "2023-02-26T03:53:50.934160+00:00",
+        "context": {
+          "id": "01GT5XP02P4ES95G91KQEM0WFD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.ewelink_smart_home_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.4.3",
+          "in_progress": false,
+          "latest_version": "1.4.3",
+          "release_summary": "# Changelogs\n\n## v1.4.3\n\n-   Fix multi-channel device state bug\n\n## v1.4.2\n\n-   Fix redirect URL bug\n\n-   Fix device controlling bug\n\n## v1.4.1\n\n-   Fix color temperature bug\n\n## v1.4.0\n\n-   Support new devices\n\n-   Update Web UI\n\n## v1.3.3\n\n-   Update sy",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "eWeLink Smart Home",
+          "entity_picture": "/api/hassio/addons/f4f71350_ewelink_smart_home_slug/icon",
+          "friendly_name": "eWeLink Smart Home Update",
+          "supported_features": 25
+        },
+        "last_changed": "2023-03-01T17:35:37.108007+00:00",
+        "last_updated": "2023-03-01T17:40:39.514239+00:00",
+        "context": {
+          "id": "01GTF462YTYRS03BFJDXZ5HBBK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.scene_tv_light_on",
+        "state": "2023-03-01T20:08:57.910599+00:00",
+        "attributes": {
+          "entity_id": [
+            "switch.100168336c_1"
+          ],
+          "id": "1677700495775",
+          "icon": "mdi:led-strip-variant",
+          "friendly_name": "scene.light.tv.Sony.on"
+        },
+        "last_changed": "2023-03-01T20:08:57.910708+00:00",
+        "last_updated": "2023-03-01T20:08:57.910708+00:00",
+        "context": {
+          "id": "01GTFCNMSEQKMXDRP62EE6TRQX",
+          "parent_id": "01GTFCNMSBKX3SHEMMH5738YYF",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.automation_light_tv_sony_on",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2023-03-01T20:08:57.903198+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1677700563646",
+          "friendly_name": "automation.light.tv.Sony.on"
+        },
+        "last_changed": "2023-03-01T20:12:29.602468+00:00",
+        "last_updated": "2023-03-01T20:12:29.602468+00:00",
+        "context": {
+          "id": "01GTFCW3H2GHD919RSYMEZ5ZYK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "scene.automation_light_tv_sony_off",
+        "state": "2023-03-01T20:08:55.575807+00:00",
+        "attributes": {
+          "entity_id": [
+            "switch.100168336c_1"
+          ],
+          "id": "1677700852485",
+          "icon": "mdi:led-strip-variant-off",
+          "friendly_name": "scene.light.tv.Sony.off"
+        },
+        "last_changed": "2023-03-01T20:08:55.575926+00:00",
+        "last_updated": "2023-03-01T20:08:55.575926+00:00",
+        "context": {
+          "id": "01GTFCNJGF51X7N5K6JZC25CER",
+          "parent_id": "01GTFCNJGDWWNAGJ8HZNBR6ZH9",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.automation_light_tv_off_2",
+        "state": "on",
+        "attributes": {
+          "last_triggered": "2023-03-01T20:08:55.567599+00:00",
+          "mode": "single",
+          "current": 0,
+          "id": "1677701107867",
+          "friendly_name": "automation.light.tv.Sony.off"
+        },
+        "last_changed": "2023-03-01T20:08:48.080715+00:00",
+        "last_updated": "2023-03-01T20:08:55.583923+00:00",
+        "context": {
+          "id": "01GTFCNJGF51X7N5K6JZC25CER",
+          "parent_id": "01GTFCNJGDWWNAGJ8HZNBR6ZH9",
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:12:55.754637+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "automation.automation_light_tv_off",
+        "state": "off",
+        "attributes": {
+          "last_triggered": null,
+          "mode": "single",
+          "current": 0,
+          "id": "1677701077850",
+          "friendly_name": "automation.light.tv.off"
+        },
+        "last_changed": "2023-03-01T20:05:48.062315+00:00",
+        "last_updated": "2023-03-01T20:05:48.062315+00:00",
+        "context": {
+          "id": "01GTFCFVCV3PH63A9Y50BJK3H0",
+          "parent_id": null,
+          "user_id": "e7b8decdb02e48e9ade4716fb9454855"
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2023-03-01T20:06:25.946993+00:00"
     }
   ]
 }

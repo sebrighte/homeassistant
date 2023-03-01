@@ -11,7 +11,17 @@
           "device_tracker.ipad_f35",
           "device_tracker.unknown"
         ],
-        "id": "admin"
+        "id": "admin",
+        "picture": "/api/image/serve/de2baee7d5347643b918433ea73536da/512x512"
+      },
+      {
+        "name": "Gwawr",
+        "device_trackers": [
+          "device_tracker.unknown_2"
+        ],
+        "user_id": null,
+        "picture": null,
+        "id": "gwawr"
       }
     ]
   }

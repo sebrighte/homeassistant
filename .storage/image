@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "image",
+  "data": {
+    "items": [
+      {
+        "id": "de2baee7d5347643b918433ea73536da",
+        "filesize": 3445,
+        "content_type": "image/jpeg",
+        "name": "WeeMe.jpg",
+        "uploaded_at": "2022-11-23T23:18:51.910253+00:00"
+      }
+    ]
+  }
+}

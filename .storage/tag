@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "tag",
+  "data": {
+    "items": [
+      {
+        "tag_id": "6c41b5e3-17f6-48e9-bfca-7a68979a42c4",
+        "name": "Kitchen Lights Toggle",
+        "id": "6c41b5e3-17f6-48e9-bfca-7a68979a42c4",
+        "last_scanned": "2022-11-27T12:34:49.719636+00:00"
+      }
+    ]
+  }
+}

@@ -19,6 +19,23 @@
         "mode": "storage",
         "url_path": "lovelace-all",
         "id": "lovelace_all"
+      },
+      {
+        "show_in_sidebar": true,
+        "title": "Test",
+        "require_admin": true,
+        "mode": "storage",
+        "url_path": "lovelace-test",
+        "id": "lovelace_test"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:lightbulb-question-outline",
+        "title": "Other",
+        "require_admin": true,
+        "mode": "storage",
+        "url_path": "dashboard-other",
+        "id": "dashboard_other"
       }
     ]
   }
