@@ -9,7 +9,8 @@
         "user_id": "e7b8decdb02e48e9ade4716fb9454855",
         "device_trackers": [
           "device_tracker.ipad_f35",
-          "device_tracker.unknown"
+          "device_tracker.unknown",
+          "device_tracker.ernests_ipad"
         ],
         "id": "admin",
         "picture": "/api/image/serve/de2baee7d5347643b918433ea73536da/512x512"

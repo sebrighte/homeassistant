@@ -22,10 +22,17 @@
     device_id: 50503307fb42a3f17c8544ec06accf2e
     entity_id: light.wiz_dimmable_white_1e7f3e
     domain: light
-  - service: scene.turn_on
-    target:
-      entity_id: scene.automation_light_tv_sony_off
-    metadata: {}
+  - if:
+    - condition: device
+      device_id: 74a9bb40dde6d2408e6c0fe8cb10a5e4
+      domain: media_player
+      entity_id: media_player.sony_xr_65a90j
+      type: is_off
+    then:
+    - service: scene.turn_on
+      target:
+        entity_id: scene.automation_light_tv_sony_off
+      metadata: {}
   mode: single
 - id: '1668716092750'
   alias: automation.light.kitchen.sunset.on

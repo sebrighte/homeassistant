@@ -18,7 +18,17 @@
       "gjohansson-ST/stl",
       "custom-components/sensor.untappd",
       "jessevl/homeassistant-greenchoice",
-      "echoromeo/hanobo"
+      "echoromeo/hanobo",
+      "nagyrobi/home-assistant-custom-components-cover-rf-time-based",
+      "AitorDB/home-assistant-sun-card",
+      "robmarkcole/HASS-Deepstack-face",
+      "robmarkcole/HASS-Deepstack-object",
+      "JuanMTech/amoled_blue",
+      "JuanMTech/green_dark_mode",
+      "JuanMTech/green_light_mode",
+      "JuanMTech/orange_dark",
+      "JuanMTech/orange_light",
+      "Raukze/home-assistant-fitx"
     ],
     "renamed_repositories": {
       "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",

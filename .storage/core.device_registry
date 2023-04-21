@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2023.2.5",
+        "sw_version": "2023.4.5",
         "via_device_id": null
       },
       {
@@ -49,7 +49,7 @@
         "model": "Home Assistant Supervisor",
         "name_by_user": null,
         "name": "Home Assistant Supervisor",
-        "sw_version": "2023.01.1",
+        "sw_version": "2023.04.0",
         "via_device_id": null
       },
       {
@@ -73,7 +73,7 @@
         "model": "SHDW",
         "name_by_user": null,
         "name": "WiZ Dimmable White 1E9A19",
-        "sw_version": "1.28.1",
+        "sw_version": "1.29.0",
         "via_device_id": null
       },
       {
@@ -97,7 +97,7 @@
         "model": "SHDW",
         "name_by_user": null,
         "name": "WiZ Dimmable White 1F9CC2",
-        "sw_version": "1.28.1",
+        "sw_version": "1.29.0",
         "via_device_id": null
       },
       {
@@ -168,7 +168,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.5.2",
+        "sw_version": "5.5.6",
         "via_device_id": null
       },
       {
@@ -192,7 +192,7 @@
         "model": "iPad7,5",
         "name_by_user": null,
         "name": "iPad-F35",
-        "sw_version": "16.3.1",
+        "sw_version": "16.4.1",
         "via_device_id": null
       },
       {
@@ -216,7 +216,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Terminal & SSH",
-        "sw_version": "9.6.1",
+        "sw_version": "9.7.0",
         "via_device_id": null
       },
       {
@@ -240,7 +240,7 @@
         "model": "DS220+",
         "name_by_user": null,
         "name": "SynologyNAS",
-        "sw_version": "DSM 7.1.1-42962 Update 1",
+        "sw_version": "DSM 7.1.1-42962 Update 5",
         "via_device_id": null
       },
       {
@@ -312,7 +312,7 @@
         "model": "DS220+",
         "name_by_user": null,
         "name": "SynologyNAS (Volume 1)",
-        "sw_version": "DSM 7.1.1-42962 Update 1",
+        "sw_version": "DSM 7.1.1-42962 Update 5",
         "via_device_id": "b6f2b8026a54a98015c202b61c169490"
       },
       {
@@ -336,7 +336,7 @@
         "model": "DS220+",
         "name_by_user": null,
         "name": "SynologyNAS Surveillance Station",
-        "sw_version": "9.0.2-10061",
+        "sw_version": "9.1.0-10660",
         "via_device_id": "b6f2b8026a54a98015c202b61c169490"
       },
       {
@@ -385,16 +385,16 @@
         "id": "67b1872e14a81aea6ba4277bd65e505c",
         "identifiers": [
           [
-            "upnp_serial_number",
-            "+084316+NQ74140707"
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ],
           [
             "upnp_host",
             "192.168.1.254"
           ],
           [
-            "upnp",
-            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            "upnp_serial_number",
+            "+084316+NQ74140707"
           ]
         ],
         "manufacturer": "BT",
@@ -486,8 +486,8 @@
         "manufacturer": "Apple",
         "model": "iPhone11,8",
         "name_by_user": null,
-        "name": "...",
-        "sw_version": "16.3.1",
+        "name": "…",
+        "sw_version": "16.4.1",
         "via_device_id": null
       },
       {
@@ -535,7 +535,7 @@
         "model": "iPhone13,1",
         "name_by_user": null,
         "name": "???",
-        "sw_version": "16.3.1",
+        "sw_version": "16.4.1",
         "via_device_id": null
       },
       {
@@ -605,11 +605,11 @@
         "identifiers": [
           [
             "samsungtv",
-            "07270e01-0078-1000-8cd0-90f1aad94b8e"
+            "07270e01-0078-1000-8cd0-90f1aaca6679"
           ],
           [
             "samsungtv",
-            "07270e01-0078-1000-8cd0-90f1aaca6679"
+            "07270e01-0078-1000-8cd0-90f1aad94b8e"
           ]
         ],
         "manufacturer": "Samsung Electronics",
@@ -693,7 +693,7 @@
         "model": "SHDW",
         "name_by_user": null,
         "name": "WiZ Dimmable White 1E7F3E",
-        "sw_version": "1.28.1",
+        "sw_version": "1.29.0",
         "via_device_id": null
       },
       {
@@ -717,7 +717,7 @@
         "model": "SOCKET",
         "name_by_user": null,
         "name": "WiZ Socket A0F99C",
-        "sw_version": "1.28.1",
+        "sw_version": "1.29.0",
         "via_device_id": null
       },
       {
@@ -776,12 +776,12 @@
         "configuration_url": null,
         "connections": [
           [
-            "mac",
-            "30:03:c8:52:c0:8d"
-          ],
-          [
             "upnp",
             "uuid:23456789-1234-1010-8000-88C9E8772A1F"
+          ],
+          [
+            "mac",
+            "30:03:c8:52:c0:8d"
           ]
         ],
         "disabled_by": null,
@@ -875,6 +875,78 @@
         "name_by_user": null,
         "name": "eWeLink Smart Home",
         "sw_version": "1.4.3",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "64410f272b9bff3e1870990792546481"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "9b7392f83232295090100847cb1bb9a2",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0f5437fdc362c0659db520b1090f943e"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e9bdb34e9090385a9dc9ae1c7502c881",
+        "identifiers": [
+          [
+            "sun",
+            "0f5437fdc362c0659db520b1090f943e"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "0d106841249459e746d0dff1eb79974f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "046185dc8ff0a1ce865cf19bafab4b5e",
+        "identifiers": [
+          [
+            "mobile_app",
+            "EC6C8BAF-BF0C-4A14-BE09-A1168A608A1F"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPad5,4",
+        "name_by_user": null,
+        "name": "###",
+        "sw_version": "15.7.4",
         "via_device_id": null
       }
     ],

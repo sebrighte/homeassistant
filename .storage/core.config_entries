@@ -147,7 +147,7 @@
           "udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
-          "location": "http://192.168.1.254:49153/63763735/gatedesc0b.xml",
+          "location": "http://192.168.1.254:49153/613/gatedesc0b.xml",
           "mac_address": null,
           "host": "192.168.1.254"
         },
@@ -232,7 +232,7 @@
         "title": "iPad-F35",
         "data": {
           "app_id": "io.robbie.HomeAssistant",
-          "app_version": "2023.2 (2023.444)",
+          "app_version": "2023.4 (2023.460)",
           "os_name": "iPadOS",
           "supports_encryption": true,
           "manufacturer": "Apple",
@@ -241,7 +241,7 @@
             "push_token": "dgo4TFp5AEBzkxSafLqMp0:APA91bEUCYVGnAKnqYVl2eFe6WLrtep_tF_f4OyRBuWxT3_agROss9K9Y9d3fEiJ6ePCUc-tO30nuZSdu-r8TzUoKeuHcvAXxXwLebeULsEsyX-TFxLLCurCklixKPwlJQeKs3ejTgr6",
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
-          "os_version": "16.3.1",
+          "os_version": "16.4.1",
           "device_id": "EFFF7BD3-9EC3-4AB9-A628-0AD9900F7B3B",
           "model": "iPad7,5",
           "app_name": "Home Assistant",
@@ -264,12 +264,12 @@
         "title": "???",
         "data": {
           "supports_encryption": true,
-          "app_version": "2023.2 (2023.444)",
+          "app_version": "2023.4 (2023.460)",
           "app_id": "io.robbie.HomeAssistant",
           "os_name": "iOS",
           "device_name": "???",
           "model": "iPhone13,1",
-          "os_version": "16.3.1",
+          "os_version": "16.4.1",
           "app_name": "Home Assistant",
           "manufacturer": "Apple",
           "device_id": "125F0273-1646-484F-883C-12CED8A9503B",
@@ -295,8 +295,8 @@
         "domain": "mobile_app",
         "title": "...",
         "data": {
-          "os_version": "16.3.1",
-          "app_version": "2023.2 (2023.444)",
+          "os_version": "16.4.1",
+          "app_version": "2023.4 (2023.460)",
           "device_id": "3977BB64-5402-4D3A-B3F8-3325BF689D95",
           "model": "iPhone11,8",
           "manufacturer": "Apple",
@@ -308,7 +308,7 @@
             "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
           },
           "app_name": "Home Assistant",
-          "device_name": "...",
+          "device_name": "…",
           "webhook_id": "10f8a1be89830fed2b18d47d6cab03b820c2cf85ab3d60c5fc8a234c64d13b9e",
           "secret": "e8cd989102b93c1df73a80472b6d6153cb7b09d7c03f2e8ade61864ecdaca027",
           "user_id": "e7b8decdb02e48e9ade4716fb9454855",
@@ -454,7 +454,7 @@
         "title": "Kitchen TV (Television)",
         "data": {
           "AccessoryIP": "192.168.1.187",
-          "AccessoryPort": 34217
+          "AccessoryPort": 35127
         },
         "options": {},
         "pref_disable_new_entities": false,
@@ -495,6 +495,38 @@
         "pref_disable_polling": false,
         "source": "ignore",
         "unique_id": "uuid:16a65700-007c-1000-bb49-30cda7ac8dd0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "0d106841249459e746d0dff1eb79974f",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "Ernest’s iPad",
+        "data": {
+          "app_name": "Home Assistant",
+          "manufacturer": "Apple",
+          "device_name": "###",
+          "os_version": "15.7.4",
+          "model": "iPad5,4",
+          "app_id": "io.robbie.HomeAssistant",
+          "supports_encryption": true,
+          "app_version": "2023.4 (2023.460)",
+          "app_data": {
+            "push_token": "enRW4of2NUwbqG1pafcWo3:APA91bEZkhWU58gY90RH6zkkJFv9LIEBTj1vbv1aLrnPvvxsjmhqpdGF70Iga5WeKXByum5xjqeIP67TXV5ClXs2QwbLPXtLM8INPqE_BaResGElyzTWUo77VoAHcQmeaDco1Zqe6dJ0",
+            "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+          },
+          "os_name": "iPadOS",
+          "device_id": "EC6C8BAF-BF0C-4A14-BE09-A1168A608A1F",
+          "webhook_id": "3b9a39fb5061f6d5e08b3f3cb105bab5f06ca51f579253d11689c6406de24b01",
+          "secret": "6b2034b45fcfce83b12d9f693fda97c82919ccf90a87d553a9b2b98e85cefb81",
+          "user_id": "e7b8decdb02e48e9ade4716fb9454855",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-EC6C8BAF-BF0C-4A14-BE09-A1168A608A1F",
         "disabled_by": null
       }
     ]

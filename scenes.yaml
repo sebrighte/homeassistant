@@ -1,5 +1,5 @@
 - id: '1668815113409'
-  name: scene.downstairs.evening
+  name: scene.downstairs.evening++
   entities:
     light.wiz_dimmable_white_1e9a19:
       effect_list:
@@ -13,12 +13,9 @@
       - Steampunk
       supported_color_modes:
       - brightness
-      color_mode: brightness
-      brightness: 26
-      effect: Cool white
       friendly_name: WiZ Dimmable White 1E9A19
       supported_features: 4
-      state: 'on'
+      state: 'off'
     light.wiz_dimmable_white_1f9cc2:
       effect_list:
       - Wake up
@@ -31,19 +28,34 @@
       - Steampunk
       supported_color_modes:
       - brightness
-      color_mode: brightness
-      brightness: 26
-      effect: Cool white
       friendly_name: WiZ Dimmable White 1F9CC2
       supported_features: 4
-      state: 'on'
+      state: 'off'
     switch.wiz_socket_a0f99c:
       friendly_name: WiZ Socket A0F99C
+      state: 'on'
+    light.wiz_dimmable_white_1e7f3e:
+      effect_list:
+      - Wake up
+      - Bedtime
+      - Cool white
+      - Night light
+      - Candlelight
+      - Golden white
+      - Pulse
+      - Steampunk
+      supported_color_modes:
+      - brightness
+      friendly_name: Snug light
+      supported_features: 4
+      color_mode: brightness
+      brightness: 26
+      effect: Warm White
       state: 'on'
   icon: mdi:lightbulb-group-outline
   metadata: {}
 - id: '1671396438245'
-  name: All Off
+  name: All Off [lights]
   entities:
     switch.wiz_socket_a0f99c:
       friendly_name: WiZ Socket A0F99C
@@ -90,10 +102,17 @@
       - Steampunk
       supported_color_modes:
       - brightness
-      friendly_name: Hall light
+      friendly_name: Snug light
       supported_features: 4
       state: 'off'
-  metadata: {}
+    switch.100168336c_1:
+      restored: false
+      supported_features: 0
+      friendly_name: USB Switch-1
+      state: 'off'
+  metadata:
+    switch.100168336c_1:
+      entity_only: true
 - id: '1677700495775'
   name: scene.light.tv.Sony.on
   entities:

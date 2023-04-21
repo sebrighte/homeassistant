@@ -20,17 +20,44 @@
           "badges": [],
           "cards": [
             {
-              "show_name": true,
-              "show_icon": true,
-              "type": "button",
+              "type": "custom:mushroom-light-card",
+              "entity": "light.kitchen_lights",
+              "show_brightness_control": true,
+              "collapsible_controls": true,
+              "use_light_color": true,
+              "show_color_control": false,
+              "show_color_temp_control": false,
+              "name": "Kitchen Lights [on/off/brightness]",
+              "fill_container": true,
+              "hold_action": {
+                "action": "none"
+              },
               "tap_action": {
                 "action": "toggle"
               },
-              "entity": "scene.all_off",
-              "show_state": false,
-              "icon": "mdi:alarm-light-off-outline",
-              "icon_height": "50px",
-              "name": "All Lights Off"
+              "double_tap_action": {
+                "action": "none"
+              },
+              "icon": "mdi:lightbulb"
+            },
+            {
+              "type": "custom:mushroom-light-card",
+              "entity": "light.wiz_dimmable_white_1e7f3e",
+              "show_brightness_control": true,
+              "name": "Dining Light [on/off/brightness]",
+              "icon": "mdi:lightbulb",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "hold_action": {
+                "action": "none"
+              },
+              "double_tap_action": {
+                "action": "none"
+              },
+              "collapsible_controls": true,
+              "icon_type": "icon",
+              "use_light_color": true
             },
             {
               "show_name": true,
@@ -40,9 +67,14 @@
                 "action": "toggle"
               },
               "entity": "scene.evening",
-              "show_state": true,
-              "name": "Set Downstairs Lights (Evening Mode)",
-              "icon_height": "100px"
+              "show_state": false,
+              "name": "Set Lights [Evening Mode]",
+              "icon_height": "50px",
+              "theme": "ios-dark-mode",
+              "hold_action": {
+                "action": "none"
+              },
+              "icon": "mdi:lightbulb-group"
             },
             {
               "show_name": true,
@@ -53,18 +85,50 @@
               },
               "entity": "switch.wiz_socket_a0f99c",
               "icon": "mdi:floor-lamp",
-              "name": "Hall Light",
+              "name": "Hall Light [on/off]",
               "show_state": false,
-              "icon_height": "50px"
+              "icon_height": "50px",
+              "theme": "ios-dark-mode"
             },
             {
-              "type": "light",
-              "entity": "light.kitchen_lights"
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "switch.100168336c_1",
+              "icon": "mdi:television-ambient-light",
+              "icon_height": "50px",
+              "show_state": false,
+              "name": "TV Lights [on/off]",
+              "theme": "ios-dark-mode"
             },
             {
-              "type": "light",
-              "entity": "light.wiz_dimmable_white_1e7f3e",
-              "name": "Snug Light"
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "scene.all_off",
+              "show_state": false,
+              "icon": "mdi:lightbulb-group-off",
+              "icon_height": "50px",
+              "name": "All Lights [Off]",
+              "theme": "ios-dark-mode",
+              "hold_action": {
+                "action": "none"
+              }
+            },
+            {
+              "show_state": true,
+              "show_name": true,
+              "camera_view": "auto",
+              "type": "picture-entity",
+              "entity": "camera.synologynas_drivecamera",
+              "name": "Drive Camera",
+              "theme": "ios-dark-mode"
             }
           ]
         }

@@ -3,16 +3,1980 @@
   "minor_version": 1,
   "key": "trace.saved_traces",
   "data": {
+    "automation.1677700563646": [
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "9f59e08b20eded1a6773766d4696e65e",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-20T11:12:28.413354+00:00",
+            "finish": "2023-04-20T11:12:28.413914+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-20T11:12:28.413484+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_sony_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-14T22:18:18.819951+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677700563646",
+                      "friendly_name": "automation.light.tv.Sony.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237100+00:00",
+                    "last_updated": "2023-04-19T23:25:21.237100+00:00",
+                    "context": {
+                      "id": "01GYDXCEYNXRYGYPDCE6TPNWR9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-19T23:25:21.911646+00:00",
+                      "last_updated": "2023-04-19T23:25:21.911646+00:00",
+                      "context": {
+                        "id": "01GYDXCFKQ7EQQY2H5BN27Y4SH",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-20T11:12:28.412864+00:00",
+                      "last_updated": "2023-04-20T11:12:28.412864+00:00",
+                      "context": {
+                        "id": "01GYF5V7QW4ETPMQJEA4VQMWZ3",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-04-20T11:12:28.413553+00:00",
+                "result": {
+                  "wanted_time_before": "2023-04-20T05:08:16.643802+00:00",
+                  "wanted_time_after": "2023-04-20T19:15:30.990329+00:00",
+                  "result": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677700563646",
+            "alias": "automation.light.tv.Sony.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset",
+                "before": "sunrise"
+              }
+            ],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.scene_tv_light_on"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYF5V7QX46QGDG32AY6WHFMA",
+            "parent_id": "01GYF5V7QW4ETPMQJEA4VQMWZ3",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "9f59e08b20eded1a6773766d4696e65e",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-20T11:12:28.413354+00:00",
+            "finish": "2023-04-20T11:12:28.413914+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "56f92a7b734879858e3658161efef8b6",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-20T16:14:14.994113+00:00",
+            "finish": "2023-04-20T16:14:14.994627+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-20T16:14:14.994232+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_sony_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-14T22:18:18.819951+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677700563646",
+                      "friendly_name": "automation.light.tv.Sony.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237100+00:00",
+                    "last_updated": "2023-04-19T23:25:21.237100+00:00",
+                    "context": {
+                      "id": "01GYDXCEYNXRYGYPDCE6TPNWR9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-20T11:41:33.485577+00:00",
+                      "last_updated": "2023-04-20T11:41:33.485577+00:00",
+                      "context": {
+                        "id": "01GYF7GFXDM7Q2WCSN8KNB9G0Y",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-20T16:14:14.993649+00:00",
+                      "last_updated": "2023-04-20T16:14:14.993649+00:00",
+                      "context": {
+                        "id": "01GYFQ3SYH10Q2NQZ4P839DKEF",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-04-20T16:14:14.994297+00:00",
+                "result": {
+                  "wanted_time_before": "2023-04-20T05:08:16.643802+00:00",
+                  "wanted_time_after": "2023-04-20T19:15:30.990329+00:00",
+                  "result": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677700563646",
+            "alias": "automation.light.tv.Sony.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset",
+                "before": "sunrise"
+              }
+            ],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.scene_tv_light_on"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYFQ3SYJQFH7QXWBFFNWHNEK",
+            "parent_id": "01GYFQ3SYH10Q2NQZ4P839DKEF",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "56f92a7b734879858e3658161efef8b6",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-20T16:14:14.994113+00:00",
+            "finish": "2023-04-20T16:14:14.994627+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "32dc448f510ce9c5f3fe0196045971fd",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-21T11:02:15.572027+00:00",
+            "finish": "2023-04-21T11:02:15.572499+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T11:02:15.572103+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_sony_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-14T22:18:18.819951+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677700563646",
+                      "friendly_name": "automation.light.tv.Sony.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237100+00:00",
+                    "last_updated": "2023-04-19T23:25:21.237100+00:00",
+                    "context": {
+                      "id": "01GYDXCEYNXRYGYPDCE6TPNWR9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-20T22:19:53.247918+00:00",
+                      "last_updated": "2023-04-20T22:19:53.247918+00:00",
+                      "context": {
+                        "id": "01GYGC1A0ZQEC572P6GCDW40TZ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T11:02:15.571522+00:00",
+                      "last_updated": "2023-04-21T11:02:15.571522+00:00",
+                      "context": {
+                        "id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-04-21T11:02:15.572152+00:00",
+                "result": {
+                  "wanted_time_before": "2023-04-21T05:06:14.032833+00:00",
+                  "wanted_time_after": "2023-04-21T19:17:08.968806+00:00",
+                  "result": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677700563646",
+            "alias": "automation.light.tv.Sony.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset",
+                "before": "sunrise"
+              }
+            ],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.scene_tv_light_on"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYHQN88KZ96TWWN8E2NZ3TBX",
+            "parent_id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "32dc448f510ce9c5f3fe0196045971fd",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-21T11:02:15.572027+00:00",
+            "finish": "2023-04-21T11:02:15.572499+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "1a55692f349d9479732a132a3784212c",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-21T15:43:56.301545+00:00",
+            "finish": "2023-04-21T15:43:56.302067+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T15:43:56.301617+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_sony_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-14T22:18:18.819951+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677700563646",
+                      "friendly_name": "automation.light.tv.Sony.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237100+00:00",
+                    "last_updated": "2023-04-19T23:25:21.237100+00:00",
+                    "context": {
+                      "id": "01GYDXCEYNXRYGYPDCE6TPNWR9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T11:23:35.465236+00:00",
+                      "last_updated": "2023-04-21T11:23:35.465236+00:00",
+                      "context": {
+                        "id": "01GYHRWA592DYACJNPVG0WCQWT",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T15:43:56.301142+00:00",
+                      "last_updated": "2023-04-21T15:43:56.301142+00:00",
+                      "context": {
+                        "id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-04-21T15:43:56.301686+00:00",
+                "result": {
+                  "wanted_time_before": "2023-04-21T05:06:14.032833+00:00",
+                  "wanted_time_after": "2023-04-21T19:17:08.968806+00:00",
+                  "result": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677700563646",
+            "alias": "automation.light.tv.Sony.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset",
+                "before": "sunrise"
+              }
+            ],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.scene_tv_light_on"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYJ7S0WDKQV32R02FJQFCA1J",
+            "parent_id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "1a55692f349d9479732a132a3784212c",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-21T15:43:56.301545+00:00",
+            "finish": "2023-04-21T15:43:56.302067+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "condition/0",
+          "run_id": "f1ba0acc573d31c371206b33e6807e16",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-21T17:35:45.070553+00:00",
+            "finish": "2023-04-21T17:35:45.071002+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T17:35:45.070625+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_sony_on",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-14T22:18:18.819951+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677700563646",
+                      "friendly_name": "automation.light.tv.Sony.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237100+00:00",
+                    "last_updated": "2023-04-19T23:25:21.237100+00:00",
+                    "context": {
+                      "id": "01GYDXCEYNXRYGYPDCE6TPNWR9",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T16:32:33.473072+00:00",
+                      "last_updated": "2023-04-21T16:32:33.473072+00:00",
+                      "context": {
+                        "id": "01GYJAJ1P1P3V7N6YCQKE7TA1P",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T17:35:45.070161+00:00",
+                      "last_updated": "2023-04-21T17:35:45.070161+00:00",
+                      "context": {
+                        "id": "01GYJE5RDEVC417VCK2XDFV31G",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "condition/0": [
+              {
+                "path": "condition/0",
+                "timestamp": "2023-04-21T17:35:45.070672+00:00",
+                "result": {
+                  "wanted_time_before": "2023-04-21T05:06:14.032833+00:00",
+                  "wanted_time_after": "2023-04-21T19:17:08.968806+00:00",
+                  "result": false
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677700563646",
+            "alias": "automation.light.tv.Sony.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "turned_on",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [
+              {
+                "condition": "sun",
+                "after": "sunset",
+                "before": "sunrise"
+              }
+            ],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.scene_tv_light_on"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYJE5RDEK1BWQWJ6W5RAJQVN",
+            "parent_id": "01GYJE5RDEVC417VCK2XDFV31G",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "condition/0",
+          "run_id": "f1ba0acc573d31c371206b33e6807e16",
+          "state": "stopped",
+          "script_execution": "failed_conditions",
+          "timestamp": {
+            "start": "2023-04-21T17:35:45.070553+00:00",
+            "finish": "2023-04-21T17:35:45.071002+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677700563646",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      }
+    ],
+    "automation.1677701107867": [
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "6e046fe907feb9111a7e6543db69a3b7",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T11:02:15.572542+00:00",
+            "finish": "2023-04-21T11:02:15.580368+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T11:02:15.572571+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_off_2",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-20T22:19:53.248614+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677701107867",
+                      "friendly_name": "automation.light.tv.Sony.off"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237281+00:00",
+                    "last_updated": "2023-04-20T22:19:53.266080+00:00",
+                    "context": {
+                      "id": "01GYGC1A10E2GK8W1A2A5BEJST",
+                      "parent_id": "01GYGC1A0ZQEC572P6GCDW40TZ",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-20T22:19:53.247918+00:00",
+                      "last_updated": "2023-04-20T22:19:53.247918+00:00",
+                      "context": {
+                        "id": "01GYGC1A0ZQEC572P6GCDW40TZ",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T11:02:15.571522+00:00",
+                      "last_updated": "2023-04-21T11:02:15.571522+00:00",
+                      "context": {
+                        "id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-21T11:02:15.573013+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYHQN88M0RVY0AEX0AR086HA",
+                    "parent_id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.automation_light_tv_sony_off"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677701107867",
+            "alias": "automation.light.tv.Sony.off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "changed_states",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.automation_light_tv_sony_off"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYHQN88M0RVY0AEX0AR086HA",
+            "parent_id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "6e046fe907feb9111a7e6543db69a3b7",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T11:02:15.572542+00:00",
+            "finish": "2023-04-21T11:02:15.580368+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "c27951e3e4c6ed404674509087f3b8fc",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T11:23:35.465652+00:00",
+            "finish": "2023-04-21T11:23:35.470519+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T11:23:35.465757+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_off_2",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-21T11:02:15.572730+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677701107867",
+                      "friendly_name": "automation.light.tv.Sony.off"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237281+00:00",
+                    "last_updated": "2023-04-21T11:02:15.579657+00:00",
+                    "context": {
+                      "id": "01GYHQN88M0RVY0AEX0AR086HA",
+                      "parent_id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T11:02:15.571522+00:00",
+                      "last_updated": "2023-04-21T11:02:15.571522+00:00",
+                      "context": {
+                        "id": "01GYHQN88KA4GGT1BNQ3M8NVQ1",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T11:23:35.465236+00:00",
+                      "last_updated": "2023-04-21T11:23:35.465236+00:00",
+                      "context": {
+                        "id": "01GYHRWA592DYACJNPVG0WCQWT",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-21T11:23:35.466166+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYHRWA59D1V0Q0YABATZX1MM",
+                    "parent_id": "01GYHRWA592DYACJNPVG0WCQWT",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.automation_light_tv_sony_off"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677701107867",
+            "alias": "automation.light.tv.Sony.off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "changed_states",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.automation_light_tv_sony_off"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYHRWA59D1V0Q0YABATZX1MM",
+            "parent_id": "01GYHRWA592DYACJNPVG0WCQWT",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "c27951e3e4c6ed404674509087f3b8fc",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T11:23:35.465652+00:00",
+            "finish": "2023-04-21T11:23:35.470519+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "92f863ba9aa179943f1f62ea46cc85b9",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T15:43:56.302109+00:00",
+            "finish": "2023-04-21T15:43:56.309707+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T15:43:56.302180+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_off_2",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-21T11:23:35.465895+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677701107867",
+                      "friendly_name": "automation.light.tv.Sony.off"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237281+00:00",
+                    "last_updated": "2023-04-21T11:23:35.470059+00:00",
+                    "context": {
+                      "id": "01GYHRWA59D1V0Q0YABATZX1MM",
+                      "parent_id": "01GYHRWA592DYACJNPVG0WCQWT",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T11:23:35.465236+00:00",
+                      "last_updated": "2023-04-21T11:23:35.465236+00:00",
+                      "context": {
+                        "id": "01GYHRWA592DYACJNPVG0WCQWT",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T15:43:56.301142+00:00",
+                      "last_updated": "2023-04-21T15:43:56.301142+00:00",
+                      "context": {
+                        "id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-21T15:43:56.302609+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYJ7S0WEAEVMABS04VVRSE2N",
+                    "parent_id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.automation_light_tv_sony_off"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677701107867",
+            "alias": "automation.light.tv.Sony.off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "changed_states",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.automation_light_tv_sony_off"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYJ7S0WEAEVMABS04VVRSE2N",
+            "parent_id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "92f863ba9aa179943f1f62ea46cc85b9",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T15:43:56.302109+00:00",
+            "finish": "2023-04-21T15:43:56.309707+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "d68264d69a3f0e57ca39ad1411f4dc50",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T16:32:33.474465+00:00",
+            "finish": "2023-04-21T16:32:33.478306+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T16:32:33.474576+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_off_2",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-21T15:43:56.302313+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677701107867",
+                      "friendly_name": "automation.light.tv.Sony.off"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237281+00:00",
+                    "last_updated": "2023-04-21T15:43:56.309540+00:00",
+                    "context": {
+                      "id": "01GYJ7S0WEAEVMABS04VVRSE2N",
+                      "parent_id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T15:43:56.301142+00:00",
+                      "last_updated": "2023-04-21T15:43:56.301142+00:00",
+                      "context": {
+                        "id": "01GYJ7S0WDC46PM66A5YC7HWGH",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T16:32:33.473072+00:00",
+                      "last_updated": "2023-04-21T16:32:33.473072+00:00",
+                      "context": {
+                        "id": "01GYJAJ1P1P3V7N6YCQKE7TA1P",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-21T16:32:33.475014+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYJAJ1P2A81HMADGTKHEH1KA",
+                    "parent_id": "01GYJAJ1P1P3V7N6YCQKE7TA1P",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.automation_light_tv_sony_off"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677701107867",
+            "alias": "automation.light.tv.Sony.off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "changed_states",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.automation_light_tv_sony_off"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYJAJ1P2A81HMADGTKHEH1KA",
+            "parent_id": "01GYJAJ1P1P3V7N6YCQKE7TA1P",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "d68264d69a3f0e57ca39ad1411f4dc50",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T16:32:33.474465+00:00",
+            "finish": "2023-04-21T16:32:33.478306+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/0",
+          "run_id": "4a80f4e665133b1b20661fe0ef03a779",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T17:35:45.071043+00:00",
+            "finish": "2023-04-21T17:35:45.077901+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T17:35:45.071158+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.automation_light_tv_off_2",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-21T16:32:33.474741+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1677701107867",
+                      "friendly_name": "automation.light.tv.Sony.off"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.237281+00:00",
+                    "last_updated": "2023-04-21T16:32:33.478184+00:00",
+                    "context": {
+                      "id": "01GYJAJ1P2A81HMADGTKHEH1KA",
+                      "parent_id": "01GYJAJ1P1P3V7N6YCQKE7TA1P",
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "device",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "from_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "off",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T16:32:33.473072+00:00",
+                      "last_updated": "2023-04-21T16:32:33.473072+00:00",
+                      "context": {
+                        "id": "01GYJAJ1P1P3V7N6YCQKE7TA1P",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "to_state": {
+                      "entity_id": "remote.sony_xr_65a90j",
+                      "state": "on",
+                      "attributes": {
+                        "friendly_name": "Sony XR-65A90J",
+                        "supported_features": 0
+                      },
+                      "last_changed": "2023-04-21T17:35:45.070161+00:00",
+                      "last_updated": "2023-04-21T17:35:45.070161+00:00",
+                      "context": {
+                        "id": "01GYJE5RDEVC417VCK2XDFV31G",
+                        "parent_id": null,
+                        "user_id": null
+                      }
+                    },
+                    "for": null,
+                    "attribute": null,
+                    "description": "state of remote.sony_xr_65a90j"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-21T17:35:45.071571+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYJE5RDFK4S31B45G8NA04W5",
+                    "parent_id": "01GYJE5RDEVC417VCK2XDFV31G",
+                    "user_id": null
+                  }
+                },
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.automation_light_tv_sony_off"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1677701107867",
+            "alias": "automation.light.tv.Sony.off",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "device",
+                "type": "changed_states",
+                "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                "entity_id": "remote.sony_xr_65a90j",
+                "domain": "remote"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "service": "scene.turn_on",
+                "target": {
+                  "entity_id": "scene.automation_light_tv_sony_off"
+                },
+                "metadata": {}
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYJE5RDFK4S31B45G8NA04W5",
+            "parent_id": "01GYJE5RDEVC417VCK2XDFV31G",
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/0",
+          "run_id": "4a80f4e665133b1b20661fe0ef03a779",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T17:35:45.071043+00:00",
+            "finish": "2023-04-21T17:35:45.077901+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1677701107867",
+          "trigger": "state of remote.sony_xr_65a90j"
+        }
+      }
+    ],
+    "automation.1668716092750": [
+      {
+        "extended_dict": {
+          "last_step": "action/4/then/0",
+          "run_id": "d9dd8601b36aba5e9ca39916a3aa9e87",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-20T19:45:30.994095+00:00",
+            "finish": "2023-04-20T19:45:31.469148+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-20T19:45:30.994184+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-19T19:43:52.946841+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.236464+00:00",
+                    "last_updated": "2023-04-19T23:25:21.236464+00:00",
+                    "context": {
+                      "id": "01GYDXCEYM4C9NEVYA2EBTZS8M",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-20T19:45:30.994741+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYG36MVJ2MHVNWPBFQ9DV81R",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-04-20T19:45:31.154880+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-04-20T19:45:31.224035+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-04-20T19:45:31.275965+00:00"
+              }
+            ],
+            "action/4": [
+              {
+                "path": "action/4",
+                "timestamp": "2023-04-20T19:45:31.454716+00:00",
+                "result": {
+                  "choice": "then"
+                }
+              }
+            ],
+            "action/4/if": [
+              {
+                "path": "action/4/if",
+                "timestamp": "2023-04-20T19:45:31.455252+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/4/if/condition/0": [
+              {
+                "path": "action/4/if/condition/0",
+                "timestamp": "2023-04-20T19:45:31.455289+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "action/4/if/condition/0",
+                "timestamp": "2023-04-20T19:45:31.455308+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/4/if/condition/0/entity_id/0": [
+              {
+                "path": "action/4/if/condition/0/entity_id/0",
+                "timestamp": "2023-04-20T19:45:31.455335+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/4/then/0": [
+              {
+                "path": "action/4/then/0",
+                "timestamp": "2023-04-20T19:45:31.455741+00:00",
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.scene_tv_light_on"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "if": [
+                  {
+                    "condition": "device",
+                    "type": "is_on",
+                    "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "domain": "remote"
+                  }
+                ],
+                "then": [
+                  {
+                    "service": "scene.turn_on",
+                    "target": {
+                      "entity_id": "scene.scene_tv_light_on"
+                    },
+                    "metadata": {}
+                  }
+                ]
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYG36MVJ2MHVNWPBFQ9DV81R",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/4/then/0",
+          "run_id": "d9dd8601b36aba5e9ca39916a3aa9e87",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-20T19:45:30.994095+00:00",
+            "finish": "2023-04-20T19:45:31.469148+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      },
+      {
+        "extended_dict": {
+          "last_step": "action/4/then/0",
+          "run_id": "7494486bcf531a6c94ae5456b6ecd15c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T19:47:08.970932+00:00",
+            "finish": "2023-04-21T19:47:09.744698+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset",
+          "trace": {
+            "trigger/0": [
+              {
+                "path": "trigger/0",
+                "timestamp": "2023-04-21T19:47:08.971029+00:00",
+                "changed_variables": {
+                  "this": {
+                    "entity_id": "automation.lights_on_sunset",
+                    "state": "on",
+                    "attributes": {
+                      "last_triggered": "2023-04-20T19:45:30.994409+00:00",
+                      "mode": "single",
+                      "current": 0,
+                      "id": "1668716092750",
+                      "icon": "mdi:lightbulb-group-outline",
+                      "friendly_name": "automation.light.kitchen.sunset.on"
+                    },
+                    "last_changed": "2023-04-19T23:25:21.236464+00:00",
+                    "last_updated": "2023-04-20T19:45:31.468913+00:00",
+                    "context": {
+                      "id": "01GYG36MVJ2MHVNWPBFQ9DV81R",
+                      "parent_id": null,
+                      "user_id": null
+                    }
+                  },
+                  "trigger": {
+                    "id": "0",
+                    "idx": "0",
+                    "alias": null,
+                    "platform": "sun",
+                    "event": "sunset",
+                    "offset": {
+                      "__type": "<class 'datetime.timedelta'>",
+                      "total_seconds": 1800.0
+                    },
+                    "description": "sunset with offset"
+                  }
+                }
+              }
+            ],
+            "action/0": [
+              {
+                "path": "action/0",
+                "timestamp": "2023-04-21T19:47:08.971745+00:00",
+                "changed_variables": {
+                  "context": {
+                    "id": "01GYJNPBHAZ0YAHSB4FN1MN0FA",
+                    "parent_id": null,
+                    "user_id": null
+                  }
+                }
+              }
+            ],
+            "action/1": [
+              {
+                "path": "action/1",
+                "timestamp": "2023-04-21T19:47:09.157433+00:00"
+              }
+            ],
+            "action/2": [
+              {
+                "path": "action/2",
+                "timestamp": "2023-04-21T19:47:09.213239+00:00"
+              }
+            ],
+            "action/3": [
+              {
+                "path": "action/3",
+                "timestamp": "2023-04-21T19:47:09.437974+00:00"
+              }
+            ],
+            "action/4": [
+              {
+                "path": "action/4",
+                "timestamp": "2023-04-21T19:47:09.734887+00:00",
+                "result": {
+                  "choice": "then"
+                }
+              }
+            ],
+            "action/4/if": [
+              {
+                "path": "action/4/if",
+                "timestamp": "2023-04-21T19:47:09.735001+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/4/if/condition/0": [
+              {
+                "path": "action/4/if/condition/0",
+                "timestamp": "2023-04-21T19:47:09.735037+00:00",
+                "result": {
+                  "result": true
+                }
+              },
+              {
+                "path": "action/4/if/condition/0",
+                "timestamp": "2023-04-21T19:47:09.735056+00:00",
+                "result": {
+                  "result": true
+                }
+              }
+            ],
+            "action/4/if/condition/0/entity_id/0": [
+              {
+                "path": "action/4/if/condition/0/entity_id/0",
+                "timestamp": "2023-04-21T19:47:09.735098+00:00",
+                "result": {
+                  "result": true,
+                  "state": "on",
+                  "wanted_state": "on"
+                }
+              }
+            ],
+            "action/4/then/0": [
+              {
+                "path": "action/4/then/0",
+                "timestamp": "2023-04-21T19:47:09.735634+00:00",
+                "result": {
+                  "params": {
+                    "domain": "scene",
+                    "service": "turn_on",
+                    "service_data": {},
+                    "target": {
+                      "entity_id": [
+                        "scene.scene_tv_light_on"
+                      ]
+                    }
+                  },
+                  "running_script": false,
+                  "limit": 10
+                }
+              }
+            ]
+          },
+          "config": {
+            "id": "1668716092750",
+            "alias": "automation.light.kitchen.sunset.on",
+            "description": "",
+            "trigger": [
+              {
+                "platform": "sun",
+                "event": "sunset",
+                "offset": "+00:30:00"
+              }
+            ],
+            "condition": [],
+            "action": [
+              {
+                "type": "turn_on",
+                "device_id": "1502d049065c9fa32f4f29230d120b38",
+                "entity_id": "light.wiz_dimmable_white_1e9a19",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "91bdf081f4d9af6083f0b6347157957e",
+                "entity_id": "light.wiz_dimmable_white_1f9cc2",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "50503307fb42a3f17c8544ec06accf2e",
+                "entity_id": "light.wiz_dimmable_white_1e7f3e",
+                "domain": "light",
+                "brightness_pct": 1
+              },
+              {
+                "type": "turn_on",
+                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
+                "entity_id": "switch.wiz_socket_a0f99c",
+                "domain": "switch"
+              },
+              {
+                "if": [
+                  {
+                    "condition": "device",
+                    "type": "is_on",
+                    "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                    "entity_id": "remote.sony_xr_65a90j",
+                    "domain": "remote"
+                  }
+                ],
+                "then": [
+                  {
+                    "service": "scene.turn_on",
+                    "target": {
+                      "entity_id": "scene.scene_tv_light_on"
+                    },
+                    "metadata": {}
+                  }
+                ]
+              }
+            ],
+            "mode": "single"
+          },
+          "blueprint_inputs": null,
+          "context": {
+            "id": "01GYJNPBHAZ0YAHSB4FN1MN0FA",
+            "parent_id": null,
+            "user_id": null
+          }
+        },
+        "short_dict": {
+          "last_step": "action/4/then/0",
+          "run_id": "7494486bcf531a6c94ae5456b6ecd15c",
+          "state": "stopped",
+          "script_execution": "finished",
+          "timestamp": {
+            "start": "2023-04-21T19:47:08.970932+00:00",
+            "finish": "2023-04-21T19:47:09.744698+00:00"
+          },
+          "domain": "automation",
+          "item_id": "1668716092750",
+          "trigger": "sunset with offset"
+        }
+      }
+    ],
     "automation.1668715011099": [
       {
         "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "a83858f3cad5c0f1030c13fb7cde59bb",
+          "last_step": "action/4/if/condition/0",
+          "run_id": "bbacf751c4f2d7e43b1c5995ae96fab7",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-02-13T22:00:00.113682+00:00",
-            "finish": "2023-02-13T22:00:00.383119+00:00"
+            "start": "2023-04-20T21:00:00.248271+00:00",
+            "finish": "2023-04-20T21:00:03.066550+00:00"
           },
           "domain": "automation",
           "item_id": "1668715011099",
@@ -21,23 +1985,23 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2023-02-13T22:00:00.113771+00:00",
+                "timestamp": "2023-04-20T21:00:00.248365+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.lights_off",
                     "state": "on",
                     "attributes": {
-                      "last_triggered": "2023-02-12T22:00:00.114346+00:00",
+                      "last_triggered": "2023-04-19T21:00:00.210379+00:00",
                       "mode": "single",
                       "current": 0,
                       "id": "1668715011099",
                       "icon": "mdi:lightbulb-group-outline",
                       "friendly_name": "automation.light.kitchen.off.time"
                     },
-                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
-                    "last_updated": "2023-02-12T22:00:00.436414+00:00",
+                    "last_changed": "2023-04-19T23:25:21.236215+00:00",
+                    "last_updated": "2023-04-19T23:25:21.236215+00:00",
                     "context": {
-                      "id": "01GS3T8QVHVHV93HXG5MMMW18J",
+                      "id": "01GYDXCEYMMPFCV28ACMK0KQNF",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -47,7 +2011,7 @@
                     "idx": "0",
                     "alias": null,
                     "platform": "time",
-                    "now": "2023-02-13T22:00:00.113122+00:00",
+                    "now": "2023-04-20T22:00:00.247694+01:00",
                     "description": "time",
                     "entity_id": null
                   }
@@ -57,10 +2021,10 @@
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2023-02-13T22:00:00.114414+00:00",
+                "timestamp": "2023-04-20T21:00:00.248910+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01GS6CNEVHT2MRHV5C18S2JAA9",
+                    "id": "01GYG7F1BRW3V0ZF4HMGJZSVYB",
                     "parent_id": null,
                     "user_id": null
                   }
@@ -70,19 +2034,45 @@
             "action/1": [
               {
                 "path": "action/1",
-                "timestamp": "2023-02-13T22:00:00.206729+00:00"
+                "timestamp": "2023-04-20T21:00:00.939954+00:00"
               }
             ],
             "action/2": [
               {
                 "path": "action/2",
-                "timestamp": "2023-02-13T22:00:00.313661+00:00"
+                "timestamp": "2023-04-20T21:00:01.625968+00:00"
               }
             ],
             "action/3": [
               {
                 "path": "action/3",
-                "timestamp": "2023-02-13T22:00:00.372420+00:00"
+                "timestamp": "2023-04-20T21:00:02.343989+00:00"
+              }
+            ],
+            "action/4": [
+              {
+                "path": "action/4",
+                "timestamp": "2023-04-20T21:00:03.064293+00:00"
+              }
+            ],
+            "action/4/if": [
+              {
+                "path": "action/4/if",
+                "timestamp": "2023-04-20T21:00:03.064627+00:00",
+                "result": {
+                  "result": false
+                }
+              }
+            ],
+            "action/4/if/condition/0": [
+              {
+                "path": "action/4/if/condition/0",
+                "timestamp": "2023-04-20T21:00:03.064711+00:00",
+                "result": {
+                  "result": false,
+                  "state": "on",
+                  "wanted_state": "off"
+                }
               }
             ]
           },
@@ -121,593 +2111,45 @@
                 "device_id": "50503307fb42a3f17c8544ec06accf2e",
                 "entity_id": "light.wiz_dimmable_white_1e7f3e",
                 "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GS6CNEVHT2MRHV5C18S2JAA9",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "a83858f3cad5c0f1030c13fb7cde59bb",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-13T22:00:00.113682+00:00",
-            "finish": "2023-02-13T22:00:00.383119+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "49328ccd46d826b4771653450025e130",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-14T22:00:00.113958+00:00",
-            "finish": "2023-02-14T22:00:00.388641+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
+              },
               {
-                "path": "trigger/0",
-                "timestamp": "2023-02-14T22:00:00.114048+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-13T22:00:00.114019+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668715011099",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.off.time"
+                "if": [
+                  {
+                    "condition": "device",
+                    "device_id": "74a9bb40dde6d2408e6c0fe8cb10a5e4",
+                    "domain": "media_player",
+                    "entity_id": "media_player.sony_xr_65a90j",
+                    "type": "is_off"
+                  }
+                ],
+                "then": [
+                  {
+                    "service": "scene.turn_on",
+                    "target": {
+                      "entity_id": "scene.automation_light_tv_sony_off"
                     },
-                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
-                    "last_updated": "2023-02-13T22:00:00.379156+00:00",
-                    "context": {
-                      "id": "01GS6CNEVHT2MRHV5C18S2JAA9",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-14T22:00:00.113352+00:00",
-                    "description": "time",
-                    "entity_id": null
+                    "metadata": {}
                   }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-14T22:00:00.114680+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GS8Z25VHPHXAKCPQDMZTSBKA",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-14T22:00:00.195282+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-14T22:00:00.258259+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-14T22:00:00.385492+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668715011099",
-            "alias": "automation.light.kitchen.off.time",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "22:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
+                ]
               }
             ],
             "mode": "single"
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01GS8Z25VHPHXAKCPQDMZTSBKA",
+            "id": "01GYG7F1BRW3V0ZF4HMGJZSVYB",
             "parent_id": null,
             "user_id": null
           }
         },
         "short_dict": {
-          "last_step": "action/3",
-          "run_id": "49328ccd46d826b4771653450025e130",
+          "last_step": "action/4/if/condition/0",
+          "run_id": "bbacf751c4f2d7e43b1c5995ae96fab7",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-02-14T22:00:00.113958+00:00",
-            "finish": "2023-02-14T22:00:00.388641+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "387b784d7c22004800e5f97f864e50ce",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-15T22:00:00.113803+00:00",
-            "finish": "2023-02-15T22:00:00.327812+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-15T22:00:00.113890+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-14T22:00:00.114291+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668715011099",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
-                    "last_updated": "2023-02-14T22:00:00.388048+00:00",
-                    "context": {
-                      "id": "01GS8Z25VHPHXAKCPQDMZTSBKA",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-15T22:00:00.113292+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-15T22:00:00.114561+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSBHEWVH9MXQ4DFJ8B0VBB16",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-15T22:00:00.170590+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-15T22:00:00.225201+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-15T22:00:00.325119+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668715011099",
-            "alias": "automation.light.kitchen.off.time",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "22:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSBHEWVH9MXQ4DFJ8B0VBB16",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "387b784d7c22004800e5f97f864e50ce",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-15T22:00:00.113803+00:00",
-            "finish": "2023-02-15T22:00:00.327812+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "91f64d485b26f5149fab8b9a3b95a9a5",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-16T22:00:00.114212+00:00",
-            "finish": "2023-02-16T22:00:00.373124+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-16T22:00:00.114299+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-15T22:00:00.114189+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668715011099",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
-                    "last_updated": "2023-02-15T22:00:00.327636+00:00",
-                    "context": {
-                      "id": "01GSBHEWVH9MXQ4DFJ8B0VBB16",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-16T22:00:00.113721+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-16T22:00:00.119326+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSE3VKVJ31DFBRKC8Z2PYK4M",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-16T22:00:00.208358+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-16T22:00:00.271502+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-16T22:00:00.369183+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668715011099",
-            "alias": "automation.light.kitchen.off.time",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "22:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSE3VKVJ31DFBRKC8Z2PYK4M",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "91f64d485b26f5149fab8b9a3b95a9a5",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-16T22:00:00.114212+00:00",
-            "finish": "2023-02-16T22:00:00.373124+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "4fcba2b8d42d751f9ff05368ac25ab51",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-17T22:00:00.114295+00:00",
-            "finish": "2023-02-17T22:00:00.324414+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668715011099",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-17T22:00:00.114432+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-16T22:00:00.115733+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668715011099",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398077+00:00",
-                    "last_updated": "2023-02-16T22:00:00.372857+00:00",
-                    "context": {
-                      "id": "01GSE3VKVJ31DFBRKC8Z2PYK4M",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-17T22:00:00.113724+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-17T22:00:00.115016+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSGP8AVJG24V627R8RE240WT",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-17T22:00:00.167923+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-17T22:00:00.221842+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-17T22:00:00.320289+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668715011099",
-            "alias": "automation.light.kitchen.off.time",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "22:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              },
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSGP8AVJG24V627R8RE240WT",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "4fcba2b8d42d751f9ff05368ac25ab51",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-17T22:00:00.114295+00:00",
-            "finish": "2023-02-17T22:00:00.324414+00:00"
+            "start": "2023-04-20T21:00:00.248271+00:00",
+            "finish": "2023-04-20T21:00:03.066550+00:00"
           },
           "domain": "automation",
           "item_id": "1668715011099",
@@ -719,12 +2161,12 @@
       {
         "extended_dict": {
           "last_step": "action/0",
-          "run_id": "c9220bafd81abf19a5734c830653f121",
+          "run_id": "9bc206b0bbd0d1dd85eed403bd60da07",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-02-13T23:00:00.371301+00:00",
-            "finish": "2023-02-13T23:00:00.375052+00:00"
+            "start": "2023-04-20T22:00:00.376419+00:00",
+            "finish": "2023-04-20T22:00:00.461358+00:00"
           },
           "domain": "automation",
           "item_id": "1669847058620",
@@ -733,22 +2175,22 @@
             "trigger/0": [
               {
                 "path": "trigger/0",
-                "timestamp": "2023-02-13T23:00:00.371391+00:00",
+                "timestamp": "2023-04-20T22:00:00.376509+00:00",
                 "changed_variables": {
                   "this": {
                     "entity_id": "automation.hall_light_off",
                     "state": "on",
                     "attributes": {
-                      "last_triggered": "2023-02-12T23:00:00.371739+00:00",
+                      "last_triggered": "2023-04-19T22:00:00.255626+00:00",
                       "mode": "single",
                       "current": 0,
                       "id": "1669847058620",
                       "friendly_name": "automation.light.hall.off.time"
                     },
-                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
-                    "last_updated": "2023-02-12T23:00:00.376443+00:00",
+                    "last_changed": "2023-04-19T23:25:21.236800+00:00",
+                    "last_updated": "2023-04-19T23:25:21.236800+00:00",
                     "context": {
-                      "id": "01GS3XPKQK0TXZTK49MMBNKDTZ",
+                      "id": "01GYDXCEYM7NBDMXWA3W6GGY10",
                       "parent_id": null,
                       "user_id": null
                     }
@@ -758,7 +2200,7 @@
                     "idx": "0",
                     "alias": null,
                     "platform": "time",
-                    "now": "2023-02-13T23:00:00.370799+00:00",
+                    "now": "2023-04-20T23:00:00.375768+01:00",
                     "description": "time",
                     "entity_id": null
                   }
@@ -768,10 +2210,10 @@
             "action/0": [
               {
                 "path": "action/0",
-                "timestamp": "2023-02-13T23:00:00.372055+00:00",
+                "timestamp": "2023-04-20T22:00:00.377029+00:00",
                 "changed_variables": {
                   "context": {
-                    "id": "01GS6G3AQKB41VTXHDN1DFBE9F",
+                    "id": "01GYGAWX3R9Z6062K93NND0Q1C",
                     "parent_id": null,
                     "user_id": null
                   }
@@ -802,1190 +2244,23 @@
           },
           "blueprint_inputs": null,
           "context": {
-            "id": "01GS6G3AQKB41VTXHDN1DFBE9F",
+            "id": "01GYGAWX3R9Z6062K93NND0Q1C",
             "parent_id": null,
             "user_id": null
           }
         },
         "short_dict": {
           "last_step": "action/0",
-          "run_id": "c9220bafd81abf19a5734c830653f121",
+          "run_id": "9bc206b0bbd0d1dd85eed403bd60da07",
           "state": "stopped",
           "script_execution": "finished",
           "timestamp": {
-            "start": "2023-02-13T23:00:00.371301+00:00",
-            "finish": "2023-02-13T23:00:00.375052+00:00"
+            "start": "2023-04-20T22:00:00.376419+00:00",
+            "finish": "2023-04-20T22:00:00.461358+00:00"
           },
           "domain": "automation",
           "item_id": "1669847058620",
           "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "40a4b1d7bb057843a098d5b6168203c7",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-14T23:00:00.371385+00:00",
-            "finish": "2023-02-14T23:00:00.375649+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-14T23:00:00.371473+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.hall_light_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-13T23:00:00.371683+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1669847058620",
-                      "friendly_name": "automation.light.hall.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
-                    "last_updated": "2023-02-13T23:00:00.374886+00:00",
-                    "context": {
-                      "id": "01GS6G3AQKB41VTXHDN1DFBE9F",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-14T23:00:00.370789+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-14T23:00:00.372130+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GS92G1QK0XFKSDCQE56WJZTN",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ]
-          },
-          "config": {
-            "id": "1669847058620",
-            "alias": "Hall light off",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "23:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GS92G1QK0XFKSDCQE56WJZTN",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0",
-          "run_id": "40a4b1d7bb057843a098d5b6168203c7",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-14T23:00:00.371385+00:00",
-            "finish": "2023-02-14T23:00:00.375649+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "074ad72ab6496eaf492ffaf4311d816b",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-15T23:00:00.371010+00:00",
-            "finish": "2023-02-15T23:00:00.376413+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-15T23:00:00.371097+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.hall_light_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-14T23:00:00.371713+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1669847058620",
-                      "friendly_name": "automation.light.hall.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
-                    "last_updated": "2023-02-14T23:00:00.375362+00:00",
-                    "context": {
-                      "id": "01GS92G1QK0XFKSDCQE56WJZTN",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-15T23:00:00.370462+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-15T23:00:00.371703+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSBMWRQJB9TKCQ2Z19YP7TFF",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ]
-          },
-          "config": {
-            "id": "1669847058620",
-            "alias": "Hall light off",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "23:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSBMWRQJB9TKCQ2Z19YP7TFF",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0",
-          "run_id": "074ad72ab6496eaf492ffaf4311d816b",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-15T23:00:00.371010+00:00",
-            "finish": "2023-02-15T23:00:00.376413+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "9d21561fb88a1e2616133655a17ccc4c",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-16T23:00:00.370807+00:00",
-            "finish": "2023-02-16T23:00:00.375140+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-16T23:00:00.370900+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.hall_light_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-15T23:00:00.371335+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1669847058620",
-                      "friendly_name": "automation.light.hall.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
-                    "last_updated": "2023-02-15T23:00:00.376203+00:00",
-                    "context": {
-                      "id": "01GSBMWRQJB9TKCQ2Z19YP7TFF",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-16T23:00:00.370312+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-16T23:00:00.371505+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSE79FQJ8ZBEGVKBJBD7YFHY",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ]
-          },
-          "config": {
-            "id": "1669847058620",
-            "alias": "Hall light off",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "23:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSE79FQJ8ZBEGVKBJBD7YFHY",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0",
-          "run_id": "9d21561fb88a1e2616133655a17ccc4c",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-16T23:00:00.370807+00:00",
-            "finish": "2023-02-16T23:00:00.375140+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/0",
-          "run_id": "a1b245b24887bae075d72b562070a47e",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-17T23:00:00.371243+00:00",
-            "finish": "2023-02-17T23:00:00.375476+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-17T23:00:00.371415+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.hall_light_off",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-16T23:00:00.371116+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1669847058620",
-                      "friendly_name": "automation.light.hall.off.time"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398727+00:00",
-                    "last_updated": "2023-02-16T23:00:00.374950+00:00",
-                    "context": {
-                      "id": "01GSE79FQJ8ZBEGVKBJBD7YFHY",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "time",
-                    "now": "2023-02-17T23:00:00.370737+00:00",
-                    "description": "time",
-                    "entity_id": null
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-17T23:00:00.372015+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSGSP6QKRBGA8PDF02PCGG55",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ]
-          },
-          "config": {
-            "id": "1669847058620",
-            "alias": "Hall light off",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "time",
-                "at": "23:00:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_off",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSGSP6QKRBGA8PDF02PCGG55",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/0",
-          "run_id": "a1b245b24887bae075d72b562070a47e",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-17T23:00:00.371243+00:00",
-            "finish": "2023-02-17T23:00:00.375476+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1669847058620",
-          "trigger": "time"
-        }
-      }
-    ],
-    "automation.1668716092750": [
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "d32d93db29fd14e0c87ec11c82de129e",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-13T17:54:11.760199+00:00",
-            "finish": "2023-02-13T17:54:12.133924+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-13T17:54:11.760337+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_on_sunset",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-12T17:52:24.001930+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668716092750",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.sunset.on"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
-                    "last_updated": "2023-02-12T19:43:50.398351+00:00",
-                    "context": {
-                      "id": "01GS3JFDKYE68PVAW8SXZDCSCW",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "sun",
-                    "event": "sunset",
-                    "offset": {
-                      "__type": "<class 'datetime.timedelta'>",
-                      "total_seconds": 1800.0
-                    },
-                    "description": "sunset with offset"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-13T17:54:11.761929+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GS5YKC5GWB3TPA57KPS2X7NN",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-13T17:54:11.777530+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-13T17:54:11.790193+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-13T17:54:11.794078+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668716092750",
-            "alias": "automation.light.kitchen.sunset.on",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "sun",
-                "event": "sunset",
-                "offset": "+00:30:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_on",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GS5YKC5GWB3TPA57KPS2X7NN",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "d32d93db29fd14e0c87ec11c82de129e",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-13T17:54:11.760199+00:00",
-            "finish": "2023-02-13T17:54:12.133924+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "9837d0851a8bb68327712b14ee1bb685",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-14T17:55:59.400201+00:00",
-            "finish": "2023-02-14T17:55:59.590918+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-14T17:55:59.400292+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_on_sunset",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-13T17:54:11.761569+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668716092750",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.sunset.on"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
-                    "last_updated": "2023-02-13T17:54:12.133771+00:00",
-                    "context": {
-                      "id": "01GS5YKC5GWB3TPA57KPS2X7NN",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "sun",
-                    "event": "sunset",
-                    "offset": {
-                      "__type": "<class 'datetime.timedelta'>",
-                      "total_seconds": 1800.0
-                    },
-                    "description": "sunset with offset"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-14T17:55:59.403348+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GS8H3C981CG126HT1M5WSAQ3",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-14T17:55:59.454434+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-14T17:55:59.510569+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-14T17:55:59.524056+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668716092750",
-            "alias": "automation.light.kitchen.sunset.on",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "sun",
-                "event": "sunset",
-                "offset": "+00:30:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_on",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GS8H3C981CG126HT1M5WSAQ3",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "9837d0851a8bb68327712b14ee1bb685",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-14T17:55:59.400201+00:00",
-            "finish": "2023-02-14T17:55:59.590918+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "3cca8331681dda1226b2af951056e2d5",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-15T17:57:46.898370+00:00",
-            "finish": "2023-02-15T17:57:47.531334+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-15T17:57:46.898459+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_on_sunset",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-14T17:55:59.401835+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668716092750",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.sunset.on"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
-                    "last_updated": "2023-02-14T17:55:59.590651+00:00",
-                    "context": {
-                      "id": "01GS8H3C981CG126HT1M5WSAQ3",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "sun",
-                    "event": "sunset",
-                    "offset": {
-                      "__type": "<class 'datetime.timedelta'>",
-                      "total_seconds": 1800.0
-                    },
-                    "description": "sunset with offset"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-15T17:57:46.899109+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSB3KC8JHFFD0BQYQYPFJCJA",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-15T17:57:47.145095+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-15T17:57:47.472549+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-15T17:57:47.476765+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668716092750",
-            "alias": "automation.light.kitchen.sunset.on",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "sun",
-                "event": "sunset",
-                "offset": "+00:30:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_on",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSB3KC8JHFFD0BQYQYPFJCJA",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "3cca8331681dda1226b2af951056e2d5",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-15T17:57:46.898370+00:00",
-            "finish": "2023-02-15T17:57:47.531334+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "2b38309cc11fde267bc62b82817df0c8",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-16T17:59:34.232357+00:00",
-            "finish": "2023-02-16T17:59:34.637863+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-16T17:59:34.232440+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_on_sunset",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-15T17:57:46.898714+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668716092750",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.sunset.on"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
-                    "last_updated": "2023-02-15T17:57:47.531180+00:00",
-                    "context": {
-                      "id": "01GSB3KC8JHFFD0BQYQYPFJCJA",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "sun",
-                    "event": "sunset",
-                    "offset": {
-                      "__type": "<class 'datetime.timedelta'>",
-                      "total_seconds": 1800.0
-                    },
-                    "description": "sunset with offset"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-16T17:59:34.233059+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSDP3C2RCGDRVKFSNRP68H1Q",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-16T17:59:34.334852+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-16T17:59:34.398216+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-16T17:59:34.400787+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668716092750",
-            "alias": "automation.light.kitchen.sunset.on",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "sun",
-                "event": "sunset",
-                "offset": "+00:30:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_on",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSDP3C2RCGDRVKFSNRP68H1Q",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "2b38309cc11fde267bc62b82817df0c8",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-16T17:59:34.232357+00:00",
-            "finish": "2023-02-16T17:59:34.637863+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset"
-        }
-      },
-      {
-        "extended_dict": {
-          "last_step": "action/3",
-          "run_id": "ef1b455cb27c264c8ff09a5ec6a0b723",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-17T18:01:21.383769+00:00",
-            "finish": "2023-02-17T18:01:21.421785+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset",
-          "trace": {
-            "trigger/0": [
-              {
-                "path": "trigger/0",
-                "timestamp": "2023-02-17T18:01:21.383853+00:00",
-                "changed_variables": {
-                  "this": {
-                    "entity_id": "automation.lights_on_sunset",
-                    "state": "on",
-                    "attributes": {
-                      "last_triggered": "2023-02-16T17:59:34.232679+00:00",
-                      "mode": "single",
-                      "current": 0,
-                      "id": "1668716092750",
-                      "icon": "mdi:lightbulb-group-outline",
-                      "friendly_name": "automation.light.kitchen.sunset.on"
-                    },
-                    "last_changed": "2023-02-12T19:43:50.398351+00:00",
-                    "last_updated": "2023-02-16T17:59:34.637623+00:00",
-                    "context": {
-                      "id": "01GSDP3C2RCGDRVKFSNRP68H1Q",
-                      "parent_id": null,
-                      "user_id": null
-                    }
-                  },
-                  "trigger": {
-                    "id": "0",
-                    "idx": "0",
-                    "alias": null,
-                    "platform": "sun",
-                    "event": "sunset",
-                    "offset": {
-                      "__type": "<class 'datetime.timedelta'>",
-                      "total_seconds": 1800.0
-                    },
-                    "description": "sunset with offset"
-                  }
-                }
-              }
-            ],
-            "action/0": [
-              {
-                "path": "action/0",
-                "timestamp": "2023-02-17T18:01:21.384436+00:00",
-                "changed_variables": {
-                  "context": {
-                    "id": "01GSG8KBQ7EK0GVEQY18QM7EG3",
-                    "parent_id": null,
-                    "user_id": null
-                  }
-                }
-              }
-            ],
-            "action/1": [
-              {
-                "path": "action/1",
-                "timestamp": "2023-02-17T18:01:21.397525+00:00"
-              }
-            ],
-            "action/2": [
-              {
-                "path": "action/2",
-                "timestamp": "2023-02-17T18:01:21.407125+00:00"
-              }
-            ],
-            "action/3": [
-              {
-                "path": "action/3",
-                "timestamp": "2023-02-17T18:01:21.409600+00:00"
-              }
-            ]
-          },
-          "config": {
-            "id": "1668716092750",
-            "alias": "automation.light.kitchen.sunset.on",
-            "description": "",
-            "trigger": [
-              {
-                "platform": "sun",
-                "event": "sunset",
-                "offset": "+00:30:00"
-              }
-            ],
-            "condition": [],
-            "action": [
-              {
-                "type": "turn_on",
-                "device_id": "1502d049065c9fa32f4f29230d120b38",
-                "entity_id": "light.wiz_dimmable_white_1e9a19",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "91bdf081f4d9af6083f0b6347157957e",
-                "entity_id": "light.wiz_dimmable_white_1f9cc2",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "50503307fb42a3f17c8544ec06accf2e",
-                "entity_id": "light.wiz_dimmable_white_1e7f3e",
-                "domain": "light",
-                "brightness_pct": 1
-              },
-              {
-                "type": "turn_on",
-                "device_id": "e99452036c46bbab81fc2ad295bd14a9",
-                "entity_id": "switch.wiz_socket_a0f99c",
-                "domain": "switch"
-              }
-            ],
-            "mode": "single"
-          },
-          "blueprint_inputs": null,
-          "context": {
-            "id": "01GSG8KBQ7EK0GVEQY18QM7EG3",
-            "parent_id": null,
-            "user_id": null
-          }
-        },
-        "short_dict": {
-          "last_step": "action/3",
-          "run_id": "ef1b455cb27c264c8ff09a5ec6a0b723",
-          "state": "stopped",
-          "script_execution": "finished",
-          "timestamp": {
-            "start": "2023-02-17T18:01:21.383769+00:00",
-            "finish": "2023-02-17T18:01:21.421785+00:00"
-          },
-          "domain": "automation",
-          "item_id": "1668716092750",
-          "trigger": "sunset with offset"
         }
       }
     ]
