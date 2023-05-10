@@ -28,7 +28,8 @@
       "JuanMTech/green_light_mode",
       "JuanMTech/orange_dark",
       "JuanMTech/orange_light",
-      "Raukze/home-assistant-fitx"
+      "Raukze/home-assistant-fitx",
+      "bieniu/ha-zadnego-ale"
     ],
     "renamed_repositories": {
       "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",

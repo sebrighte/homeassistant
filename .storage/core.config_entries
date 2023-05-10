@@ -147,7 +147,7 @@
           "udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
           "st": "urn:schemas-upnp-org:device:InternetGatewayDevice:1",
           "original_udn": "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e",
-          "location": "http://192.168.1.254:49153/613/gatedesc0b.xml",
+          "location": "http://192.168.1.254:49153/4a626e55/gatedesc0b.xml",
           "mac_address": null,
           "host": "192.168.1.254"
         },

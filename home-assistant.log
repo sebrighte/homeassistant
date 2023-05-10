@@ -1,7 +1,191 @@
-2023-04-21 20:58:14.229 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-04-21 20:58:14.423 WARNING (SyncWorker_3) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
-2023-04-21 20:58:29.115 WARNING (MainThread) [homeassistant.setup] Setup of bluetooth is taking over 10 seconds.
-2023-04-21 20:58:48.273 WARNING (MainThread) [homeassistant.components.systemmonitor.sensor] Cannot read CPU / processor temperature information
-2023-04-21 20:58:52.574 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
-2023-04-21 20:58:54.727 WARNING (MainThread) [homeassistant.helpers.frame] Detected integration that called async_setup_platforms instead of awaiting async_forward_entry_setups; this will fail in version 2023.3. Please report issue to the custom integration author for hacs using this method at custom_components/hacs/__init__.py, line 171: hass.config_entries.async_setup_platforms(
-2023-04-21 20:58:56.437 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Samsung C48x Series (SEC30CDA7AC8DD0)' for ipp integration not ready yet: Invalid response from API: Error occurred while communicating with IPP server.; Retrying in background
+2023-04-22 20:57:34.250 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-04-22 20:57:34.284 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration dwains_dashboard which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-04-22 20:57:49.012 WARNING (MainThread) [homeassistant.setup] Setup of bluetooth is taking over 10 seconds.
+2023-04-22 20:58:09.997 WARNING (MainThread) [homeassistant.components.systemmonitor.sensor] Cannot read CPU / processor temperature information
+2023-04-22 20:58:17.068 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Samsung C48x Series (SEC30CDA7AC8DD0)' for ipp integration not ready yet: Invalid response from API: Error occurred while communicating with IPP server.; Retrying in background
+2023-04-22 20:58:18.782 WARNING (MainThread) [homeassistant.helpers.frame] Detected integration that called async_setup_platforms instead of awaiting async_forward_entry_setups; this will fail in version 2023.3. Please report issue to the custom integration author for hacs using this method at custom_components/hacs/__init__.py, line 171: hass.config_entries.async_setup_platforms(
+2023-04-22 22:04:18.741 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-22 22:04:20.015 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-22 22:04:49.684 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-22 22:10:27.538 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.shadowRoot.querySelector("hui-root").shadowRoot')
+2023-04-22 22:10:31.635 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-22 22:10:46.327 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-22 22:10:53.460 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.shadowRoot.querySelector("hui-root").shadowRoot')
+2023-04-22 23:27:28.065 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-22 23:30:12.051 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-23 08:30:58.523 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-23 20:50:25.007 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-23 20:51:41.125 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-24 20:37:36.085 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-24 20:52:02.696 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-24 22:45:42.438 ERROR (MainThread) [async_upnp_client.ssdp] Received error: [Errno 99] Address not available, transport: <_SelectorDatagramTransport fd=22 read=polling write=<idle, bufsize=0>>, socket: <asyncio.TransportSocket fd=22, family=AddressFamily.AF_INET6, type=SocketKind.SOCK_DGRAM, proto=0, laddr=('::', 35047, 0, 0)>
+2023-04-24 22:45:55.221 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/hassio/issues.py", line 157, in update
+    data = await self._client.get_resolution_info()
+  File "/usr/src/homeassistant/homeassistant/components/hassio/handler.py", line 51, in _wrapper
+    raise HassioAPIError(data["message"])
+homeassistant.components.hassio.handler.HassioAPIError: System is not ready with state: setup
+2023-04-24 23:00:32.595 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-25 06:32:31.138 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-25 20:53:40.077 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-25 22:01:55.717 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-25 22:01:58.346 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-25 22:02:02.956 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.shadowRoot.querySelector("hui-root").shadowRoot')
+2023-04-26 00:01:43.806 WARNING (MainThread) [homeassistant.helpers.entity] Updating state for camera.synologynas_drivecamera (<class 'homeassistant.components.synology_dsm.camera.SynoDSMCamera'>) took 1.647 seconds. Please create a bug report at https://github.com/home-assistant/core/issues?q=is%3Aopen+is%3Aissue+label%3A%22integration%3A+synology_dsm%22
+2023-04-26 06:27:01.735 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-26 06:27:09.394 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.shadowRoot.querySelector("hui-root").shadowRoot')
+2023-04-26 20:55:17.736 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-26 23:00:06.395 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-27 20:47:11.523 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140133249067440] Error handling message: Unauthorized (unauthorized) Gwawr from 2a00:23c7:1e0b:9501:20a0:c190:e1e8:779c (Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.4 (io.robbie.HomeAssistant; build:2023.460; iOS 16.4.1) Mobile/HomeAssistant, like Safari)
+2023-04-27 20:47:14.646 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-27 20:47:22.603 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-27 23:26:01.391 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-28 20:58:31.875 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-28 21:59:51.536 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-04-29 11:55:30.937 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1F9CC2 data: Failed to update device at 192.168.1.181: The request to the bulb timed out
+2023-04-29 11:55:50.815 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1E7F3E data: Failed to update device at 192.168.1.177: The request to the bulb timed out
+2023-04-29 11:55:50.816 ERROR (MainThread) [homeassistant.components.wiz] Error fetching WiZ Dimmable White 1E9A19 data: Failed to update device at 192.168.1.117: The request to the bulb timed out
+2023-04-29 16:39:16.171 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-29 16:39:16.179 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-30 01:49:31.051 ERROR (MainThread) [homeassistant.components.hassio.handler] /store return code 500
+2023-04-30 01:49:31.052 WARNING (MainThread) [homeassistant.components.hassio] Can't read Supervisor data: 
+2023-04-30 10:43:19.277 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-04-30 15:57:55.303 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-01 19:06:07.237 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='mdns', data='Chromecast-71a45ef54de1db5ef21257fe6abaf547._googlecast._tcp.local.'), retrying in 5.0s
+2023-05-01 21:03:21.532 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-01 22:05:37.395 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-01 22:16:00.035 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2023-05-01 22:16:00.037 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2023-05-01 22:16:04.489 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Heartbeat timeout, resetting connection
+2023-05-01 22:16:20.038 WARNING (MainThread) [homeassistant.components.media_player] Updating samsungtv media_player took longer than the scheduled update interval 0:00:10
+2023-05-01 22:16:20.039 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.tv_samsung_led48 is taking over 10 seconds
+2023-05-01 22:16:22.949 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-05-01 22:31:30.306 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-01 22:31:30.308 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-02 06:01:22.544 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:6363904929ee69a026fe2cbd846d8395@192.168.1.182:554/Sms=1.unicast'
+2023-05-02 06:01:56.507 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:6363904929ee69a026fe2cbd846d8395@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-02 18:05:00.618 ERROR (Thread-5) [pychromecast.socket_client] Chromecast is disconnected. Cannot ping until reconnected.
+2023-05-02 18:05:00.619 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Error communicating with socket, resetting connection
+2023-05-02 18:05:03.686 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-05-02 21:04:57.574 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-02 21:11:53.865 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-02 22:43:14.392 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-03 14:27:28.234 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-03 14:27:53.754 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:53d02c7de03f23320d985dfc5d92b289@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-03 17:57:30.042 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-03 17:58:09.013 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-03 21:06:33.284 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-03 23:28:01.400 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-04 20:42:11.606 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:1ad982c5693195baa88abcf7d60f9c1e@192.168.1.182:554/Sms=1.unicast'
+2023-05-04 20:51:15.044 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-04 20:51:41.899 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:1ad982c5693195baa88abcf7d60f9c1e@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-04 21:08:08.637 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-04 23:27:54.973 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-05 02:00:27.082 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:00:58.067 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:01:47.970 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:e9f5adce88dd5cf1057131c872180f47@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 02:02:37.303 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:e9f5adce88dd5cf1057131c872180f47@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 02:03:38.011 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:04:49.014 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:06:09.150 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:e9f5adce88dd5cf1057131c872180f47@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 02:07:38.454 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:e9f5adce88dd5cf1057131c872180f47@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 02:09:19.006 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:11:10.011 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:11:40.722 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140133807545488] Error handling message: Unknown error (unknown_error) Gwawr from 82.132.224.60 (Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.4 (io.robbie.HomeAssistant; build:2023.460; iOS 16.4.1) Mobile/HomeAssistant, like Safari)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/decorators.py", line 26, in _handle_async_response
+    await func(hass, connection, msg)
+  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 810, in ws_camera_stream
+    url = await _async_stream_endpoint_url(hass, camera, fmt=msg["format"])
+  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 975, in _async_stream_endpoint_url
+    return stream.endpoint_url(fmt)
+  File "/usr/src/homeassistant/homeassistant/components/stream/__init__.py", line 307, in endpoint_url
+    raise ValueError(f"Stream is not configured for format '{fmt}'")
+ValueError: Stream is not configured for format 'hls'
+2023-05-05 02:11:40.993 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140133807545488] Error handling message: Unknown error (unknown_error) Gwawr from 82.132.224.60 (Mozilla/5.0 (iPhone; CPU iPhone OS 16_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Home Assistant/2023.4 (io.robbie.HomeAssistant; build:2023.460; iOS 16.4.1) Mobile/HomeAssistant, like Safari)
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/decorators.py", line 26, in _handle_async_response
+    await func(hass, connection, msg)
+  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 810, in ws_camera_stream
+    url = await _async_stream_endpoint_url(hass, camera, fmt=msg["format"])
+  File "/usr/src/homeassistant/homeassistant/components/camera/__init__.py", line 975, in _async_stream_endpoint_url
+    return stream.endpoint_url(fmt)
+  File "/usr/src/homeassistant/homeassistant/components/stream/__init__.py", line 307, in endpoint_url
+    raise ValueError(f"Stream is not configured for format '{fmt}'")
+ValueError: Stream is not configured for format 'hls'
+2023-05-05 02:12:01.004 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:12:20.262 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:c5a2468f492b1112d86379e7168665a1@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 02:12:51.014 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 02:13:29.331 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:c5a2468f492b1112d86379e7168665a1@192.168.1.182:554/Sms=1.unicast'
+2023-05-05 02:20:16.565 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:c5a2468f492b1112d86379e7168665a1@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 11:12:27.036 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 16:43:10.044 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 16:43:41.010 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Stream ended; no additional packets
+2023-05-05 16:44:20.150 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:66219b994d8ca8f8905792ca2eedbf2a@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-05 21:09:43.672 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-05 21:43:35.410 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-06 10:29:31.338 ERROR (Thread-5) [pychromecast.socket_client] Chromecast is disconnected. Cannot ping until reconnected.
+2023-05-06 10:29:31.340 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Error communicating with socket, resetting connection
+2023-05-06 10:29:34.405 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-05-06 20:52:48.670 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-06 22:27:10.456 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-07 06:46:34.813 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-07 06:46:37.786 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-07 06:46:37.787 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-07 08:01:36.275 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:51 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-07 10:41:55.057 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:8147b9c3900a6ec2e4cf19327ec4bf85@192.168.1.182:554/Sms=1.unicast'
+2023-05-07 10:42:32.130 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:878a4b5186f31da1b6c0763fe37d69f8@192.168.1.182:554/Sms=1.unicast'
+2023-05-07 10:45:14.005 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:878a4b5186f31da1b6c0763fe37d69f8@192.168.1.182:554/Sms=1.unicast'
+2023-05-07 10:46:04.781 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:878a4b5186f31da1b6c0763fe37d69f8@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-07 10:47:07.157 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:878a4b5186f31da1b6c0763fe37d69f8@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-07 10:48:06.387 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream while finding first packet: [Errno 110] Operation timed out: 'rtsp://syno:878a4b5186f31da1b6c0763fe37d69f8@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-07 16:55:20.841 ERROR (Thread-5) [pychromecast.socket_client] Chromecast is disconnected. Cannot ping until reconnected.
+2023-05-07 16:55:20.846 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Error communicating with socket, resetting connection
+2023-05-07 16:55:23.909 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-05-07 20:29:34.585 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-07 20:29:41.327 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-07 22:22:40.412 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-08 14:02:08.213 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:457174f9d175d16f25c957a4de1a4d28@192.168.1.182:554/Sms=1.unicast'
+2023-05-08 14:02:54.590 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:457174f9d175d16f25c957a4de1a4d28@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] no frame!
+2023-05-08 14:09:09.925 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:e98ff5636af199951867ee6bbe465344@192.168.1.182:554/Sms=1.unicast'
+2023-05-08 14:11:13.966 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:e98ff5636af199951867ee6bbe465344@192.168.1.182:554/Sms=1.unicast'
+2023-05-08 16:49:50.466 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-08 21:14:25.715 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-08 22:01:39.415 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-09 04:39:14.874 ERROR (stream_worker) [homeassistant.components.stream.stream.camera.synologynas_drivecamera] Error from stream worker: Error demuxing stream: [Errno 110] Operation timed out: 'rtsp://syno:c3c22a0a300627dc77fc3ef478d7978d@192.168.1.182:554/Sms=1.unicast'; last error log: [h264] error while decoding MB 6 60, bytestream -39
+2023-05-09 04:39:41.098 ERROR (stream_worker) [root] Uncaught thread exception
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/src/homeassistant/homeassistant/components/stream/__init__.py", line 424, in _run_worker
+    stream_worker(
+  File "/usr/src/homeassistant/homeassistant/components/stream/worker.py", line 611, in stream_worker
+    muxer.mux_packet(first_keyframe)
+  File "/usr/src/homeassistant/homeassistant/components/stream/worker.py", line 264, in mux_packet
+    self._av_output.mux(packet)
+  File "av/container/output.pyx", line 212, in av.container.output.OutputContainer.mux
+  File "av/container/output.pyx", line 218, in av.container.output.OutputContainer.mux_one
+  File "av/container/output.pyx", line 184, in av.container.output.OutputContainer.start_encoding
+  File "av/container/core.pyx", line 292, in av.container.core.Container.err_check
+  File "av/error.pyx", line 336, in av.error.err_check
+av.error.ValueError: [Errno 22] Invalid argument: '<none>'; last error log: [mp4] dimensions not set
+2023-05-09 13:10:26.474 ERROR (Thread-5) [pychromecast.socket_client] Chromecast is disconnected. Cannot ping until reconnected.
+2023-05-09 13:10:26.499 WARNING (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Error communicating with socket, resetting connection
+2023-05-09 13:10:29.541 ERROR (Thread-5) [pychromecast.socket_client] [Lounge Cast(192.168.1.149):8009] Failed to connect to service ServiceInfo(type='host', data=('192.168.1.149', 8009)), retrying in 5.0s
+2023-05-09 16:13:01.402 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:96 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
+2023-05-09 16:13:40.607 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:96 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
+2023-05-09 16:14:28.349 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:96 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
+2023-05-09 16:14:28.350 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:96 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
+2023-05-09 21:15:58.697 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-09 22:27:55.038 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:95 TypeError: null is not an object (evaluating 'e.querySelector')
+2023-05-09 23:02:13.952 WARNING (MainThread) [homeassistant.helpers.service] Unable to find referenced entities switch.100168336c_1 or it is/they are currently not available
+2023-05-10 11:14:22.160 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:96 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
+2023-05-10 11:14:22.210 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:57:96 Uncaught TypeError: Cannot read properties of null (reading 'querySelector')
+2023-05-10 11:14:23.193 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:44 Uncaught TypeError: Cannot read properties of null (reading 'shadowRoot')
+2023-05-10 11:14:35.731 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:44 Uncaught TypeError: Cannot read properties of null (reading 'shadowRoot')
+2023-05-10 11:14:40.361 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:44 Uncaught TypeError: Cannot read properties of null (reading 'shadowRoot')
+2023-05-10 11:14:44.161 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:44 Uncaught TypeError: Cannot read properties of null (reading 'shadowRoot')
+2023-05-10 11:14:49.455 ERROR (MainThread) [frontend.js.latest.202304111] https://ha.sebright.synology.me/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128173:13:44 Uncaught TypeError: Cannot read properties of null (reading 'shadowRoot')

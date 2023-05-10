@@ -25,7 +25,7 @@
         "model": "Home Assistant Core",
         "name_by_user": null,
         "name": "Home Assistant Core",
-        "sw_version": "2023.4.5",
+        "sw_version": "2023.4.6",
         "via_device_id": null
       },
       {
@@ -168,7 +168,7 @@
         "model": "Home Assistant Add-on",
         "name_by_user": null,
         "name": "Studio Code Server",
-        "sw_version": "5.5.6",
+        "sw_version": "5.5.7",
         "via_device_id": null
       },
       {
@@ -371,12 +371,12 @@
         "configuration_url": null,
         "connections": [
           [
-            "upnp",
-            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e"
-          ],
-          [
             "mac",
             "b0:98:2b:41:58:0d"
+          ],
+          [
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e"
           ]
         ],
         "disabled_by": null,
@@ -385,16 +385,16 @@
         "id": "67b1872e14a81aea6ba4277bd65e505c",
         "identifiers": [
           [
-            "upnp",
-            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
+            "upnp_serial_number",
+            "+084316+NQ74140707"
           ],
           [
             "upnp_host",
             "192.168.1.254"
           ],
           [
-            "upnp_serial_number",
-            "+084316+NQ74140707"
+            "upnp",
+            "uuid:75802409-bccb-40e7-8e6c-fa095ecce13e::urn:schemas-upnp-org:device:InternetGatewayDevice:1"
           ]
         ],
         "manufacturer": "BT",

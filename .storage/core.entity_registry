@@ -2004,7 +2004,7 @@
         "capabilities": {},
         "config_entry_id": "768aed9a21c20e834ae9b8a10d736509",
         "device_class": null,
-        "device_id": null,
+        "device_id": "15ce60008ebc3593ab5c1161650da91d",
         "disabled_by": null,
         "entity_category": null,
         "entity_id": "media_player.tv_samsung_led48_2",
